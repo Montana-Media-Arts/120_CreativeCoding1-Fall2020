@@ -16,12 +16,11 @@ Michael Cassens maintains this course. Please contact Michael for problems that 
 - Skype: michaelcassens
 - Google+: michaelcassens@gmail.com
 - [Teaching Website](https://michaelcassens.github.io/teaching)
-- [Personal Website: silverleaf-consulting.com](http://silverleaf-consulting.com)
 
 
 #### Office Hours
 
 For those of you in Missoula, you are welcome to come by for help during my office hours. This is another way for getting in touch with me and getting my help.
 
-- Mondays: 1:00pm - 2:00pm
-- Tuesdays: 10:00am - 11:00am
+- Mondays/Wednesday: 11:00 am - 12:00 pm
+- Tuesdays/Thursday: 10:00 am - 11:00 am

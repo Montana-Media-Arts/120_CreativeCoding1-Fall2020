@@ -58,7 +58,7 @@ When you have problems in this course, you have a number of solutions available 
 
 1. Google the problem.
     - A critical skill in creative technology is learning to problem solve. Part of this involves learning how to form a good google query. Your first go to for help should always be google.
-2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2019-Samples/issues).
+2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2020-Samples/issues).
     - In a couple pages, you will follow along with a short tutorial that will help you signup for GitHub, then star and follow the "course repository". Part of this repository is an "issues forum" where you can post questions and problems you are having. These "issues" will be e-mailed to you, and you can then respond to them.
     - The advantage to the GitHub issues forum is its advanced system for including formatted code. This will help with problem solving.
 3. Go to the 127 Media Arts Lab -- I will update you on this one.. I am not completely sure about this --
@@ -73,7 +73,7 @@ When you have problems in this course, you have a number of solutions available 
     - If you have a problem, please contact me.  I am in my office a lot beyond my office hours and I can work through Skype, TeamViewer and/or Zoom.  Let me know!
     - One way to get a hold of me is to swing by my weekly office hours. These are posted (and updated) under my [office hours section]({{site.baseurl}}/instructors/#office-hours). This is another way is to email me, text or call me.
     - If you are a distance student or cannot make one of those times, please email, text or call. (I check my email multiple times a day -- well actually it just alerts me, so I should get it unless I am out of commission or in a meeting -- sometimes they feel the same to me.)
-        - [michael.cassens@umontana.edu](mailto:michael.cassens@umontana.edu?subject=441%20Question)
+        - [michael.cassens@umontana.edu](mailto:michael.cassens@umontana.edu?subject=120%20Question)
 
 <br />
 
