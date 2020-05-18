@@ -8,7 +8,7 @@ permalink: /:title/
 
 ## Maintained by: [Michael Cassens](https://michaelcassens.github.io/teaching)
 
-Michael Cassens maintains this course. Please contact Michael for problems that the Teaching Assistant cannot solve or for larger issues you may have with the course.
+Michael Cassens maintains this course. Please contact Michael for problems that the Teaching Assistant cannot solve or for more significant issues you may have with the class.
 
 - E-Mail: [michael.cassens@umontana.edu](mailto:michael.cassens@umontana.edu?subject=441%20Question)
 - Office: [McGill Hall, 230](https://www.google.com/maps/place/McGill+Hall,+32+Campus+Dr,+Missoula,+MT+59812/@46.8619179,-113.9857145,16.91z/data=!3m1!5s0x535dcc33c1f50273:0xb43516d74c13fb70!4m5!3m4!1s0x535dcc33c3d4cbd5:0xd77cd4f46bdf5b89!8m2!3d46.8624266!4d-113.9836088)
@@ -21,7 +21,7 @@ Michael Cassens maintains this course. Please contact Michael for problems that 
 
 #### Office Hours
 
-For those of you in Missoula, you are welcome to come by for help during my office hours. This is another way for getting in touch with me and getting my help.
+For those in Missoula, you are welcome to come by for help during my office hours. Zoom is another way of getting in touch with me and getting my support.
 
 - Mondays/Wednesday: 11:00 am - 12:00 pm
 - Tuesdays/Thursday: 10:00 am - 11:00 am

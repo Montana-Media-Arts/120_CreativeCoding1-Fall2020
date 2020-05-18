@@ -8,15 +8,15 @@ module: 1
 <!-- rebuild this video -->
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/74ttAA2VEYo" frameborder="0" allowfullscreen></iframe></div>
 
-As a creative technologist and developer you will need to take control of your computer. You should start to consider your computer as an instrument or creative tool that serves as an extension of yourself.
+As a creative technologist and developer, you will need to take control of your computer. You should start to consider your computer as an instrument or an innovative tool that serves as an extension of yourself.
 
-This means you need to be comfortable with your computer and *know* your computer.
+To be effective, you need to be comfortable with your computer and *know* your computer.
 
 There are two different ways to find things on your computer.
 1. Through the graphical user interface
 2. Through the command-line interface
 
-We are going to go through the graphical user interface and I will discuss the command line interface.  If you are interested in exploring the command-line further, I will give you more information, but it will not be the focus.
+We will go through the graphical user interface, and I will discuss the command line interface.  If you are interested in further exploring the command-line, I will give you more information, but it will not be the focus.
 
 <!--# INSERT VIDEO-->
 
@@ -24,17 +24,17 @@ We are going to go through the graphical user interface and I will discuss the c
 
 We need to define what a directory is and what a file is.  
 1. What is a directory?
-   1. A `directory` is a folder.  It's just a fancy word for folder.  Remember, we are mimicing the physical desk.  That's why we have a `desktop`, `folders` and `files`.  It's so we can relate to them.
-   2. `Files` are what we are actually storing.  Maybe they are pictures, videos, text documents, music, and more.  
+   1. A `directory` is a folder. It's just a fancy word for the folder.  Remember, we are mimicking the physical desk. That's why we have a `desktop`, `folders` and `files`. It's so we can relate to them.
+   2. `Files` are what we are storing.  Maybe they are pictures, videos, text documents, music, and more.  
 
 *Why do we care?* 
 
-We care because we want to organize our folders/directories and the files within them so that they we can find them again. Yes, we have a search bar that helps us, but it's much better if we get into the habit of storing our files in an organized way.
+We care because we want to organize our folders/directories and the files within them so that we can find them again. Yes, we have a search bar that helps us, but it's much better to store our files in an organized way.
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q6mguy00Cug" frameborder="0" allowfullscreen></iframe></div>
 
 How do we access our folders?
-1. In Windows, you can click on the `Start` or `Search` and then look for `This PC`
+1. In Windows, you can click on the `Start` or `Search` and then look for `This PC.`
 2. On Mac, click on `Finder` and then go through the folders.
 
 <!--# INSERT VIDEO-->
@@ -44,13 +44,13 @@ Let's do some hands-on work here.
 Go into your `Documents` folder regardless if you are on Windows or Mac and create a new Folder.  How do we do that?  
 1. Right-click and choose `New Folder`.  
 2. Rename the folder `MART 120`.  
-3. Inside of that folder, create a new folder called `Homework 1`.  
+3. Inside that folder, create a new folder called `Homework 1`.  
 4. Inside of that folder, create a new file by opening `TextEdit` on a Mac or `Notepad` on Windows and place your name in it.  
 5. `Save` the file and close it.
 
-I recommend creating a new folder for each homework and then you can save all your projects in there.  We will do this inside your `GitHub` repository.  We are just practicing here in the Documents folder.  This will come in handy in your other classes too!
+I recommend creating a new folder for each homework, and then you can save all your projects in there.  We will do this inside your `GitHub` repository after we practice here in the Documents folder.  These skills will come in handy in your other classes too!
 
-So, now what about the Command line interface? If you are interested, this next section is for you!
+So, now what about the Command-line interface? If you are interested, this next section is for you!
 
 ## Command-line interface (CLI)
 
@@ -61,13 +61,13 @@ So, now what about the Command line interface? If you are interested, this next 
 One of the most basic ways of working with your computer is through a [command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface).
 ![example image of terminal.app](../imgs/Screen1.png)
 
-Although such programs can appear intimidating to a beginner user, these command line programs remove are simple applications that allow for detailed control of the OS. These programs allow a user to accomplish many of that same tasks that they are used to completing with a mouse, through text only commands. One reason to use such a program is that it can speed up the development process and also display more information than is typical of a traditional “graphical user interface” (GUI; pronounced ‘gooey’) based environment.
+Although such programs can appear intimidating to a beginner user, these command-line programs remove are simple applications that allow for full control of the OS. These programs will enable a user to accomplish many of that same tasks that they are used to completing with a mouse through text-only commands. One reason to use such a program is to speed up the development process and display more information than is typical of a traditional "graphical user interface" (GUI; pronounced 'gooey') based environment.
 
 ## Directory
 
-One advantage of a CLI over a GUI-based file browser is quicker manipulation of files and directories. The manipulation of files and directories will be a very common activity for you in this course. As such, please take a moment to read the following [Wikipedia page describing ‘directories’](https://en.wikipedia.org/wiki/Directory_(computing)) and make sure you understand what a directory is, as well as its related terminology.
+One advantage of a CLI over a GUI-based file browser is quicker manipulation of files and directories. The manipulation of files and directories will be a widespread activity for you in this course. As such, please take a moment to read the following [Wikipedia page describing 'directories'](https://en.wikipedia.org/wiki/Directory_(computing)) and make sure you understand what a directory is, as well as its related terminology.
 
-> Note: "Directories" and "Folders" are the same thing. These will be interchangable throughout this course.
+> Note: "Directories" and "Folders" are the same thing. These will be interchangeable throughout this course.
 
 <!-- create a video here...
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CuyD_n3XzbE" frameborder="0" allowfullscreen></iframe></div>
@@ -75,37 +75,37 @@ One advantage of a CLI over a GUI-based file browser is quicker manipulation of 
 ## Learning your CLI
 
 ### - Unix
-Unix operating systems refer to both macOS (formerly OS X) and Linux. These OS’s will use similar commands within their CLI’s. On macOS, the default CLI is `terminal.app`. However, there are many CLI’s that can be downloaded and used in unix-based operating systems.
+Unix operating systems refer to both macOS (formerly OS X) and Linux. These OS's will use similar commands within their CLI's. On macOS, the default CLI is `terminal.app`. However, there are many CLI's that can be downloaded and used in Unix-based operating systems.
 
-For those of you who are unfamiliar with using the terminal in unix operating systems, you should work through following book.
+For those of you who are unfamiliar with using the terminal in Unix operating systems, you should work through the following book.
 
 **[Unix for the Beginning Mage](http://unixmages.com/wp-content/uploads/2018/12/ufbm.pdf)**
 
-This resource walks you through the basics of using terminal via a ‘cutesy’ story. (Sorry if this is not your thing. Unfortunately, it is a very good resource.)
+This resource walks you through the basics of using terminal via a 'cutesy' story. (Sorry if this is not your thing. Unfortunately, it is an excellent resource.)
 
-NOTE: If you do not have Xcode.app installed on your Mac, you should do so. We will not be using Xcode, however, it installs additional command line tools which we will use. Xcode can be installed via the Mac App Store. After installing Xcode, open it once, then close it and forget about it for the time being.
+NOTE: If you do not have Xcode.app installed on your Mac, you should do so. We will not be using Xcode. However, it installs additional command-line tools that we will use. Install Xcode via the Mac App Store. After installing Xcode, open it once, close it, and forget about it for the time being.
 
 ### - Windows
-Windows users have a couple of options when it comes to a CLI. Traditionally, Windows has utilized a program known as Command Prompt for decades. This program is a relative of MS-DOS, an early operating system and precursor to Windows. In recent years there has been a move within the development community towards Window's newer PowerShell CLI. However, there is also a move towards a Bash-like or true Bash (the Linux and macOS CLI) program for windows.
+Windows users have a couple of options when it comes to CLI. Traditionally, Windows has utilized a program known as Command Prompt for decades. This program is a relative of MS-DOS, an old operating system, and a precursor to Windows. In recent years there has been a move within the development community towards Window's newer PowerShell CLI. However, there is also a step towards a Bash-like or pure Bash (the Linux and macOS CLI) program for windows.
 
 I am going to suggest you utilize the last of these options. Unfortunately, a Bash shell does not exist by default on Windows yet. You have two options to get one.
 
-1. Windows now includes a "Linux Environment" that can be turned on.
+1. Windows now include a "Linux Environment" in the Windows Features.
     - To install the Window's approved "Windows Subsystem for Linux", please follow the instructions from the following site;
         - [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 
-2. A simpler solution (and the recommended one for this course), is to install a Bash-like CLI.
-    - The disadvantage of this solution is that it is not as integrated as the "Windows Subsystem for Linux". However, for the CLI work you will do in this course, it works just fine.
+2. A more straightforward solution (and the recommended one for this course), is to install a Bash-like CLI.
+    - The disadvantage of this solution is the lack of integration as the "Windows Subsystem for Linux." However, for the CLI work you will do in this course, it works just fine.
 
-To get a Bash environment, windows users should install Git. Git can be downloaded from the following link;
+To get a Bash environment, windows users should install Git. Download Git below:
 
 - [https://git-scm.com/download/win](https://git-scm.com/download/win)
 
-After downloading the program, right-click the install executable, and select "Run as Administrator". (**THIS IS IMPORTANT** You must run as administrator to give Git Bash necessary permissions.)
+After downloading the program, right-click the install executable and select "Run as Administrator." (**THIS IS IMPORTANT** You must run as administrator to give Git Bash necessary permissions.)
 
 ![Install Git as Administrator](../imgs/install-git-windows.png)
 
-This will install a program known as "Git", along with one called "Git Bash". You can now open "Git Bash".
+This file installs a program known as "Git," along with one called "Git Bash." You can now open "Git Bash".
 
 ![Git Bash](../imgs/Screen2.png)
 
@@ -116,13 +116,13 @@ After installing either "Windows Subsystem for Linux" or "Git Bash", you should 
 Before moving on this week, you should ensure you are comfortable with the following;
 
 - Be capable of performing the following actions via command line.
-	- Navigate between and around directories.
-	- List the contents of directories. (Including ‘hidden’ files’)
-	- Be able to change a files name.
-	- Be able to create an empty file.
-	- Be able to create a new directory.
-	- Be able to move a file/directory.
-	- Be able to delete a file.
-	- Be able to delete a directory.
-	- Understand what a ‘super user’ is. (Unix only)
-	- Understand what file permissions are, how to view them, and how to change them. (Unix only)
+    - Navigate between and around directories.
+    - List the contents of directories. (Including 'hidden' files')
+    - Be able to change a file's name.
+    - Be able to create an empty file.
+    - Be able to create a new directory.
+    - Be able to move a file/directory.
+    - Be able to delete a file.
+    - Be able to delete a directory.
+    - Understand what a 'superuser' is. (Unix only)
+    - Understand what file permissions are, how to view them, and how to change them. (Unix only)
