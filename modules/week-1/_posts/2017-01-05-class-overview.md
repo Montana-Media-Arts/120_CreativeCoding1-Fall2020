@@ -7,7 +7,7 @@ module: 1
 
 # What Will This Course Be Like?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ElmFXycaTLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ElmFXycaTLQ" frameborder="0" allowfullscreen></iframe></div>
 
 Now that you have gone through the syllabus, along with its technical details and policies, lets talk about how this course will actually look like.
 
@@ -52,7 +52,8 @@ Additionally, we will have topics of discussion each week that will cover a vari
 
 ## Getting Help
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/mZ1ih4vqGiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mZ1ih4vqGiw" frameborder="0" allowfullscreen></iframe></div>
 
 When you have problems in this course, you have a number of solutions available to assist you in solving them. The following list is the order I would suggest you follow for problem solving.
 
