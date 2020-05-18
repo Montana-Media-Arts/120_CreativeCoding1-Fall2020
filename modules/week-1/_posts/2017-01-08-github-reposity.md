@@ -76,11 +76,6 @@ GitHub Desktop is a graphical interface to make a copy of your repository on you
 6. Remember to pull first **always** and then push.
 
 
-
-
-
-[Homework 1 on Moodle](https://moodle.umt.edu/mod/assign/view.php?id=1314517)
-
 <!-- maybe another video here too
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NNBQ2Oe4orY" frameborder="0" allowfullscreen></iframe></div>
 -->
