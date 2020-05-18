@@ -53,7 +53,7 @@ Additionally, we will have topics of discussion each week that will cover a vari
 
 ## Getting Help
 
-
+<!-- rebuild the video here -->
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mZ1ih4vqGiw" frameborder="0" allowfullscreen></iframe></div>
 
 When you have problems in this course, you have a number of solutions available to assist you in solving them. The following list is the order I would suggest you follow for problem solving.
