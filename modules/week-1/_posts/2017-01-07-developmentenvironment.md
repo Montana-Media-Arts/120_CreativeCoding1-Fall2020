@@ -69,7 +69,7 @@ One advantage of a CLI over a GUI-based file browser is quicker manipulation of 
 
 > Note: "Directories" and "Folders" are the same thing. These will be interchangable throughout this course.
 
-<!--  Might want to create a video here...
+<!-- create a video here...
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CuyD_n3XzbE" frameborder="0" allowfullscreen></iframe></div>
 -->
 ## Learning your CLI
@@ -112,8 +112,6 @@ This will install a program known as "Git", along with one called "Git Bash". Yo
 After installing either "Windows Subsystem for Linux" or "Git Bash", you should work through the following PDF book.
 
 **[Unix for the Beginning Mage](http://unixmages.com/ufbm.pdf)**
-
-This resource walks you through the basics of using terminal via a ‘cutesy’ story. (Sorry if this is not your thing. Unfortunately, it is a very good resource.)
 
 Before moving on this week, you should ensure you are comfortable with the following;
 
