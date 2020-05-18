@@ -6,16 +6,12 @@ published: true
 
 This is the website for the in person section of Creative Coding 1 offered by [The School of Media Arts, University of Montana](http://www.umt.edu/mediaarts/).
 
-This course is designed to teach you code so that it can become a tool for your art and creativity. Utilizing [p5.js](https://p5js.org), this course teaches concepts from computer science and programming. These will occur through visual and audio sketches that run in web browsers.
+This course is designed to teach you code so that it can become a tool for your art and creativity. Utilizing multiple visual languages along with [p5.js](https://p5js.org), this course teaches concepts from computer science and programming. These will occur through visual and audio sketches that run in web browsers.
 
 The [**syllabus**]({{ site.baseurl }}/syllabus/ ) contains more information about the course, as well as student expectations.
 
 
-This course is maintained by [Michael Cassens]({{ site.baseurl }}/instructor/ ). 
-
-<!--
-For questions about course content or problems, please e-mail the primary contact [Stephanie Whitney](mailto:stephanie1.whitney@umconnect.umt.edu)
--->
+This course is maintained by [Michael Cassens]({{ site.baseurl }}/instructors/ ). 
 
 ### Start the Course!
 
