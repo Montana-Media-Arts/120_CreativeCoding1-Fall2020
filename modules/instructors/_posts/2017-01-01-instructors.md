@@ -16,6 +16,7 @@ Michael Cassens maintains this course. Please contact Michael for problems that 
 - Skype: michaelcassens
 - Google+: michaelcassens@gmail.com
 - [Teaching Website](https://michaelcassens.github.io/teaching)
+- Set up a meeting - [Meet with Me](https://calendly.com/michael-cassens/120-meeting)
 
 
 #### Office Hours

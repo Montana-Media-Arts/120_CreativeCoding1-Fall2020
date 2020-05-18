@@ -10,8 +10,7 @@ Quick links, including email links, office hours, and lab hours, are all availab
 
 What follows is a more detailed introduction to the people delivering this class to you this semester. We are a team, and will be working together to deliver this experience to you.
 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PSGOxy8IwH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PSGOxy8IwH0" frameborder="0" allowfullscreen></iframe></div>
 
 ## Michael Cassens
 
@@ -37,10 +36,13 @@ I would also like to say that I am first and foremost a teacher, so I will work 
   Bastion,
   Overwatch,
   Super Smash Bros,
-  Ms. Pacman, and PubG.
+  Ms. Pacman,
+  PubG,
+  Don't Starve,
+  Terraria, and more.
 > 
-> Michael is currently at the University of Montana as an Assistant Professor of Media Arts. In addition to continuing his own research, Michael is teaching courses within the Gaming Advising Track. These courses focus on preparing students to contribute in the gaming industry and beyond.
+> Michael is currently at the University of Montana as an Assistant Professor of Media Arts. In addition to continuing his own research, Michael is teaching courses within the Game Design and Interactive Media concentration. These courses focus on preparing students to contribute in the gaming, technical and artistic industries.
+
+He is also the Director of UM Esports where we focus on diversity and inclusion in all that we do.  We compete in eight different games including League of Legends, Overwatch, Pokemon Go, Tetris, Apex Legends, Super Smash Bros, Rocket League, and Starcraft 2. If you are interested in learning more, please feel free to visit our website at [UM Esports](http://grizzlyesportsum.com/) or contact me.
 >
 > Prior to the Media Arts Department, Michael taught in the Computer Science Department for approximately 18 years as an Adjunct and Lecturer.  He has taught a number of courses including Introduction to Programming, Fundamentals of Computer Science I and II, Data Stuctures, Algorithms, SOftware Science, Database Design, Game and Mobile Application Programming, Advanced Client-Side Web Programming and Advanced Server-Side Web Programming. Michael also started his own consulting company 2002 which he still operates building software for small to medium sized businesses.  Michael has a BA in Biology as well as a M.S. Computer Science. Originally from Boulder, Colorado, St. Louis, MO, then, Hamilton, MT, Michael loves being outside with his family as well as mountain biking, snowboarding, hiking, photography, and just being in nature.
->
-> For more information please visit his consulting site at [silverleaf-consulting.com](http://silverleaf-consulting.com) .
