@@ -60,7 +60,7 @@ When you have problems in this course, you have some solutions to assist you in 
 
 1. Google the problem.
     - A critical skill in creative technology is learning to problem solve. Part of this involves learning how to form a good google query. Your first go-to for help should always be google.
-2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding_Fall2020-Samples/issues).
+2. Post to the [course issues forum](https://github.com/Montana-Media-Arts/120_CreativeCoding1-Fall2020-Samples/issues).
     - In a couple of pages, you will follow along with a short tutorial that will help you signup for GitHub, then star, and follow the "course repository." Part of this repository is an "issues forum" where you can post questions and problems you are having. Once subscribed, you receive emails of the "issues." You can then respond to them.
     - The advantage of the GitHub issues forum is its advanced system for including formatted code. Formatted code helps with problem-solving.
 3. Go to the 127 Media Arts Lab -- I will update you on this one. I am not entirely sure about this.
