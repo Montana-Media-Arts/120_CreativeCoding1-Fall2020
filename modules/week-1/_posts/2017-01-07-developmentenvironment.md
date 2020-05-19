@@ -6,7 +6,7 @@ module: 1
 # Your Development Environment
 
 <!-- rebuild this video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/74ttAA2VEYo" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jian1ilJwBs" frameborder="0" allowfullscreen></iframe></div>
 
 As a creative technologist and developer, you will need to take control of your computer. You should start to consider your computer as an instrument or an innovative tool that serves as an extension of yourself.
 
@@ -31,8 +31,6 @@ We need to define what a directory is and what a file is.
 
 We care because we want to organize our folders/directories and the files within them so that we can find them again. Yes, we have a search bar that helps us, but it's much better to store our files in an organized way.
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q6mguy00Cug" frameborder="0" allowfullscreen></iframe></div>
-
 How do we access our folders?
 1. In Windows, you can click on the `Start` or `Search` and then look for `This PC.`
 2. On Mac, click on `Finder` and then go through the folders.
@@ -53,10 +51,6 @@ I recommend creating a new folder for each homework, and then you can save all y
 So, now what about the Command-line interface? If you are interested, this next section is for you!
 
 ## Command-line interface (CLI)
-
-<!-- build a video on this -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
-
 
 One of the most basic ways of working with your computer is through a [command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface).
 ![example image of terminal.app](../imgs/Screen1.png)
