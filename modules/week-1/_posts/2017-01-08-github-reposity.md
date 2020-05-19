@@ -49,8 +49,7 @@ NOTE: You should not repeat a comment that has already been added by anyone from
 
 # Create your own GitHub repository
 
-<!-- rebuild video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mxQO3Pv_QGY" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FV4j1YkNSlo" frameborder="0" allowfullscreen></iframe></div>
 
 You want to create your repository if you don't have one. 
 1. Go to ([GitHub](https://github.com))
@@ -59,8 +58,7 @@ You want to create your repository if you don't have one.
 
 # GitHub Desktop
 
-<!-- take out the time stamp on this video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Wbex3if4ogM" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kNPGX-YDvw8" frameborder="0" allowfullscreen></iframe></div>
 
 GitHub Desktop is a graphical interface to make a copy of your repository on your computer.  Then, you can make changes to your work and then quickly post it back to your repository.  Or if you heaven forbid something happens to your computer [trust me, it happens], then you have a backup.
 
@@ -70,8 +68,3 @@ GitHub Desktop is a graphical interface to make a copy of your repository on you
 4. Click on Open in Desktop.
 5. Create a clone on your computer.
 6. Remember to pull first **always** and then push.
-
-
-<!-- maybe another video here too
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NNBQ2Oe4orY" frameborder="0" allowfullscreen></iframe></div>
--->
