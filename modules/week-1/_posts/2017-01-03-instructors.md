@@ -42,8 +42,12 @@ I would also like to say that I am a teacher first and foremost, so I will work 
   Don't Starve,
   Terraria, and more.
 > 
-> Michael is currently at the University of Montana as an Assistant Professor of Media Arts. In addition to continuing his research, Michael is teaching courses within the Game Design and Interactive Media concentration. These courses focus on preparing students to contribute to the gaming, technical and artistic industries.
+> Michael is currently at the University of Montana as an Assistant Professor of Media Arts. In addition to continuing his research, Michael is teaching courses within the Game Design and Interactive Media concentration. These courses focus on preparing students to contribute to the gaming, technical and artistic industries.  Below is a video of some of our students' work.
 >
->He is also the Director of UM Esports, where we focus on diversity and inclusion in all that we do.  We compete in eight different games, including League of Legends, Overwatch, Pokemon Go, Tetris, Apex Legends, Super Smash Bros, Rocket League, and Starcraft 2. If you are interested in learning more, please feel free to visit our website at [UM Esports](http://grizzlyesportsum.com/) or contact me.
+><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AnjxNmQlLns" frameborder="0" allowfullscreen></iframe></div>
+>
+>He is also the Director of UM Esports, where we focus on diversity and inclusion in all that we do.  We compete in eight different games, including League of Legends, Overwatch, Pokemon Go, Tetris, Apex Legends, Super Smash Bros, Rocket League, and Starcraft 2. If you are interested in learning more, please feel free to visit our website at [UM Esports](http://grizzlyesportsum.com/) or contact me. Here is a video about out team.
+>
+><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/GMrgHhKgHU0" frameborder="0" allowfullscreen></iframe></div>
 >
 > Before the Media Arts Department, Michael taught in the Computer Science Department for approximately 18 years as an Adjunct and Lecturer.  He has taught several courses, including Introduction to Programming, Fundamentals of Computer Science I and II, Data Structures, Algorithms, Software Science, Database Design, Game, and Mobile Application Programming, Advanced Client-Side Web Programming and Advanced Server-Side Web Programming. Michael also started his own consulting company in 2002, where he still operates building software for small to medium-sized businesses.  Michael has a BA in Biology as well as an M.S. Computer Science. Originally from Boulder, Colorado, St. Louis, MO, then, Hamilton, MT, Michael loves being outside with his family as well as mountain biking, snowboarding, hiking, photography, and just being in nature.
