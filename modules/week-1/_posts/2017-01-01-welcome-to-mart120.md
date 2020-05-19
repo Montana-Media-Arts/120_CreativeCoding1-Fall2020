@@ -17,7 +17,7 @@ The course focuses on the fundamentals of programming the computer (variables, c
 
 This course is exclusively online. As such, the expectation is that you engage with all content throughout this site.  However, I will be here to help along the way too!  Use Moodle to turn in assignments and join with discussions. Assessment occurs primarily through regular project-based assignments, writings, and community engagement in Moodle for privacy.
 
-<!--# INSERT VIDEO HERE-->
+
 
 ## What to Expect
 
@@ -25,7 +25,7 @@ This course will expose you to new technologies while also thinking about design
 
 Just as the content focus will shift, so to will the work amount. Some weeks, especially those when introducing new topics, might feel a little heavier. However, I want you to have a chance to practice with these new technologies and techniques, so you feel comfortable with them. Some weeks will hopefully feel as if you are exploring and playing a little more.
 
-<!--# INSERT VIDEO HERE-->
+
 
 ## Class Goals
 
@@ -36,7 +36,7 @@ There are four high-level goals for this course;
 3. Combine technical and artistic practices through inquiry and iteration.
 4. Adopt and use professional methods.
 
-<!--# INSERT VIDEO HERE-->
+
 
 # Overview the Rest of This Week
 
