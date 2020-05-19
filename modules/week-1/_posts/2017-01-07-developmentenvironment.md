@@ -5,7 +5,6 @@ module: 1
 
 # Your Development Environment
 
-<!-- rebuild this video -->
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jian1ilJwBs" frameborder="0" allowfullscreen></iframe></div>
 
 As a creative technologist and developer, you will need to take control of your computer. You should start to consider your computer as an instrument or an innovative tool that serves as an extension of yourself.
@@ -52,7 +51,10 @@ So, now what about the Command-line interface? If you are interested, this next 
 
 ## Command-line interface (CLI)
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R_wj7DrD_g0" frameborder="0" allowfullscreen></iframe></div>
+
 One of the most basic ways of working with your computer is through a [command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface).
+
 ![example image of terminal.app](../imgs/Screen1.png)
 
 Although such programs can appear intimidating to a beginner user, these command-line programs remove are simple applications that allow for full control of the OS. These programs will enable a user to accomplish many of that same tasks that they are used to completing with a mouse through text-only commands. One reason to use such a program is to speed up the development process and display more information than is typical of a traditional "graphical user interface" (GUI; pronounced 'gooey') based environment.

@@ -7,8 +7,7 @@ module: 1
 
 # _Issues Forum_ and Notifications from GitHub.com
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Bw5tn4yL-bw" frameborder="0" allowfullscreen></iframe></div>
-
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jmwObsKJ3A4" frameborder="0" allowfullscreen></iframe></div>
 
 This class is heavily utilizing [GitHub.com](https://github.com). Not only is this service where you will host your git repo's and live websites, but this content site lives in GitHub, and there is a "resources" repo for this site that contains;
 
@@ -29,12 +28,11 @@ To watch the course repo:
         - When you have problems, please post them in the issues area.
         - If you get an email about a new issue, try to help the person out.
 
-<!-- update image -->
+
 ![Follow and Star Repositories on GitHub.com](../imgs/watch_star_CC.png)
 
 ## Create a new "Issue"
 
-<!-- update image -->
 To create or respond to an issue, open the repo ["Issues Forum"](https://github.com/Montana-Media-Arts/120_CreativeCoding1-Fall2020-Samples/issues).
 
 There you can search open issues to try and;
@@ -44,9 +42,7 @@ There you can search open issues to try and;
 
 If no issue matches your problem, you can open a "New Issue". Creating a new issue allows you to describe your problem, thereby providing everyone in the class a message and hopefully helping them work on it.
 
-<!-- update image -->
 ![New Issue button](../imgs/new_issue_CC.png)
-
 
 NOTE: You should not repeat a comment that has already been added by anyone from your class. However, if you would like to further a comment already there, type in "@mention" the classmate/user and continue their discussion, which works well.
 
