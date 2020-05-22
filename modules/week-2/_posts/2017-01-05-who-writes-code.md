@@ -1,13 +1,19 @@
 ---
-title: Code.org
+title: Who Writes Code?
 module: 2
 ---
 
-# Code.org
+# Who Writes Code
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mFPg96gdPkc" frameborder="0" allowfullscreen></iframe></div>
+
+Here is a young woman from Instagram
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/elaR3WhguVk" frameborder="0" allowfullscreen></iframe></div>
 
 My hope is that at some point you have heard of code.org.  It made a big splash in the news when it first came out because its whole goal was to show the world that anyone could learn to write code.  Through the Hour of Code, they had celebrities try it out and get people excited about the possiblilities.  In the six years since its release, it has been widely successful and adopted in many schools ranging from elementary to college.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FC5FbmsH4fw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 So, we are going to try it out too!  There are courses using Star Wars, Princesses, Minecraft and others.  However, as artists, we are going to focus a more creative version of the code.org. So, we are going to use the Dance Party for our medium.  C'mon it'll be fun!  [Dance Party](https://studio.code.org/s/dance/stage/1/puzzle/1)
 

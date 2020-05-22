@@ -11,3 +11,9 @@ In this video, we are going to watch Randy Pausch talk about that which he has o
 
 How did it make you feel?  Could you relate?  Take note of your thoughts on this.  I want you put those thoughts into writing this week.  This is part of your homework.
 
+#### References
+
+If you are interested in more from Randy Pausch, the following link has a myriad of resources.
+
+<a href="http://www.cs.virginia.edu/~robins/Randy/" target="_new">Link to Randy Pausch's Resources</a>
+
