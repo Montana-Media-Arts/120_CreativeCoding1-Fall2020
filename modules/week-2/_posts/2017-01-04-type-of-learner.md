@@ -7,7 +7,7 @@ module: 2
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BJfZ-FbKtv0" frameborder="0" allowfullscreen></iframe></div>
 
-This section is all about how do we learn best.  Why do I put this in here now?  I want to us to better understand how optimally learn (which can be different for everyone) and then find the best way to achieve our goals.  When I took this learning quiz, I found found that I was equally a visual and an auditory learner.  This is important because it means I learn best by watching and hearing other perform tasks.  Then, I am able to master things more easily.  How do you best learn?  Let's find out!
+This section is all about how do we learn best.  Why do I put this in here now?  I want to us to better understand how optimally learn (which can be different for everyone) and then find the best way to achieve our goals.  When I took this learning quiz, I discovered that I was equally a visual and an auditory learner.  This information about myself is important because it means I learn best by watching and listening to others perform tasks.  Then, I can master things more easily.  How do you best learn?  Let's find out!
 
 Take the quiz below and keep track of your answers. You will turn these in as well.
 
