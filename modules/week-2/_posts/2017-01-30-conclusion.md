@@ -13,4 +13,4 @@ We also looked at our writing code for the first time.  We focused on logical re
 Good job this week!
 
 ## Next Week
-Next week we will look at mobile coding.
+Next week we will look at another visual language called Scratch.
