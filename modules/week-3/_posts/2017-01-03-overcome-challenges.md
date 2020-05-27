@@ -7,7 +7,7 @@ module: 3
 
 ## How did you get here?
 
-<!-- video here -->
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ll4XTxNPUDE" frameborder="0" allowfullscreen></iframe></div>
 
 Part of attending higher education is being able to overcome challenges.  If you were like me growing up, some challenges in which you overcame to get you to this point in your life.  How have those challenges shaped who you are today?  What did you have to do to overcome them?  Are you stronger because of it?  You are here because you were able to get through those issues.  No one else got you here, but yourself and you should be proud of that.
 
