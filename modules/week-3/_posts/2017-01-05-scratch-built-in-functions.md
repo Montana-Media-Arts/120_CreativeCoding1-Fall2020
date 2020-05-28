@@ -8,5 +8,5 @@ jotted: true
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ThKqgePt-PM" frameborder="0" allowfullscreen></iframe></div>
 
-The beautiful part about Scratch is that it is relatively intuitive.  However, I liked to walk through the Code section so you can see what is available to you.  Please watch this short video on the different functions you can use in Scratch and understand how it might apply to you.
+The beautiful part about Scratch is that it is relatively intuitive.  However, I like to walk through the Code section to see what is available to you.  There are many built-in functions that you can use in Scratch.  This section shows you some of which are available and how they might apply to you.
 
