@@ -11,9 +11,9 @@ Keep in mind that the scene might leave the initial view.  To move around the wo
 <!-- video here -->
 ## Camera Markers
 
-<a href="https://umontana.zoom.us/recording/share/uzPXaLVLMvyHRHucoA5qokUdNURDBd7-DDGrk0iFiUawIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 
 ## Camera Vehicle
 <!-- camera vehicle -->
-<a href="https://umontana.zoom.us/recording/share/HxtdxQO7cRlSb3yqD7ivZkmU82fOogvWZg2iLKAHTjCwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
