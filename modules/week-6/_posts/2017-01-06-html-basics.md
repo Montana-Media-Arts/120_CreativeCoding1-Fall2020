@@ -6,6 +6,8 @@ jotted: false
 
 # HTML Basics
 
+<!-- video -->
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 What other tags do we need to make stuff show up?
 
@@ -19,7 +21,6 @@ What other tags do we need to make stuff show up?
         How do you like them apples?
     </body>
 </html>
-
 ```
 
 What are these tags?
@@ -29,13 +30,6 @@ What are these tags?
 3. p - the p tag creates paragraph breaks
 4. br - the br tag creates a simple line break
 
-If you want to try out the code above, click on the link below. It will open an online code editor so you can see what it your HTML will look like in a browser.
-
-<!-- video -->
-<a href="https://umontana.zoom.us/recording/play/2P42jaZx3HnydwDebKapaSfG7N_m0ShkQyBZILNETi1uEuNoH32J4toDx_1XYPrc?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+If you want to try out the code above, click on the link below. It will open an online code editor so you can see what your HTML will look like in a browser.
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
-
-
-
-

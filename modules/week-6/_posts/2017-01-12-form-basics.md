@@ -6,7 +6,10 @@ jotted: true
 
 # HTML Forms
 
-What are HTML forms?  Well, if you have ever purchased anything online or filled out an application online or signed up for an email, your social media account or more, you have filled out a form.  Forms are just a way for us to gather data from the end-user.  Keep in mind there are some principles to which we should adhere.
+<!-- video -->
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+
+What are HTML forms?  If you have ever purchased something online or filled out an application online or signed up for an email, your social media account, or more, you have filled out a form.  Forms are just a way for us to gather data from the end-user.  Keep in mind there are some principles to which we should adhere.
 
 First, we want to adhere to standards. Use the component for their intended use.  Use checkboxes for multiple selections and radio buttons for various choices, but only one correct one.
 
@@ -28,7 +31,6 @@ Here is an example of a simple form.
 </html>
 
 ```
-<a href="https://umontana.zoom.us/recording/play/GO_MDg10XBmdQxTaqsUElvCDWN2v8OQpW_ez7U5a_8z_Nhvs8i7KcWIjTYWz9gxz?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 

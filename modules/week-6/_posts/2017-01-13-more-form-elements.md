@@ -6,6 +6,9 @@ jotted: true
 
 # More form elements
 
+<!-- video -->
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+
 <!-- dropdowns -->
 
 One of the most common form elements is the drop-down list.  It looks something like this.
@@ -18,10 +21,11 @@ One of the most common form elements is the drop-down list.  It looks something 
   <option value="pineapple">Pineapple</option>
 </select>
 ```
-These allow us to restrict what the user can choose and helps us make sure we get data exactly the way we want it. If we use a text box for everything, then our users could type anything they wanted.  For example, they might say `Apple`, or `aPpple`, or `APPLE` and that would be bad.
+
+These allow us to restrict what the user can choose and helps us make sure we get data precisely the way we want it. If we use a text box for everything, then our users could type anything they wanted.  For example, they might say `Apple`, or `aPpple`, or `APPLE`, and that would be bad.
 
 <!-- video -->
-<a href="https://umontana.zoom.us/recording/play/98EyQyLeo-sviZk1-D731T7Ag-FSjD_xM1W-oQ7txcre1sV7al_XCmnRvHsEfAdF?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 <!-- radio -->
 What other items can you find in forms?  I spoke of radio buttons and checkboxes in an earlier section.  How would you implement a radio button list?
@@ -32,8 +36,9 @@ What other items can you find in forms?  I spoke of radio buttons and checkboxes
 <input type="radio" name="color" value="green">Green<br>
 <input type="radio" name="color" value="purple">Purple
 ```
+
 <!-- video -->
-<a href="https://umontana.zoom.us/recording/play/vhvIS3avnsOWBgeUq4v7g3bIAYejS4HdA1OzNKUMy0Q9rvt5WhAJbkJWzeU0KE1w?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 <!-- checkboxes -->
 Finally, let's look at checkboxes and the role they play in forms.  They allow us to select multiple items in a list.  We see these most often when a form asks us what our interests are.  It may look something like this.
@@ -50,8 +55,5 @@ Finally, let's look at checkboxes and the role they play in forms.  They allow u
 Feel free to experiment with these.
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
-
-<!-- video -->
-<a href="https://umontana.zoom.us/recording/play/0rPS0FnZF2wYhiHR7_7hTOAHi6fFp8YVK1ilMemJutbzlzOP7LsROge5sJ9nwqwI?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 Next, let's incorporate some of these items into our homework.

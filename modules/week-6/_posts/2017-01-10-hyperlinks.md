@@ -6,6 +6,8 @@ jotted: true
 
 # Hyperlinks
 
+<!-- video -->
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
 
 Hyperlinks have been around since the beginning of HTML4 and continue today. They are the bedrock of web pages as they take us places.  They have a similar structure to image tags, and they look like this.
 
@@ -39,13 +41,6 @@ Whereas on the second page, you might have something that looks like this.
 
 ```
 
-Keep in mind that you have to have two pages named *secondpage.html* and *firstpage.html* respectively.
-
-
-<!-- video -->
-<a href="https://umontana.zoom.us/recording/play/V-pYuGcb458imbF1fVAOoy6bhatQIPhrk8whAhPjWTIeTnPPIHfQf64FfTwA4yOe?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+Keep in mind that you have to have two pages named *secondpage.html* and *firstpage.html*, respectively.
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
-
-<!-- video -->
-
