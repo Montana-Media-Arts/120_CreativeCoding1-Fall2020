@@ -7,7 +7,7 @@ jotted: false
 # HTML Basics
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CeZfpz4_abw" frameborder="0" allowfullscreen></iframe></div>
 
 What other tags do we need to make stuff show up?
 

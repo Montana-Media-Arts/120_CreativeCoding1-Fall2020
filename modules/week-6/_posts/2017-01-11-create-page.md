@@ -7,7 +7,7 @@ jotted: true
 # Create a page
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MHFTsmoNWQU" frameborder="0" allowfullscreen></iframe></div>
 
 I am so excited that you made it this far!  You are learning the basics of HTML well. One crucial step is to learn how to create and save it to view the page in a browser.
 

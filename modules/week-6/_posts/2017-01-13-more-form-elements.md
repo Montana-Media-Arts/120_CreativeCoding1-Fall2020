@@ -7,7 +7,7 @@ jotted: true
 # More form elements
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rJJ-rnX3SPM" frameborder="0" allowfullscreen></iframe></div>
 
 <!-- dropdowns -->
 
@@ -25,7 +25,7 @@ One of the most common form elements is the drop-down list.  It looks something 
 These allow us to restrict what the user can choose and helps us make sure we get data precisely the way we want it. If we use a text box for everything, then our users could type anything they wanted.  For example, they might say `Apple`, or `aPpple`, or `APPLE`, and that would be bad.
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mzx_lShObmc" frameborder="0" allowfullscreen></iframe></div>
 
 <!-- radio -->
 What other items can you find in forms?  I spoke of radio buttons and checkboxes in an earlier section.  How would you implement a radio button list?
@@ -38,7 +38,7 @@ What other items can you find in forms?  I spoke of radio buttons and checkboxes
 ```
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/28ccGRjnV_Q" frameborder="0" allowfullscreen></iframe></div>
 
 <!-- checkboxes -->
 Finally, let's look at checkboxes and the role they play in forms.  They allow us to select multiple items in a list.  We see these most often when a form asks us what our interests are.  It may look something like this.

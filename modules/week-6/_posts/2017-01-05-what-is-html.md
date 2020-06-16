@@ -7,7 +7,7 @@ jotted: true
 # HTML
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="" frameborder="0" allowfullscreen></iframe></div>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LOtPdX1t2ro" frameborder="0" allowfullscreen></iframe></div>
 
 I always find it useful to define what it is we are doing before we use it.  So what is HTML?
 
