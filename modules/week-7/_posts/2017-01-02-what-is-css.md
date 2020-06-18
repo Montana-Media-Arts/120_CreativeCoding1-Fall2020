@@ -10,7 +10,7 @@ CSS or Cascading Style Sheets are files that work with HTML to make our pages lo
 
 What if we wanted to do that on each of our pages?  Well, we would need to add that attribute to the body tag of each page.  No big deal, right?  What if our clients or we wanted to change that color?  Again, no big deal if we have only three pages, but what if we have 300?
 
-CSS gives us the ability to apply changes to multiple pages and localize all our styles in one place.  That's a good thing!
+CSS lets us apply changes to multiple pages and localize all our styles in one place.  That's a good thing!
 
 In a nutshell, what is CSS, and what are the benefits? W3Schools says this.
 

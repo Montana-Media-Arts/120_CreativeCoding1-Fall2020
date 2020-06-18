@@ -21,7 +21,7 @@ span{
 }
 ```
 
-Note that when you save this in a separate page, it has to be called something like `mainstyle.css`.  It always ends with a `.css` extension.
+Note that when you save this on a separate page, it must be called `mainstyle.css`  It always ends with a `.css` extension.
 
 Now, we can assign it to a page like this.
 
@@ -36,7 +36,7 @@ Now, we can assign it to a page like this.
 
 There are a couple of things to note.  The `rel` is the relationship attribute, and the `type` specifies the type of file.  Finally, the `href`, which should look familiar, is the file location. Remember, if it defined like it is above, it has to be in the same folder.  Otherwise, you need to add the correct path.
 
-We use style sheets so that we can apply a style sheet to many pages.  Then, if we want to make a change, we can change it in one file and use it everywhere.
+We use style sheets so that we can apply a style sheet to many pages.  If we want to make a change, we can change it in one file and use it everywhere.
 
 So, when you have all three types of styles on your page, which style is applied?  It always goes in this order.
 

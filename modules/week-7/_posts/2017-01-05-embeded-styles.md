@@ -30,7 +30,7 @@ The second way in which we can add CSS by using **embedded** styles on the page.
     </body>
 </html>
 ```
-In this example, you see the first and the third sentence have a background color of red. While the second sentence does not.  The style at the top of the page within the `<head>` tags applies the background color to all span tags.
+In this example, you see the first, and the third sentence has a background color of red. While the second sentence does not.  The style at the top of the page within the `<head>` tags applies the background color to all span tags.
 
 What are some of the positives and negatives of using embedded styles?
 

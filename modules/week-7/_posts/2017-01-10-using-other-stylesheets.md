@@ -35,7 +35,7 @@ There are some popular stylesheets out there. One of the most popular is Bootstr
 </html>
 ```
 
-Take a look at the `href` attribute in the `link` tag at the top inside the `head` tag. It points to what is called a CDN.  CDN stands for **Content Delivery Network** There are some benefits to using these.  Your CSS is always up to date whenever the author updates it.  However, you must be online to apply this style. So, if you need an offline application, you may want to use a local copy.
+Take a look at the `href` attribute in the `link` tag at the top inside the `head` tag. It points to what is called a CDN.  CDN stands for **Content Delivery Network** There are some benefits to using these.  Your CSS is always up to date whenever the author updates it.  However, it only works if you are online to apply this style. So, if you need an offline application, you may want to use a local copy.
 
 ## Local Copy
 
