@@ -20,6 +20,4 @@ Another resource is Code Academy.
 
 ### Code Academy on HTML and CSS
 
-https://www.codecademy.com/learn/learn-css
-
-<a href="https://umontana.zoom.us/recording/play/Y8cF78tvA7VE1rUms4cU8nOPg74iLixOlFuilEhA94JkSxdI37O8lscac8scEcVz?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+<a href="https://www.codecademy.com/learn/learn-css" target="_new">Learn CSS at Code Academy</a>

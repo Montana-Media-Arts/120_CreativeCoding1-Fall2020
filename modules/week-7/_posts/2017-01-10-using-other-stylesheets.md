@@ -41,26 +41,23 @@ Take a look at the `href` attribute in the `link` tag at the top inside the `hea
 
 In the case of Bootstrap, you first go to:
 
-https://getbootstrap.com/
+1. Go to <a href="https://getbootstrap.com/" target="_new">Get Bootstrap</a>
 
-Then, click on **Download**.
+2. Then, click on **Download**.
 
-Under **Compiled CSS and JS**, click **Download**.
+3. Under **Compiled CSS and JS**, click **Download**.
 
-You are going to download a zip file.
+4. Download the zip file.
 
-Save that in a directory near your file.  Then, make sure you unzip your file into a folder.
+5. Unzip and save the folder in a directory near your web page file.
 
-Then, you will reference your new file like this.
+6. Download JQuery from: <a href="https://jquery.com/" target="_new">Get jQuery</a>
 
-You will also need to download JQuery from:
+7. Then, click on `Download jQuery`.
 
-https://jquery.com/
+8. Right-click `Download the compressed, production jQuery 3.x.x` and save the file in your `js` folder with Bootstrap.
 
-Then, click on `Download jQuery`.
-
-Then, right-click `Download the compressed, production jQuery 3.x.x` and save the file in your `js` folder with Bootstrap.
-
+9. Reference bootstrap like this (if your folder structure is set up like the following).
 
 ```html
 <html>
@@ -87,6 +84,3 @@ Then, right-click `Download the compressed, production jQuery 3.x.x` and save th
 
 Did you see the same thing as before?  Unfortunately, it's not as simple as using a CDN. However, if you need an offline solution, this will work.  Downloading and saving libraries work for other styles (and JavaScript) that you may want to use in the future too.
 
-<a href="https://umontana.zoom.us/recording/play/wndK0otYtUncEhNDvQQT93q1A_69jVXNmjzq5kQB_7uy2u3qtl24ZX5V70dg9iEq?continueMode=true" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
-
-<!-- video -->

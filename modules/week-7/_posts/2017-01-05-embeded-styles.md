@@ -33,6 +33,3 @@ The second way in which we can add CSS by using **embedded** styles on the page.
 In this example, you see the first, and the third sentence has a background color of red. While the second sentence does not.  The style at the top of the page within the `<head>` tags applies the background color to all span tags.
 
 What are some of the positives and negatives of using embedded styles?
-
-<a href="https://umontana.zoom.us/recording/share/Udr8dWDE0uYdEhHTtbKKYOuIm0k2iHhsfB7hwa1N7BmwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
-<!-- video -->

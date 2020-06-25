@@ -6,13 +6,13 @@ jotted: true
 
 # Adding CSS to HTML
 
-## Inline Styles
-
 There are three ways in which we can add CSS to an HTML page.
 
 1. Inline
 2. Embedded
 3. External
+
+### Inline Styles
 
 **Inline** styles are applied directly to the tag as another attribute.  Below is an example.
 
@@ -24,6 +24,3 @@ This style removes the underline from the link to eBay.  It is important to note
 
 What do we need to consider when we use inline styles? If we use inline styles and want that style on another page, we will need to duplicate the style on that page.  Not bad unless we have many pages with multiple tags that need to be changed.
 
-<a href="https://umontana.zoom.us/recording/share/mky86EDs9BJhl-JzEE2kOmooW6rYb2TCUHvmIhmMcvmwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
-
-<!-- video -->
