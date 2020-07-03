@@ -8,6 +8,8 @@ jotted: true
 
 One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example below.
 
+### getElementById
+
 ```js
  document.getElementById("myTag").innerHTML = "New Text";
 ```
@@ -20,14 +22,41 @@ If you were to have an HTML page like the following, the JavaScript above would 
     </body>
  </html>
 ```
+### document.write
 
-So, where does it go?
+Another way to access HTML is by using the document.write function.  It looks something like this.
 
-Remember where we put the style tags? Yes? Those went in the head. JavaScript can also go in the head.
+```js
+ document.write("I am being written to the HTML page");
+```
 
-The tricky part, though, is that you read HTML from top to bottom. So, if you put the JavaScript from above in the head as is, it won't find the span tag because it doesn't exist yet! Oh no!
+But what if there is an error? For example, what if we mispell something or we put the script tag in the wrong place?
 
-So, we have to do something like this.
+Originally we put the script tag in the head tag.
+
+### debugging
+
+However, when the web page is rendered, the HTML is read from top to bottom. So, if the JavaScript is at the top and you try to access an HTML element in the body, it won't be found.  Or if you mispell a function name, an error will occur as well.  However, web pages won't show you the error. They will just do their best to show what they can.  
+
+For example, if you were do the following.
+
+```html
+ <html>
+    <head>
+        <script>
+            document.getElementById("myTag").innerHTML = "New Text";
+        </script>
+    </head>
+    <body>
+        <span id="myTag">This is my favorite text</span>
+    </body>
+
+
+ </html>
+```
+
+This will cause an error. We can fix this error, but doing the following.
+
 
 ```html
  <html>
@@ -41,11 +70,7 @@ So, we have to do something like this.
  </html>
 ```
 
-After creating the span tag, the JavaScript code updates the text so that it says "New Text". Try it and see if you get that too.
-
-What if we make a mistake, though? Remember earlier when I said if you forget a semi-colon, things could go wrong. What if we don't get the capitalization correct or what if spell something wrong?
-
-Try that. Put this into your web page.
+However, if we type something incorrectly, like this.
 
 ```html
  <html>
@@ -58,13 +83,17 @@ Try that. Put this into your web page.
     </script>
  </html>
 ```
+We will also get an error.
 
-Open your web page. What do you see? Does it help you determine what went wrong? There is a fix for this. It's in the browser settings. To access those in Chrome, follow these steps.
+How do we fix it?
 
-1. Click on the three vertical dots in the upper right-hand corner.
+It's in the browser settings. To access those in Chrome, follow these steps.
+
+1. Click on the three vertical dots in the upper right-hand corner of the web browser.
 2. Navigate to **More Tools**->**Developer Tools**
 3. Click on the console tab. The area shows you the error and where it is in your code. Nice!
 
+### console.log
 
 We can also use another command to write to the console. It's called console.log.
 
