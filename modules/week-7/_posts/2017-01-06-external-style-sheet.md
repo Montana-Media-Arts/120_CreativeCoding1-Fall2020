@@ -8,6 +8,8 @@ jotted: true
 
 ## External Style Sheets
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SgCWkF4--t0" frameborder="0" allowfullscreen></iframe></div>
+
 The last way in which we can apply a style is through an **external** style sheet.
 
 How does it look?

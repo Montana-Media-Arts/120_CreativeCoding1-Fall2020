@@ -6,6 +6,8 @@ jotted: false
 
 # Basic Structure of CSS
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9riAPdZfid4" frameborder="0" allowfullscreen></iframe></div>
+
 In its most basic form, CSS looks like this.
 
 ![selector](../imgs/selector.gif)

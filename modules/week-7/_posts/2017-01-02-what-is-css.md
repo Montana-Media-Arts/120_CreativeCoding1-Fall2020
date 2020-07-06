@@ -6,6 +6,8 @@ jotted: false
 
 # What is CSS?
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hvp9cP_vnk4" frameborder="0" allowfullscreen></iframe></div>
+
 CSS or Cascading Style Sheets are files that work with HTML to make our pages look a little more professional.  Did you add a background color to your website?  Did you use `bgColor='blue'` or something like that?
 
 What if we wanted to do that on each of our pages?  Well, we would need to add that attribute to the body tag of each page.  No big deal, right?  What if our clients or we wanted to change that color?  Again, no big deal if we have only three pages, but what if we have 300?

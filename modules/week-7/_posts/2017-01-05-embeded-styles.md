@@ -8,6 +8,8 @@ jotted: true
 
 ## Embedded
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A68gwBljCIU" frameborder="0" allowfullscreen></iframe></div>
+
 The second way in which we can add CSS by using **embedded** styles on the page.  By having embedded styles, we apply a format to only this page.  An example might look like this.
 
 ```html
