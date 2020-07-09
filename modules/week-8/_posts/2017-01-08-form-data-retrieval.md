@@ -6,6 +6,8 @@ jotted: true
 
 # Form Data Retrieval
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nUNz4RvgZdo" frameborder="0" allowfullscreen></iframe></div>
+
 Keep in mind that although it's handy to print information to the page, it is beneficial to get information from a form. I imagine most of you have filled out web forms before. They are super fun, I know. However, most web forms use JavaScript in one way or another. So, we are going that.
 
 Let's create a form like this.
@@ -117,6 +119,4 @@ So, now that it is working, let's print out the values on the page. It looks lik
 
 All I did was add a **div** tag and then accessed its Id in JavaScript and put the name and phone number in that tag. 
 
-<a href="https://umontana.zoom.us/recording/share/Xc--4OkFbX5SudNXip4n9s4s_w58inGUq9PW6k2AOHqwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
-
-Where do we go from here? Let's create a small addition game so that we can learn about **if** statements in JavaScript.
+Where do we go from here? Let's create a small addition game to learn about **if** statements in JavaScript.

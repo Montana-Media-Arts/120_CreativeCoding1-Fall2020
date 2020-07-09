@@ -6,7 +6,9 @@ jotted: true
 
 # Variables
 
-So, you have been working with variables in all the other languages we have worked with so far. Hopefully, these won't feel scary or foreign to you now.
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9M4Q-4KxU34" frameborder="0" allowfullscreen></iframe></div>
+
+So, you have been working with variables in all the other languages with which we have worked. Hopefully, these won't feel scary or foreign to you now.
 
 What do they look like in JavaScript?
 
@@ -46,8 +48,5 @@ To use them in your HTML page, you can do something like this.
 There are three things to notice here.
 
 1. I can put the variable in the script tag inside the head tag because it is not trying to access the tag **myTag**.
-2. When I print out the variable **favoriteColor**, it has to match the capitalization precisely as it is declared, or it will not work.
+2. When I print out the variable **favoriteColor**, it has to precisely match the capitalization as it is declared or not work.
 3. To make it show up in the tag, you have to use the **+** and then put the variable name without the double-quotes **"**. The double-quotes are required if you want to print out exactly what is inside the double-quotes. In this case, we want to print out the value stored in the variable.
-
-<!-- video -->
-<a href="https://umontana.zoom.us/recording/share/2ftwL1SiCufc5jsjSce0TTbHI9cdKw8TrsD-WWTBkhewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>

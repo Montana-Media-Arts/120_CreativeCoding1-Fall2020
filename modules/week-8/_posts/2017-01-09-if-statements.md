@@ -6,6 +6,8 @@ jotted: true
 
 # If statements
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lxocm28nvwo" frameborder="0" allowfullscreen></iframe></div>
+
 Let's start with a form that is similar to what we had before. However, this time, we have two functions. **gasp**.
 
 It looks like this.
@@ -42,7 +44,7 @@ It looks like this.
  </html>
 ```
 
-Okay, so first, the onLoad calls the **printQuestion** function. Then the button click calls **checkAnswer** function, and the user's answer is printed out. Did it work for you? Good!
+Okay, so first, the onLoad calls the **printQuestion** function. Then the button click calls **checkAnswer** function and the user's answer displays. Did it work for you? Good!
 
 So, how do we know if it is correct? That is where **if** statements come in. Again, you have seen these before in other languages, but maybe not quite like this. Hopefully, you can visualize them, though. Let's change the code a bit, so it looks like this now.
 
@@ -91,7 +93,7 @@ Run this and try entering **8**. Did you get the **Good job!** message? What abo
 
 You have written an if statement in JavaScript! Good job!
 
-Let's expand on this a bit now. At the moment, it's boring because it has one question. How do we make it more dynamic?
+Let's expand on this a bit now. At the moment, it's bland because it has one question. How do we make it more dynamic?
 
 Let's create random numbers.
 
@@ -101,7 +103,7 @@ How do we do that?
  Math.floor(Math.random() * 10);
 ```
 
-Before you start breathing heavy, consider this. Math.floor means if there are any numbers after the decimal point (e.g., 3.453, round down. So, this should 3 and 3.646 will also be 3.) The Math.random() is just a function that returns a number between 0 inclusive and 1 exclusive. That means include zero in the results, and all decimal numbers up to 1, but not 1.  Another thing to notice is that it's being multiplied by 10. In programming, the `*` is the multiplication sign. So, the number returned by Math.random (something between 0 and .9999999999) is first multiplied by ten before calling Math.floor. After all that, you will get a number between 0 and 9. So, if you change the 10, you will get a number between 0, and whatever that number entered minus 1. Make sense?
+Before you start breathing heavily, consider this. Math.floor means if there are any numbers after the decimal point (e.g., 3.453, round down, so should 3 and 3.646 will also be 3.) The Math.random() is just a function that returns a number between 0 inclusive and one exclusive. That means include zero in the results, and all decimal numbers up to 1, but not 1.  Another thing to notice is that it's being multiplied by 10. In programming, the `*` is the multiplication sign. So, the number returned by Math.random (something between 0 and .9999999999) is first multiplied by ten before calling Math.floor. After all that, you will get a number between 0 and 9. If you change the 10, you will get an amount between 0 and whatever that number entered minus 1. Make sense?
 
 So, how do we apply this?
 
@@ -203,7 +205,5 @@ The code should look like this.
     </body>
  </html>
 ```
-
-<a href="https://umontana.zoom.us/recording/share/IEKX1NAVifV853DyeRcp9Rt5Wiq4LIdP-VBNJBtxkvWwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 Next, let's look at how we can do this more than once by using a for loop.

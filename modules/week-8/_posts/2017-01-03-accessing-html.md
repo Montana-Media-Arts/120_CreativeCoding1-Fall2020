@@ -6,6 +6,8 @@ jotted: true
 
 # Accessing HTML Tags
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1aQplfKL2eI" frameborder="0" allowfullscreen></iframe></div>
+
 One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example below.
 
 ### getElementById
@@ -13,7 +15,7 @@ One of the most useful things that JavaScript can do is access HTML tags and cha
 ```js
  document.getElementById("myTag").innerHTML = "New Text";
 ```
-If you were to have an HTML page like the following, the JavaScript above would change the tag that has the id "myTag".
+If you were to have an HTML page like the following, the JavaScript above would change the tag with the id "myTag".
 
 ```html
  <html>
@@ -30,15 +32,15 @@ Another way to access HTML is by using the document.write function.  It looks so
  document.write("I am being written to the HTML page");
 ```
 
-But what if there is an error? For example, what if we mispell something or we put the script tag in the wrong place?
+But what if there is an error? For example, what if we misspell something or put the script tag in the wrong place?
 
-Originally we put the script tag in the head tag.
+Initially, we put the script tag in the head tag.
 
 ### debugging
 
-However, when the web page is rendered, the HTML is read from top to bottom. So, if the JavaScript is at the top and you try to access an HTML element in the body, it won't be found.  Or if you mispell a function name, an error will occur as well.  However, web pages won't show you the error. They will just do their best to show what they can.  
+However, when the browser renders the HTML, it is read from top to bottom. So, if the JavaScript is at the top and you try to access an HTML element in the body, it won't be found.  Or, if you misspell a function name, an error will occur as well.  However, web pages won't show you the error. Browsers do their best to show what they can.  
 
-For example, if you were do the following.
+For example, if you were doing the following.
 
 ```html
  <html>
@@ -55,7 +57,7 @@ For example, if you were do the following.
  </html>
 ```
 
-This will cause an error. We can fix this error, but doing the following.
+The previous code will cause an error. We can fix this error by doing the following.
 
 
 ```html
@@ -70,7 +72,7 @@ This will cause an error. We can fix this error, but doing the following.
  </html>
 ```
 
-However, if we type something incorrectly, like this.
+However, if we mistype something like this:
 
 ```html
  <html>
@@ -111,7 +113,7 @@ Try this now.
  </html>
 ```
 
-Open your web page. It won't show anything on the page. However, if you go to the console in the Developer Tools again, you will see the message from the console.log. Console.log is an excellent way to find out what is happening in your JavaScript code.
+Open your web page. It won't show anything on the page. However, if you go to the console in the Developer Tools again, you will see the console.log message. Console.log is an excellent way to find out what is happening in your JavaScript code.
 
 Next, let's talk about variables in JavaScript.
 

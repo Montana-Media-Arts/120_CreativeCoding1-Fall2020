@@ -6,6 +6,8 @@ jotted: true
 
 # JavaScript Basics
 
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gf_fmLtMiI4" frameborder="0" allowfullscreen></iframe></div>
+
 What is JavaScript? JavaScript is the client-side programming language that allows us to provide actual functionality to our HTML sites.
 
 How is JavaScript recognized in an HTML page? We need to use `script` tags now. They look like this.
@@ -66,6 +68,3 @@ This time change your webpage so that it looks like this.
 What was different this time? Do you still see the text in the body? Why?
 
 Go onto the next section to learn about accessing HTML and making changes there.
-
-<!-- video -->
-<a href="https://umontana.zoom.us/recording/share/6dFr-xnF8-sGaodEKtbhSmUFedPM-UYgzA0BUOw5WeewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
