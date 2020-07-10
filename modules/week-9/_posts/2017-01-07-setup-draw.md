@@ -33,13 +33,13 @@ To make the canvas appear, add the createCanvas to the setup function.  It looks
 
 Why do we put the createCanvas function in the setup? We only want to create the canvas one time.
 
-Give this a try and see what it looks like.
+Give this a try and look at the result.
 
 Did you get a canvas to appear in your web browser? Good!
 
 ## function draw()
 
-What about the draw function?  What makes it so unique?  We know that setup is called only once when the script while the draw function called continuously.
+What about the draw function?  What makes it so unique?  We know that p5js calls setup only once when the script is run and calls the draw function continuously.
 
 What have we seen so far? We have done this.
 
@@ -63,7 +63,5 @@ function draw()
 Open your Developer Options and see what it says in the console?
 
 What did you see?
-
-<a href="https://umontana.zoom.us/recording/share/e-mXzteNjuEYz2qzMIVSFjwrqsK4ROlBOnYvfhWc7XCwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
 
 Now, let's do something fun on the screen.

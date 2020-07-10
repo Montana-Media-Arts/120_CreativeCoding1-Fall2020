@@ -10,4 +10,4 @@ Great job getting all of this implemented! I hope it wasn't too bad and maybe ev
 
 If you need more help, please refer to their reference. It helps for sure.
 
-[p5.js Reference](https://p5js.org/reference/)
+<a href="https://p5js.org/reference/" target="_new">p5.js Reference</a>

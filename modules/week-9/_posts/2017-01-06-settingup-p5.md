@@ -14,7 +14,7 @@ The first way is by using the web editor on the p5js.org website.  Look for the 
 
 ![Start Creating](../imgs/start.png "Start Creating")
 
-Then, you can create sketches directly on the web, which is fantastic!  However, you need to be online for this to work.
+Then, you can create sketches directly on the web, which is fantastic!  However, it would help if you were online for this to work.
 
 Here is an image of the Editor.
 
@@ -53,7 +53,7 @@ How does this work on an HTML page?
 </html>
 ```
 
-Now, you may be saying, wait...from where did that sketch.js file come? And where is it located?
+Now, you may be saying, wait, from where did that sketch.js file come? And where is it located?
 
 Here's the deal.  The sketch.js file is your file and located in the same directory or folder as our HTML page.  It allows us to put all our p5.js code in a file we create, and then we don't have to change our HTML page again.  It just makes things a little cleaner to read.
 
@@ -90,5 +90,3 @@ You have a couple of options, but if you right-click and download the p5.js or p
 ```
 
 Where do we go from here? Now that we have our initial set up done, we can focus on the setup and the draw.
-
-<a href="https://umontana.zoom.us/recording/share/Kx1pA-e-otIR5mLK84elvqS9mAD7yLHP-JtDf-Qoax6wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
