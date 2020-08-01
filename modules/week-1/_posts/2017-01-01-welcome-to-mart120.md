@@ -8,6 +8,22 @@ module: 1
 <a href="https://www.youtube.com/embed/qXGofNmqSS0"  class="html5lightbox">Test</a>
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qXGofNmqSS0" frameborder="0" allowfullscreen></iframe></div>
 
+
+
+<div id="mydiv" style="display:none;">
+  <div class="lightboxcontainer">
+	<div class="lightboxleft">
+	  <div class="divtext">
+		<p class="divtitle" style="font-size:16px;font-weight:bold;margin:12px 0px;">WonderPlugin Gallery</p>
+		<p class="divdescription" style="font-size:14px;line-height:20px;">WonderPlugin Gallery is a WordPress photo and video gallery plugin, and a great way to showcase your images and videos online. The plugin supports images, YouTube, Vimeo, Dailymotion, mp4 and webm videos. It's fully responsive, works on iPhone, iPad, Android, Firefox, Chrome, Safari, Opera and Internet Explorer 7/8/9/10/11.</p>
+	  </div>
+	</div>
+	<div class="lightboxright">
+	  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wswxQ3mhwqQ" frameborder="0" allowfullscreen></iframe>
+	</div>
+	<div style="clear:both;"></div>
+</div></div>
+
 ## Overview of the Course
 
 This course teaches coding in an introductory manner so that it can become a tool for art, creativity, and fun.
