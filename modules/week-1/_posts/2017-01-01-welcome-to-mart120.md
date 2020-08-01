@@ -3,11 +3,11 @@ title: Course Introduction
 module: 1
 ---
 
-## Week 1 Welcome to MART 120 Creative Coding 1
+## Welcome to MART 120 Creative Coding 1
 
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" style="display:block" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Expect')">What to Expect</button>
   <button class="tablinks" onclick="openTab(event, 'Goals')">Goals</button>
   <button class="tablinks" onclick="openTab(event, 'Week')">Rest of the Week</button>
@@ -16,9 +16,11 @@ module: 1
 
 <!-- Tab content -->
 <div id="Overview" class="tabcontent">
-<h3> Overview of the Course</h3>
 
+<h3> Overview of the Course</h3>
+<P>
 <a href="//www.youtube.com/embed/qXGofNmqSS0" data-lity>MART 120 Overview Video</a>
+</p>
 <p>
 This course teaches coding in an introductory manner so that it can become a tool for art, creativity, and fun.
 </p>
@@ -53,15 +55,19 @@ There are four high-level goals for this course;
 <li> Adapt to continually changing technological paradigms by learning how to learn. (Skills acquisition.)</li>
 <li> Combine technical and artistic practices through inquiry and iteration.</li>
 <li> Adopt and use professional methods.</li>
+</ol>
 </div>
 
 <div id="Week" class="tabcontent">
-# Overview the Rest of This Week
 
+<h3>Overview the Rest of This Week</h3>
+<p>
 The rest of this week will introduce the following;
-
-- Information about instructors
-- The Syllabus
-- What is computational media?
-- GitHub accounts and issues forum  
+</p>
+<ul>
+<li> Information about instructors</li>
+<li> The Syllabus</li>
+<li> What is computational media?</li>
+<li> GitHub accounts and issues forum </li>
+</ul>
 </div>
