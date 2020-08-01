@@ -7,7 +7,7 @@ module: 1
 
 
 <div class="tab">
-  <button class="tablinks" style="display:block" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Expect')">What to Expect</button>
   <button class="tablinks" onclick="openTab(event, 'Goals')">Goals</button>
   <button class="tablinks" onclick="openTab(event, 'Week')">Rest of the Week</button>
@@ -15,8 +15,7 @@ module: 1
 </div>
 
 <!-- Tab content -->
-<div id="Overview" class="tabcontent">
-
+<div id="Overview" class="tabcontent" style="display:block">
 <h3> Overview of the Course</h3>
 <P>
 <a href="//www.youtube.com/embed/qXGofNmqSS0" data-lity>MART 120 Overview Video</a>
