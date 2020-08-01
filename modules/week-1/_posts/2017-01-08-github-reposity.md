@@ -7,7 +7,7 @@ module: 1
 
 # _Issues Forum_ and Notifications from GitHub.com
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jmwObsKJ3A4" frameborder="0" allowfullscreen></iframe></div>
+<a href="//www.youtube.com/embed/jmwObsKJ3A4" data-lity>Issues Forum and Notifications Video</a>
 
 This class is heavily utilizing [GitHub.com](https://github.com). Not only is this service where you will host your git repo's and live websites, but this content site lives in GitHub, and there is a "resources" repo for this site that contains;
 
@@ -49,7 +49,7 @@ NOTE: You should not repeat a comment that has already been added by anyone from
 
 # Create your own GitHub repository
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/FV4j1YkNSlo" frameborder="0" allowfullscreen></iframe></div>
+<a href="//www.youtube.com/embed/FV4j1YkNSlo" data-lity>Create Repository Video</a>
 
 You want to create your repository if you don't have one. 
 1. Go to ([GitHub](https://github.com))
@@ -58,7 +58,7 @@ You want to create your repository if you don't have one.
 
 # GitHub Desktop
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kNPGX-YDvw8" frameborder="0" allowfullscreen></iframe></div>
+<a href="//www.youtube.com/embed/kNPGX-YDvw8" data-lity>GitHub Desktop Video</a>
 
 GitHub Desktop is a graphical interface to make a copy of your repository on your computer.  Then, you can make changes to your work and then quickly post it back to your repository.  Or if you heaven forbid something happens to your computer [trust me, it happens], then you have a backup.
 

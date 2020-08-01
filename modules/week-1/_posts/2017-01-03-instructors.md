@@ -10,8 +10,7 @@ Quick links, including email links, office hours, and lab hours, are all availab
 
 What follows is a more detailed introduction to the people delivering this class to you this semester. We are a team and will be working together to provide this experience to you.
 
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oBF8X8CdVVU" frameborder="0" allowfullscreen></iframe></div>
+<a href="//www.youtube.com/embed/oBF8X8CdVVU" data-lity>Instructor Video</a>
 
 ## Michael Cassens
 

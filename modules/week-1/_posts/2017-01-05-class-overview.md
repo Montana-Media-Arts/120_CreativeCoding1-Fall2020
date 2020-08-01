@@ -8,7 +8,7 @@ module: 1
 # Description of the Course
 
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jFiKjke1jx8" frameborder="0" allowfullscreen></iframe></div>
+<a href="//www.youtube.com/embed/jFiKjke1jx8" data-lity>Description of the Course Video</a>
 
 Now that you have gone through the syllabus and its technical details and policies, let's talk about how this course will look.
 

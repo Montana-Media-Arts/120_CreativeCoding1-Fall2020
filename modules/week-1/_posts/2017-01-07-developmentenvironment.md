@@ -5,7 +5,7 @@ module: 1
 
 # Your Development Environment
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Jian1ilJwBs" frameborder="0" allowfullscreen></iframe></div>
+<a href="//www.youtube.com/embed/Jian1ilJwBs" data-lity>Development Environment Video</a>
 
 As a creative technologist and developer, you will need to take control of your computer. You should start to consider your computer as an instrument or an innovative tool that serves as an extension of yourself.
 
@@ -51,7 +51,7 @@ So, now what about the Command-line interface? If you are interested, this next 
 
 ## Command-line interface (CLI)
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/R_wj7DrD_g0" frameborder="0" allowfullscreen></iframe></div>
+<a href="//www.youtube.com/embed/R_wj7DrD_g0" data-lity>Command-line Interface Video</a>
 
 One of the most basic ways of working with your computer is through a [command-line interface (CLI)](https://en.wikipedia.org/wiki/Command-line_interface).
 
