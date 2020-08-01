@@ -24,9 +24,7 @@ module: 1
 	<div style="clear:both;"></div>
 </div></div>
 
-
-<a href="#mydiv" class="html5lightbox" data-width=800 data-height=400 title="Inline Div">Open a Div in Lightbox</a>
-
+<a href="#mydiv" class="html5lightbox" data-width="800" data-height="400" title="Inline Div">Open a Div in Lightbox</a>
 
 ## Overview of the Course
 
