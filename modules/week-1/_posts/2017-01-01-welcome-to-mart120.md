@@ -5,23 +5,11 @@ module: 1
 
 # Week 1<br />Welcome to Creative Coding 1<br />(MART 120)
 
-<a href="https://www.youtube.com/embed/qXGofNmqSS0"  class="html5lightbox">Test</a>
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qXGofNmqSS0" frameborder="0" allowfullscreen></iframe></div>
 
+<a href="//www.youtube.com/embed/qXGofNmqSS0" data-lity>MART 120 Overview Video/a>
 
-<div id="mydiv" style="display:none;">
-  <div class="lightboxcontainer">
-	<div class="lightboxleft">
-	  <div class="divtext">
-	  </div>
-	</div>
-	<div class="lightboxright">
-	  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qXGofNmqSS0" frameborder="0" allowfullscreen></iframe>
-	</div>
-	<div style="clear:both;"></div>
-</div></div>
 
-<a href="#mydiv" class="html5lightbox" data-width="800" data-height="400" title="MART 120 Overview Video">Watch the Overview Video</a>
 
 ## Overview of the Course
 
