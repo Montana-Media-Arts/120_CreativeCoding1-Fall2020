@@ -7,7 +7,7 @@ module: 1
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qXGofNmqSS0" frameborder="0" allowfullscreen></iframe></div>
 
-<a href="//www.youtube.com/embed/qXGofNmqSS0" data-lity>MART 120 Overview Video/a>
+<a href="//www.youtube.com/embed/qXGofNmqSS0" data-lity>MART 120 Overview Video</a>
 
 
 
@@ -15,7 +15,7 @@ module: 1
 
 This course teaches coding in an introductory manner so that it can become a tool for art, creativity, and fun.
 
-The goal is to begin a journey in which you use the computer to expand your creative and technical possibilities.  I want your computer to be another tool in your creative palate. These tools will become an extension of you, something you think through, express yourself through, and can contribute to the world through. Ultimately, the course design offers you a deeper understanding of the essential possibilities of computation.
+The goal is to begin a journey in which you use the computer to expand your creative and technical possibilities.  I want your computer to be another tool in your creative palate. These tools will become an extension of you, something you think through, express yourself through, and can contribute to the world through. <, the course design offers you a deeper understanding of the essential possibilities of computation.
 
 The course focuses on the fundamentals of programming the computer (variables, conditionals, iteration, functions, and objects) while also touching on a few advanced topics and relating this all to the creative and expressive possibilities of media art and the beginning of game design and programming. We start by using several "visually-based" programming languages, and then we will transition into a JavaScript-based, 'p5.js', programming framework. The course concludes with your design, development, and implementation of a final project of your choosing.
 
