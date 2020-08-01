@@ -7,13 +7,18 @@ module: 1
 
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Overview')"  id="defaultOpen">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Overview')" id="defaultOpen">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Expect')">What to Expect</button>
   <button class="tablinks" onclick="openTab(event, 'Goals')">Goals</button>
   <button class="tablinks" onclick="openTab(event, 'Week')">Rest of the Week</button>
   
 </div>
 
+<script>
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+</script>
+	
 <!-- Tab content -->
 <div id="Overview" class="tabcontent">
 <h3> Overview of the Course</h3>
