@@ -15,7 +15,6 @@ module: 1
 
 <!-- Tab content -->
 <div id="Overview" class="tabcontent" style="display:block">
-<h3> Overview of the Course</h3>
 <p><a href="//www.youtube.com/embed/qXGofNmqSS0" data-lity>MART 120 Overview Video</a></p>
 <p>This course teaches coding in an introductory manner so that it can become a tool for art, creativity, and fun.</p>
 <p>The goal is to begin a journey in which you use the computer to expand your creative and technical possibilities.  I want your computer to be another tool in your creative palate. These tools will become an extension of you, something you think through, express yourself through, and can contribute to the world through. <, the course design offers you a deeper understanding of the essential possibilities of computation.</p>
@@ -24,13 +23,11 @@ module: 1
 </div>
 
 <div id="Expect" class="tabcontent">
-<h3> What to Expect</h3>
 <p>This course will expose you to new technologies while also thinking about design and content creation. Some weeks will lean more technical, while others will lean more creative-based.</p>
 <p>Just as the content focus will shift, so to will the work amount. Some weeks, especially those when introducing new topics, might feel a little heavier. However, I want you to have a chance to practice with these new technologies and techniques, so you feel comfortable with them. Some weeks will hopefully feel as if you are exploring and playing a little more.</p>
 </div>
 
 <div id="Goals" class="tabcontent">
-<h3>Class Goals</h3>
 <p>There are four high-level goals for this course</p>
 <ol>
 <li> Learn how to problem-solve. (More specifically, how to break a problem down into sub-problems that are easier to solve by themselves)</li>
@@ -41,7 +38,6 @@ module: 1
 </div>
 
 <div id="Week" class="tabcontent">
-<h3>Overview the Rest of This Week</h3>
 <p>The rest of this week will introduce the following;</p>
 <ul>
 <li> Information about instructors</li>
