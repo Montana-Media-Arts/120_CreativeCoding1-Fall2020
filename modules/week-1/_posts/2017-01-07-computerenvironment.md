@@ -91,7 +91,7 @@ module: 1
 
 <h4>Windows</h4>
 
-<p>Windows users have a couple of options when it comes to CLI. Traditionally, Windows has utilized a program known as Command Prompt for decades. This program is a relative of MS-DOS, an old operating system, and a precursor to Windows. In recent years there has been a move within the development community towards Window's newer PowerShell CLI. However, there is also a step towards a Bash-like or pure Bash (the Linux and macOS CLI) program for windows.<p>
+<p>Windows users have a couple of options when it comes to CLI. Traditionally, Windows has utilized a program known as Command Prompt for decades. This program is a relative of MS-DOS, an old operating system, and a precursor to Windows. In recent years there has been a move within the development community towards Window's newer PowerShell CLI. However, there is also a step towards a Bash-like or pure Bash (the Linux and macOS CLI) program for windows.</p>
 
 <p>I am going to suggest you utilize the last of these options. Unfortunately, a Bash shell does not exist by default on Windows yet. You have two options to get one.</p>
 <ol>
