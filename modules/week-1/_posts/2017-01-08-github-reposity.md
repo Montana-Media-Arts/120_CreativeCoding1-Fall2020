@@ -67,7 +67,7 @@ module: 1
 
 <p>You want to create your repository if you don't have one. </p>
 <ol>
-<li>Go to ([GitHub](https://github.com))</li>
+<li>Go to <a href="https://github.com" target="_new">GitHub</a></li>
 <li>Create an account by clicking Sign up for GitHub.</li>
 <li>View your repositories.</li>
 </ol>
