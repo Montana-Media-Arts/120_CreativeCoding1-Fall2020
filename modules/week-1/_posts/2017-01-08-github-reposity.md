@@ -85,6 +85,6 @@ module: 1
 <li>Go to your repository and click on the clone or download button.</li>
 <li>Click on Open in Desktop.</li>
 <li>Create a clone on your computer.</li>
-<li>Remember to pull first **always** and then push.</li>
+<li>Remember to pull first <b>always</b> and then push.</li>
 </ol>
 </div>
