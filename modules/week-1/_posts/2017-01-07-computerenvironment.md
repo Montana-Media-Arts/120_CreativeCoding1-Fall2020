@@ -69,7 +69,7 @@ module: 1
 <p><a href="//www.youtube.com/embed/R_wj7DrD_g0" data-lity>Command-line Interface Video</a></p>
 <p>One of the most basic ways of working with your computer is through a <a href="https://en.wikipedia.org/wiki/Command-line_interface" target="_new">command-line interface (CLI)</a>.</p>
 
-<p><img src="../imgs/Screen1.png" alt="example image of terminal.app"></p>
+<p><img src="../imgs/Screen1.png" alt="example image of terminal.app" /></p>
 
 <p>Although such programs can appear intimidating to a beginner user, these command-line programs remove are simple applications that allow for full control of the OS. These programs will enable a user to accomplish many of that same tasks that they are used to completing with a mouse through text-only commands. One reason to use such a program is to speed up the development process and display more information than is typical of a traditional "graphical user interface" (GUI; pronounced 'gooey') based environment.</p>
 
@@ -111,11 +111,11 @@ module: 1
 
 <p>After downloading the program, right-click the install executable and select "Run as Administrator." (<strong>THIS IS IMPORTANT</strong> You must run as administrator to give Git Bash necessary permissions.)</p>
 
-<p><img src="../imgs/install-git-windows.png" alt="Install Git as Administrator"></p>
+<p><img src="../imgs/install-git-windows.png" alt="Install Git as Administrator" /></p>
 
 <p>This file installs a program known as "Git," along with one called "Git Bash." You can now open "Git Bash".</p>
 
-<p><img src="../imgs/Screen2.png" alt="Git Bash"></p>
+<p><img src="../imgs/Screen2.png" alt="Git Bash" /></p>
 
 <p>After installing either "Windows Subsystem for Linux" or "Git Bash", you should work through the <a href="http://unixmages.com/wp-content/uploads/2018/12/ufbm.pdf" target="_new">Unix for the Beginning Mage</a> book.</p>
 
