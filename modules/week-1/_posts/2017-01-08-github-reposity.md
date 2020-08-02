@@ -86,4 +86,5 @@ module: 1
 <li>Click on Open in Desktop.</li>
 <li>Create a clone on your computer.</li>
 <li>Remember to pull first **always** and then push.</li>
+</ol>
 </div>
