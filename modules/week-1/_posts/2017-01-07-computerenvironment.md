@@ -1,9 +1,9 @@
 ---
-title: Development Environment
+title: Computer Environment
 module: 1
 ---
 
-# Your Development Environment
+# Your Computer Environment
 
 <div class="tab">
   <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
@@ -16,7 +16,7 @@ module: 1
 </div>
 
 <div id="Overview" class="tabcontent" style="display:block">
-<p><a href="//www.youtube.com/embed/Jian1ilJwBs" data-lity>Development Environment Video</a></p>
+<p><a href="//www.youtube.com/embed/Jian1ilJwBs" data-lity>Computer Environment Video</a></p>
 <p>As a creative technologist and developer, you will need to take control of your computer. You should start to consider your computer as an instrument or an innovative tool that serves as an extension of yourself.</p>
 <p>To be effective, you need to be comfortable with your computer and <b>know</b> your computer.</p>
 <p>There are two different ways to find things on your computer.</p>
@@ -55,7 +55,7 @@ module: 1
 <ol>
 <li>Right-click and choose <b>New Folder</b>.</li>  
 <li>Rename the folder <b>MART 120</b>.  </li>
-<li>Inside that folder, create a new folder called <b>My Best Folder<b>.  </li>
+<li>Inside that folder, create a new folder called <b>My Best Folder</b>.  </li>
 <li>Inside of that folder, create a new file by opening <b>TextEdit</b> on a Mac or <b>Notepad</b> on Windows and place your name in it.  </li>
 <li><b>Save</b> the file and close it.</li>
 </ol>
