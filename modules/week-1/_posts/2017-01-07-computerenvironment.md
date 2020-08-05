@@ -6,7 +6,7 @@ module: 1
 # Your Computer Environment
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'GUI')">Graphical User Interface</button>
   <button class="tablinks" onclick="openTab(event, 'ToDoGUI')">To Do</button>
   <button class="tablinks" onclick="openTab(event, 'CLI')">Command Line Interface</button>

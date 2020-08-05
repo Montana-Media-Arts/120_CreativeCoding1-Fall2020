@@ -12,7 +12,7 @@ module: 1
 Now that you have gone through the syllabus and its technical details and policies, let's talk about how this course will look.
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Text')">Text & Reading</button>
+  <button class="tablinks active" onclick="openTab(event, 'Text')">Text & Reading</button>
   <button class="tablinks" onclick="openTab(event, 'Code')">Code Examples</button>
   <button class="tablinks" onclick="openTab(event, 'Videos')">Videos</button>
   <button class="tablinks" onclick="openTab(event, 'Pace')">Pace</button>

@@ -7,7 +7,7 @@ module: 1
 # _Issues Forum_ and Notifications from GitHub.com
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
   <button class="tablinks" onclick="openTab(event, 'Watch')">Watch and Star</button>
   <button class="tablinks" onclick="openTab(event, 'Issues')">Issues</button>
   <button class="tablinks" onclick="openTab(event, 'Create')">Create Repository</button>

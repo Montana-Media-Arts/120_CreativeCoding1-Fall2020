@@ -7,7 +7,7 @@ jotted: false
 # Instructor Information
 
 <div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Quick')">Quick Links</button>
+  <button class="tablinks active" onclick="openTab(event, 'Quick')">Quick Links</button>
   <button class="tablinks" onclick="openTab(event, 'Michael')">Michael Cassens</button>
   <button class="tablinks" onclick="openTab(event, 'Bio')">Bio</button>
 </div>
