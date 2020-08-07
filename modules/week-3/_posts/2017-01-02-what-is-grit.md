@@ -18,8 +18,6 @@ module: 3
 
 </div>
 
-## What is Grit?
-
 <div id="TED" class="tabcontent">
 
 <p>Here is Dr. Duckworth's TED talk.</p>
