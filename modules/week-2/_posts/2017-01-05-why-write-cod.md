@@ -24,7 +24,7 @@ module: 2
 <p>The following video discusses why we should write code.</p>
 
 <p><a href="//www.youtube.com/embed/mFPg96gdPkc" data-lity>Why Learn Code Video</a></p>
-
+</div>
 
 <div id="Impact" class="tabcontent">
 <p>This video shows us how code can and will impact our world.  How do you see yourself changing the world?</p>
