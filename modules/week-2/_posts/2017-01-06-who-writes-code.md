@@ -22,7 +22,7 @@ module: 2
 <p><a href="//www.youtube.com/embed/6cKaok1F1P0" data-lity>Immersion Video</a></p>
 </div>
 
-<div id="Immerse" class="tabcontent">
+<div id="Instagram" class="tabcontent">
 <p>Here is a young woman from Instagram who shares her story too.</p>
 
 <p><a href="//www.youtube.com/embed/elaR3WhguVk" data-lity>Instagram Video</a></p>
