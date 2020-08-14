@@ -24,7 +24,7 @@ jotted: true
 
 </div>
 
-<div id="StyleSheet" class="tabcontent">
+<div id="Stylesheet" class="tabcontent">
 
 <p>How does the stylesheet look?</p>
 
