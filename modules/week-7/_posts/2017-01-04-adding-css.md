@@ -15,8 +15,6 @@ jotted: true
 <!-- Tab content -->
 <div id="Overview" class="tabcontent" style="display:block">
 
-<p><a href="//www.youtube.com/embed/ZJxsUddqZrw" data-lity>Adding CSS Video</a></p>
-
 <p>There are three ways in which we can add CSS to an HTML page.</p>
 <ol>
 <li>Inline</li>
@@ -26,6 +24,8 @@ jotted: true
 </div>
 
 <div id="Inline" class="tabcontent">
+
+<p><a href="//www.youtube.com/embed/ZJxsUddqZrw" data-lity>Inline CSS Video</a></p>
 
 <p><b>Inline</b> styles are applied directly to the tag as another attribute.  Below is an example.</p>
 
