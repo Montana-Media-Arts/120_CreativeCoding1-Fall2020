@@ -186,7 +186,7 @@ There are so many more math functions at your disposal in p5.js.  Here is the li
 </div>
 </div>
 
-<div id="References" class="tabcontent">
+<div id="Reference" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
 
