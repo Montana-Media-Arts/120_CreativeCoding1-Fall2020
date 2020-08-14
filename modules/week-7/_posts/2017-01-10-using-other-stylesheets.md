@@ -17,11 +17,12 @@ jotted: true
 
 <p><a href="//www.youtube.com/embed/qu0rslp1jho" data-lity> Using Other Stylesheets Video</a></p>
 
-There are some popular stylesheets out there. One of the most popular is Bootstrap.  To use it, we have a couple of options. We have two options.
+<p>There are some popular stylesheets out there. One of the most popular is Bootstrap.  To use it, we have a couple of options. We have two options.</p>
 
-1. Use a CDN
-2. Download a local copy and reference the local copy.
-
+<ol>
+<li>Use a CDN</li>
+<li>Download a local copy and reference the local copy.</li>
+</ol>
 </div>
 
 <div id="CDN" class="tabcontent">
