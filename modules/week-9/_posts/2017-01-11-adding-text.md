@@ -32,7 +32,7 @@ This prints the words **Hello there!** to the screen at location x-location 10 a
 
 </div>
 </div>
-<div id="Size" class="tabcontent" style="display:block">
+<div id="Size" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
 
