@@ -7,11 +7,12 @@ jotted: true
 # If statements
 
 <div class="tab">
-  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-   <button class="tablinks" onclick="openTab(event, 'Step1')">Step 1</button>
-   <button class="tablinks" onclick="openTab(event, 'Step2')">Step 2</button>
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Step1')">Step 1</button>
+    <button class="tablinks" onclick="openTab(event, 'Step2')">Step 2</button>
     <button class="tablinks" onclick="openTab(event, 'Step3')">Step 3</button>
-    
+    <button class="tablinks" onclick="openTab(event, 'Step4')">Step 4</button>
+    <button class="tablinks" onclick="openTab(event, 'Step5')">Step 5</button>
 </div>
 <!-- Tab content -->
 <div id="Overview" class="tabcontent" style="display:block">
