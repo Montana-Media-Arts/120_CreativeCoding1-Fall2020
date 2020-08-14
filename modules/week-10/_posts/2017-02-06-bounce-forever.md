@@ -6,8 +6,24 @@ jotted: true
 
 # Bounce Forever
 
-We made the circles come back from the right side, but what if we want them to continue forever?  We have to make the circle switch directions when it hits the left side.
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Step1')">Step 1</button>
+    <button class="tablinks" onclick="openTab(event, 'Step2')">Step 2</button>
+    <button class="tablinks" onclick="openTab(event, 'Step3')">Step 3</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
 
+<div class="tabhtml" markdown="1">
+
+We made the circles come back from the right side, but what if we want them to continue forever?  We have to make the circle switch directions when it hits the left side.
+</div>
+</div>
+
+<div id="Step1" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 Let's start where we left off.
 
 ```js
@@ -47,6 +63,11 @@ function draw()
 ```
 
 What is the condition for which we want to check?  It should be when we are less than or equal to zero.  Why?  That is our left side.  What?!!
+</div>
+</div>
+<div id="Step2" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 So, we could do what we did before.
 
@@ -90,6 +111,11 @@ function draw()
 ```
 
 Does it work?  Yeah!  Wait, though. Something feels a little off.  See how there is a duplicated section of code?  We don't want that.  How do we make that better?
+</div>
+</div>
+<div id="Step3" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 We are going to introduce what is called **Logical Operators**.  There are three of them, **AND**, **OR**, and **NOT**.  In code, they look like this **&&** for AND, **||** for OR and **!** for NOT. Remember NOT?  We did that earlier. Yes!
 
@@ -138,5 +164,5 @@ If you look at the if statement with the OR symbol in it, only one of those cond
 The circles should go back and forth forever.  If you want only the edge of the circles to hit the screen border, change the if statement.  Do you think you can figure that part out?  I think you can!
 
 What math functions are out there that we can use?  Continue and find out!
-
-<a href="https://umontana.zoom.us/recording/share/Gddq7erkBqJkDnf-JGj7jk-JOI6lmHZt3FBR0NOGdqKwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
