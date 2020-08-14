@@ -25,7 +25,6 @@ Keep in mind that although it's handy to print information to the page, it is be
 
 <div class="tabhtml" markdown="1">
 
-
 Let's create a form like this.
 
 ```html
@@ -111,7 +110,6 @@ I did it because then we know we are getting the correct data before we write mo
 <div id="Step3" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
-
 
 So, now that it is working, let's print out the values on the page. It looks like this.
 
