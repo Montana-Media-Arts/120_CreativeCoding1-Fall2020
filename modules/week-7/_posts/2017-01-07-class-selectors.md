@@ -63,7 +63,7 @@ Here's an example of an HTML page.
 
 </div>
 
-<p>Notice in this example, the CSS has the name <b>.blueColor</b>.  The blueColor class identifier applies the blue color, changes the font type, and the size of the <b.>span</b> tag and an <b>a</b> (anchor) tag.  They both turned blue while the other span tag without the class name did not.</p>
+<p>Notice in this example, the CSS has the name <b>.blueColor</b>.  The blueColor class identifier applies the blue color, changes the font type, and the size of the <b>span</b> tag and an <b>a</b> (anchor) tag.  They both turned blue while the other span tag without the class name did not.</p>
 
 <p>We can get even more specific by doing something like this.</p>
 
