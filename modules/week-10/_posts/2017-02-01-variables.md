@@ -6,9 +6,28 @@ jotted: true
 
 # Variables
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Example')">Variable Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Display')">Display Variable</button>
+    <button class="tablinks" onclick="openTab(event, 'Increment')">Increment Variables</button>
+    <button class="tablinks" onclick="openTab(event, 'Scope')">Variable Scope</button>
+    <button class="tablinks" onclick="openTab(event, 'Type')">Variable Types</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 Wait a minute; we have already done this, right?  Yes! We did this in JavaScript.  Since p5.js is just a JavaScript library, we can create variables just the same.
 
-For example, they might look like this.
+</div>
+</div>
+
+<div id="Example" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+For example, p5.js variables might look like this.
 
 ```js
     var myFavoriteNumber = 42;
@@ -27,7 +46,14 @@ For example, they might look like this.
     }
 ```
 
-What do you see?  Well, you won't see anything on the screen, but you will see the number in your console down below.
+What do you see?  Well, you won't see anything on the screen, but you will see the number in your console of the browser.
+
+</div>
+</div>
+
+<div id="Display" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 What if we want to do something with our variables?  We can add to our variables like this.
 
@@ -49,7 +75,17 @@ What if we want to do something with our variables?  We can add to our variables
     }
 ```
 
-Did you notice the change to **myFavoriteNumber**?  It gets incremented by 1.  It can be written like this too.
+Did you notice the change to **myFavoriteNumber**?  It gets incremented by 1.  
+
+</div>
+</div>
+
+<div id="Increment" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
+
+It can be written like this too.
 
 ```js
     myFavoriteNumber = myFavoriteNumber + 1;
@@ -65,7 +101,13 @@ They both mean the same thing. First, the value of one gets added to the previou
 
 They all mean the same thing.  Keep in mind that **myFavoriteNumber++** only happens when incrementing by 1.  If you want to increase by another number, you can only use the latter two.
 
-## Scope
+</div>
+</div>
+
+<div id="Scope" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
 Another thing to notice is how I declare **var myFavoriteNumber** above the setup() function.  That means it can be seen in the setup and draw functions as well as any other methods that we might define.
 
 Declaring a variable inside of a method looks like this.
@@ -91,6 +133,13 @@ You can also declare variables in loops like this.
 ```
 
 What this means is that the variable **i** will exist in the for loop, but when it terminates, the variable goes away.
+
+</div>
+</div>
+
+<div id="Type" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 Did you notice the difference between creating a variable like myFavoriteNumber compared to myFavoriteColor?  The first one contains a number while the second contains a string.  These differences are important to understand.  When declaring a number, you do not need double-quotes **""**. Conversely, if you declare a string, it needs to be in double-quotes.
 
@@ -149,4 +198,5 @@ function draw()
 
 Did you see something change?  Cool huh?  Let's continue.
 
-<a href="https://umontana.zoom.us/recording/share/PZlDzWSN5QEWJeGrbYz1XnZTPBFOlfmqgQ-wc2bN3XSwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
