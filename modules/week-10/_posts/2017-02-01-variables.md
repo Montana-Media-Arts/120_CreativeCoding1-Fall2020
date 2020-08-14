@@ -13,6 +13,7 @@ jotted: true
     <button class="tablinks" onclick="openTab(event, 'Increment')">Increment Variables</button>
     <button class="tablinks" onclick="openTab(event, 'Scope')">Variable Scope</button>
     <button class="tablinks" onclick="openTab(event, 'Type')">Variable Types</button>
+    <button class="tablinks" onclick="openTab(event, 'Final')">Final Result</button>
 </div>
 <!-- Tab content -->
 <div id="Overview" class="tabcontent" style="display:block">
@@ -148,6 +149,11 @@ Did you notice the difference between creating a variable like myFavoriteNumber 
     var age = 67;
 ```
 
+</div>
+</div>
+<div id="Final" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 What would a variable look like in our main sketch?
 
 ```js
