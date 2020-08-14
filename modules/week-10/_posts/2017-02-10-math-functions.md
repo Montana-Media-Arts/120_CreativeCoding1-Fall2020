@@ -6,11 +6,28 @@ jotted: false
 
 # Math functions
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Explain')">Explanation</button>
+    <button class="tablinks" onclick="openTab(event, 'Example')">Example with Random</button>
+    <button class="tablinks" onclick="openTab(event, 'Speed')">Add Speed</button>
+    <button class="tablinks" onclick="openTab(event, 'Reference')">Reference</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 So, what is the Math function that we used before?  Random right?  When we wanted a random number, it looked like this.
 
 ```js
     number1 = Math.floor(Math.random() * 10);
 ```
+</div>
+</div>
+<div id="Explain" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 Remember, the Math.random() returns a number between 0 inclusive and 1 exclusive. That means that it goes all way up to .99999999 but never gets to 1.  That is why we multiply it by some number and then use another Math function called floor, which returns the largest integer that is less than or equal to the number returned.  
 
@@ -31,6 +48,13 @@ If you the following.
 You will also see 3.
 
 So, we are getting a random number between 0 and 1 multiplying the number by ten, and then we get the floor to return an integer that will become our random number.
+
+</div>
+</div>
+
+<div id="Example" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 How can we use it in our previous code?
 
@@ -112,6 +136,12 @@ function draw()
 
 Now, movement will be a variable speed.  Refresh the page a few times and see if the circles move at different speeds.  It returns speeds between 0 and 9 because Math.random could return 0.  Then, if we multiply by 10, it will still be zero.  Then, if we take the floor of that, it will always be zero. Uh oh. What if I want to have at least some speed?
 
+</div>
+</div>
+<div id="Speed" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
 Let's change our code one more time.
 
 ```js
@@ -153,9 +183,16 @@ function draw()
 If you look at our random statement, I now add at least 1 to it.  So, if I get a zero, it will be assigned a 1, and now our range is between 1 and 10.  Try and see if it works!
 
 There are so many more math functions at your disposal in p5.js.  Here is the link to them.  Try them out.
+</div>
+</div>
+
+<div id="References" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
 
 [p5.js Math Functions](https://p5js.org/reference/#group-Math)
 
 With that, let's talk about homework for this week.
-
-<a href="https://umontana.zoom.us/recording/share/Ss_9X2CXNK1Ug4dbmwa6K67HwhL1yw5TKFFJ9yxZrlqwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
