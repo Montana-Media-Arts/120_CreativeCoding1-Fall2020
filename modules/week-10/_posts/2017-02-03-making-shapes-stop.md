@@ -6,6 +6,18 @@ jotted: true
 
 # Making Shapes Stop
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Step1')">Step 1</button>
+    <button class="tablinks" onclick="openTab(event, 'Step2')">Step 2</button>
+    <button class="tablinks" onclick="openTab(event, 'Step3')">Step 3</button>
+    <button class="tablinks" onclick="openTab(event, 'Step4')">Step 4</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 Last time, we left off with this.
 
 ```js
@@ -38,7 +50,11 @@ function draw()
 ```
 
 Now, we have to make the shapes stop.  But how?
+</div>
+</div>
+<div id="Step1" class="tabcontent">
 
+<div class="tabhtml" markdown="1">
 This where we come back to our **conditional** statements.
 
 What was the one that we used the most in our math game? I hope you don't have bad dreams about that still.
@@ -84,7 +100,12 @@ function draw()
 ```
 
 What happened above? I created an if statement and said if it is less than 800 than continue moving; otherwise, the if statement will be false, and the x will no longer get bigger.  If you want to make it go faster then, do this.  Keep in mind that **<** sign is called a relational operator. The opposite is **>** and stands for "greater than."
+</div>
+</div>
 
+<div id="Step2" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 I could have done this, too, right?  Does this work? What are we doing? We use the **!** which means **NOT** equal in this case.
 
 ```js
@@ -120,6 +141,11 @@ function draw()
 ```
 
 Run this.  Does it still work?  Why?  
+</div>
+</div>
+<div id="Step3" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 ```js
 
@@ -154,6 +180,11 @@ function draw()
 ```
 
 How about now?  Why or why not? 
+</div>
+</div>
+<div id="Step4" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 Remember, in the preceding if statement, it has to equal precisely 800 for it to stop. Otherwise, it will continue.  The **!=** is the equality operator, whereas the **==** is the equality operator and **=** is the assignment operator.  Be careful of those different operators!
 
@@ -191,5 +222,6 @@ function draw()
 
 ```
 Now it works.  Whew!
+</div>
+</div>
 
-<a href="https://umontana.zoom.us/recording/share/BmOT3ZrOfih8D_UU5RMm2AO1tzZIWEvRdbj4OKJg1SGwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
