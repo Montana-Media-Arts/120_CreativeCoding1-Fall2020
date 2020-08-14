@@ -119,7 +119,7 @@ Does it work?  Yeah!  Wait, though. Something feels a little off.  See how there
 
 We are going to introduce what is called **Logical Operators**.  
 There are three of them, **AND**, **OR**, and **NOT**.  
-In code, they look like this **&&** for AND, **||** for OR and **!** for NOT. 
+In code, they look like this **&&** for AND, **||** for OR and <b>!</b> for NOT. 
 Remember NOT?  
 We did that earlier. Yes!
 
