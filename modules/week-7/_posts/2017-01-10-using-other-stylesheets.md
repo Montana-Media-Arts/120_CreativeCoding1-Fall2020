@@ -55,6 +55,7 @@ jotted: true
 
 </div>
 
+<p></p>
 <p>Take a look at the <b>href</b> attribute in the <b>link</b> tag at the top inside the <b>head</b> tag. It points to what is called a CDN.  CDN stands for <b>Content Delivery Network</b> There are some benefits to using these.  Your CSS is always up to date whenever the author updates it.  However, it only works if you are online to apply this style. So, if you need an offline application, you may want to use a local copy.</p>
 
 </div>
