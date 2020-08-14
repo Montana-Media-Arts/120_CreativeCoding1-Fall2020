@@ -117,7 +117,11 @@ Does it work?  Yeah!  Wait, though. Something feels a little off.  See how there
 
 <div class="tabhtml" markdown="1">
 
-We are going to introduce what is called **Logical Operators**.  There are three of them, **AND**, **OR**, and **NOT**.  In code, they look like this **&&** for AND, **||** for OR and **!** for NOT. Remember NOT?  We did that earlier. Yes!
+We are going to introduce what is called **Logical Operators**.  
+There are three of them, **AND**, **OR**, and **NOT**.  
+In code, they look like this **&&** for AND, **||** for OR and **!** for NOT. 
+Remember NOT?  
+We did that earlier. Yes!
 
 To combine the previous if statements, we have to think about this in English again.  When do we need movement to switch directions?  We can say if the circle is greater than or equal to 800 or if the circle is less than or equal to zero.  Wait!  Did you see the keyword?  **OR**.  Since we know what symbols to use, we can write the code above to look like this.
 
