@@ -6,16 +6,35 @@ jotted: true
 
 # Accessing HTML Tags
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+   <button class="tablinks" onclick="openTab(event, 'HTML')">Alert Example</button>
+   <button class="tablinks" onclick="openTab(event, 'ById')">getElementById Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Document')">document.write Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Debug')">debug Example</button>
+     <button class="tablinks" onclick="openTab(event, 'Console')">console.log Example</button>
+    
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
 <p><a href="//www.youtube.com/embed/1aQplfKL2eI" data-lity>Accessing HTML Tags Video</a></p>
 
-One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example below.
+<p>One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example below.</p>
 
-### getElementById
+<div id="ById" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 ```js
  document.getElementById("myTag").innerHTML = "New Text";
 ```
-If you were to have an HTML page like the following, the JavaScript above would change the tag with the id "myTag".
+
+</div>
+
+<p>If you were to have an HTML page like the following, the JavaScript above would change the tag with the id "myTag".</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
  <html>
@@ -24,23 +43,38 @@ If you were to have an HTML page like the following, the JavaScript above would 
     </body>
  </html>
 ```
-### document.write
 
-Another way to access HTML is by using the document.write function.  It looks something like this.
+</div>
+
+</div>
+
+
+<div id="Document" class="tabcontent">
+
+<p>Another way to access HTML is by using the document.write function.  It looks something like this.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```js
  document.write("I am being written to the HTML page");
 ```
 
-But what if there is an error? For example, what if we misspell something or put the script tag in the wrong place?
+</div>
 
-Initially, we put the script tag in the head tag.
+<p>But what if there is an error? For example, what if we misspell something or put the script tag in the wrong place?</p>
 
-### debugging
+<p>Initially, we put the script tag in the head tag.</p>
 
-However, when the browser renders the HTML, it is read from top to bottom. So, if the JavaScript is at the top and you try to access an HTML element in the body, it won't be found.  Or, if you misspell a function name, an error will occur as well.  However, web pages won't show you the error. Browsers do their best to show what they can.  
+</div>
 
-For example, if you were doing the following.
+
+<div id="Debug" class="tabcontent">
+
+<p>However, when the browser renders the HTML, it is read from top to bottom. So, if the JavaScript is at the top and you try to access an HTML element in the body, it won't be found.  Or, if you misspell a function name, an error will occur as well.  However, web pages won't show you the error. Browsers do their best to show what they can.</p>
+
+<p>For example, if you were doing the following.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
  <html>
@@ -57,8 +91,11 @@ For example, if you were doing the following.
  </html>
 ```
 
-The previous code will cause an error. We can fix this error by doing the following.
+</div>
 
+<p>The previous code will cause an error. We can fix this error by doing the following.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
  <html>
@@ -72,7 +109,12 @@ The previous code will cause an error. We can fix this error by doing the follow
  </html>
 ```
 
+</div>
+
+
 However, if we mistype something like this:
+
+<div class="tabhtml" markdown="1">
 
 ```html
  <html>
@@ -85,21 +127,30 @@ However, if we mistype something like this:
     </script>
  </html>
 ```
-We will also get an error.
 
-How do we fix it?
+</div>
 
-It's in the browser settings. To access those in Chrome, follow these steps.
+<p>We will also get an error.</p>
 
-1. Click on the three vertical dots in the upper right-hand corner of the web browser.
-2. Navigate to **More Tools**->**Developer Tools**
-3. Click on the console tab. The area shows you the error and where it is in your code. Nice!
+<p>How do we fix it?</p>
 
-### console.log
+<p>It's in the browser settings. To access those in Chrome, follow these steps.</p>
 
-We can also use another command to write to the console. It's called console.log.
+<ol>
+<li>Click on the three vertical dots in the upper right-hand corner of the web browser.</li>
+<li>Navigate to <b>More Tools</b>-><b>Developer Tools</b></li>
+<li>Click on the console tab. The area shows you the error and where it is in your code. Nice!</li>
+</ol>
 
-Try this now.
+</div>
+
+<div id="Console" class="tabcontent">
+
+<p>We can also use another command to write to the console. It's called console.log.</p>
+
+<p>Try this now.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
  <html>
@@ -113,6 +164,9 @@ Try this now.
  </html>
 ```
 
-Open your web page. It won't show anything on the page. However, if you go to the console in the Developer Tools again, you will see the console.log message. Console.log is an excellent way to find out what is happening in your JavaScript code.
+</div>
 
-Next, let's talk about variables in JavaScript.
+<p>Open your web page. It won't show anything on the page. However, if you go to the console in the Developer Tools again, you will see the console.log message. Console.log is an excellent way to find out what is happening in your JavaScript code.</p>
+
+<p>Next, let's talk about variables in JavaScript.</p>
+</div>
