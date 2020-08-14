@@ -117,7 +117,7 @@ function draw() {
   triangle(30, 75, 58, 20, 86, 75);
 }
 ```
-The first two parameters represent the first point, which is the bottom point; in this case, then the second two parameters are the second point, which is the top point, and then the last two parameters represent the third point or the bottom right point in this triangle.  
+The first two parameters represent the first point, which is the **bottom-left** point; in this case, then the second two parameters are the second point, which is the **top point**, and then the last two parameters represent the third point or the **bottom-right** point in this triangle.  
 
 There are several other simple shapes, such as point, line, and quad.
 </div>
