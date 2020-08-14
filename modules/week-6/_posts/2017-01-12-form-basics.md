@@ -6,15 +6,30 @@ jotted: true
 
 # HTML Forms
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+  <button class="tablinks" onclick="openTab(event, 'Example')">Example</button>
+    
+</div>
+
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
 <p><a href="//www.youtube.com/embed/LJ0Ldc_2B8M" data-lity>HTML Forms Video</a></p>
 
-What are HTML forms?  If you have ever purchased something online or filled out an application online or signed up for an email, your social media account, or more, you have filled out a form.  Forms are just a way for us to gather data from the end-user.  Keep in mind there are some principles to which we should adhere.
+<p>What are HTML forms?  If you have ever purchased something online or filled out an application online or signed up for an email, your social media account, or more, you have filled out a form.  Forms are just a way for us to gather data from the end-user.  Keep in mind there are some principles to which we should adhere.</p>
 
-First, we want to adhere to standards. Use the component for their intended use.  Use checkboxes for multiple selections and radio buttons for various choices, but only one correct one.
+<p>First, we want to adhere to standards. Use the component for their intended use.  Use checkboxes for multiple selections and radio buttons for various choices, but only one correct one.</p>
 
-Aso, use dropdown lists, use those to control the input gathered.  We are going to first focus on creating forms and what tags are required. Then, we will add a look and feel to them and add a little functionality to them.
+<p>Aso, use dropdown lists, use those to control the input gathered.  We are going to first focus on creating forms and what tags are required. Then, we will add a look and feel to them and add a little functionality to them.</p>
 
-Here is an example of a simple form.
+</div>
+
+<div id="Example" class="tabcontent">
+
+<p>Here is an example of a simple form.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
 <html>
@@ -30,6 +45,12 @@ Here is an example of a simple form.
 </html>
 
 ```
+
+</div>
+
+</div>
+
+<p></p>
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
