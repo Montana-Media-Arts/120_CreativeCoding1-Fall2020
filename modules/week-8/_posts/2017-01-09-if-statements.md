@@ -204,7 +204,7 @@ So, how do we apply this?
 
 I did two things right away.
 
-1. I create three variables above the printQuestion function. I created **number**, **number2**, and **actualAnswer** variables. I put the number1 and number2 variables in the printQuestion method because I don't need to use them in any other function. However, we use actualAnswer in both the printQuestion and the checkAnswer functions. If we declared actualAnswer in the printQuestion function, the checkAnswer function wouldn't be able to use it.
+1. I created three variables above the printQuestion function. I created **number1**, **number2**, and **actualAnswer** variables (look for the **var**). I put the number1 and number2 variables in the printQuestion method because I don't need to use them in any other function. However, we use actualAnswer in both the printQuestion and the checkAnswer functions. If we declared actualAnswer in the printQuestion function, the checkAnswer function wouldn't be able to use it.
 
 Put this into your web page. Do you see a different question when you run it? What if you answer it? Did you get the **Good job!** with the correct answer? Why or why not?
 
