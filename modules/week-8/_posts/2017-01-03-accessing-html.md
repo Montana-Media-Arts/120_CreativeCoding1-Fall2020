@@ -8,7 +8,6 @@ jotted: true
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-   <button class="tablinks" onclick="openTab(event, 'HTML')">Alert Example</button>
    <button class="tablinks" onclick="openTab(event, 'ById')">getElementById Example</button>
     <button class="tablinks" onclick="openTab(event, 'Document')">document.write Example</button>
     <button class="tablinks" onclick="openTab(event, 'Debug')">debug Example</button>
@@ -21,6 +20,8 @@ jotted: true
 <p><a href="//www.youtube.com/embed/1aQplfKL2eI" data-lity>Accessing HTML Tags Video</a></p>
 
 <p>One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example below.</p>
+
+</div>
 
 <div id="ById" class="tabcontent">
 

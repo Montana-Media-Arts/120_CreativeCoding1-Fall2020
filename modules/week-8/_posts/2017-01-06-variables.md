@@ -6,11 +6,23 @@ jotted: true
 
 # Variables
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+   <button class="tablinks" onclick="openTab(event, 'Example')">Variables Example</button>
+   <button class="tablinks" onclick="openTab(event, 'HTML')">HTML Example</button>
+    
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
 <p><a href="//www.youtube.com/embed/9M4Q-4KxU34" data-lity>Variables Video</a></p>
 
-So, you have been working with variables in all the other languages with which we have worked. Hopefully, these won't feel scary or foreign to you now.
+<p>So, you have been working with variables in all the other languages with which we have worked. Hopefully, these won't feel scary or foreign to you now.</p>
+</div>
+<div id="Example" class="tabcontent">
 
-What do they look like in JavaScript?
+<p>What do they look like in JavaScript?</p>
+
+<div class="tabhtml" markdown="1">
 
 ```js
  var favoriteNumber = 13;
@@ -23,9 +35,14 @@ What do they look like in JavaScript?
  blue = "#0000FF";
 ```
 
-As you stated above, there are several different ways in which you can declare and assign values to your variables. They are all valid, and it just depends on when you want to give them a value or if they will be assigned later.
+</div>
+</div>
+<div id="HTML" class="tabcontent">
+<p>As you stated above, there are several different ways in which you can declare and assign values to your variables. They are all valid, and it just depends on when you want to give them a value or if they will be assigned later.</p>
 
-To use them in your HTML page, you can do something like this.
+<p>To use them in your HTML page, you can do something like this.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
  <html>
@@ -45,8 +62,12 @@ To use them in your HTML page, you can do something like this.
  </html>
 ```
 
-There are three things to notice here.
+</div>
 
-1. I can put the variable in the script tag inside the head tag because it is not trying to access the tag **myTag**.
-2. When I print out the variable **favoriteColor**, it has to precisely match the capitalization as it is declared or not work.
-3. To make it show up in the tag, you have to use the **+** and then put the variable name without the double-quotes **"**. The double-quotes are required if you want to print out exactly what is inside the double-quotes. In this case, we want to print out the value stored in the variable.
+<p>There are three things to notice here.</p>
+<ol>
+<li>I can put the variable in the script tag inside the head tag because it is not trying to access the tag <b>myTag</b>.</li>
+<li>When I print out the variable <b>favoriteColor</b>, it has to precisely match the capitalization as it is declared or not work.</li>
+<li>To make it show up in the tag, you have to use the <b>+</b> and then put the variable name without the double-quotes <b>"</b>. The double-quotes are required if you want to print out exactly what is inside the double-quotes. In this case, we want to print out the value stored in the variable.</li>
+</ol>
+</div>
