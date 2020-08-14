@@ -92,9 +92,6 @@ Look familiar?  It should! It is the same code as what we say in the web editor.
 
 <div class="tabhtml" markdown="1">
 
-
-## Offline
-
 We can download the library and then reference it.
 
 Go to the download page and choose from a couple of options.
