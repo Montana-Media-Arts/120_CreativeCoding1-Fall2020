@@ -6,13 +6,29 @@ jotted: false
 
 # Functions
 
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+   <button class="tablinks" onclick="openTab(event, 'Example')">Functions Example</button>
+   <button class="tablinks" onclick="openTab(event, 'HTML')">HTML Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Parameters')">Parameters Example</button>
+    
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
 <p><a href="//www.youtube.com/embed/BN25BnXgYNo" data-lity>Functions Video</a></p>
 
-If you recall when we changed the text in the span tag, we had to put the JavaScript script at the bottom so that it wouldn't give us an error.
+<p>If you recall when we changed the text in the span tag, we had to put the JavaScript script at the bottom so that it wouldn't give us an error.</p>
 
-What if we wanted to make it so that the JavaScript code didn't run automatically. Insert **functions**. You have seen them already. You used them with **alert**, **log**, **write**, **getElementById**. Now we are going to create one ourselves. 
+<p>What if we wanted to make it so that the JavaScript code didn't run automatically. Insert <b>functions</b>. You have seen them already. You used them with <b>alert</b>, <b>log</b>, <b>write</b>, <b>getElementById</b>. Now we are going to create one ourselves. </p>
 
-Functions look like this.
+</div>
+
+<div id="Functions" class="tabcontent">
+
+<p>Functions look like this.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```js
  function myFunction()
@@ -21,9 +37,17 @@ Functions look like this.
  }
 ```
 
-We just created a function called **myFunction**, and it contains one line of code, which just so happens to be another window.alert. However, it will not run unless we call myFunction somewhere.
+</div>
 
-You might notice that there are **{}** before and after the window.alert. These indicate where the function body begins and ends. Without them, the function doesn't work.
+<p>We just created a function called <b>myFunction</b>, and it contains one line of code, which just so happens to be another window.alert. However, it will not run unless we call myFunction somewhere.</p>
+
+<p>You might notice that there are <b>{}</b> before and after the window.alert. These indicate where the function body begins and ends. Without them, the function doesn't work.</p>
+
+</div>
+
+<div id="HTML" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 What does this look like on a full page?
 
@@ -69,6 +93,13 @@ Placing the function name in the **onload** event of the body is one way to call
 
 Now the text should be changed right when you open the page.
 
+</div>
+</div>
+
+<div id="Parameters" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
 What about parameters?
 
 An example of calling parameters looks like this.
@@ -93,4 +124,7 @@ An example of calling parameters looks like this.
 We declare the variable in the displayFavoriteColor function.  It is called **color**.  Then, we assign that variable to the favoriteColor variable in the function.  Then, in the onload event, we pass in a value.  In this case, we pass in a value of **blue** inside of single quotes.  We do this because the onload puts the function call inside of double-quotes.
 
 What about getting information from a form or something like that? Move on, and you will find out!
+
+</div>
+</div>
 
