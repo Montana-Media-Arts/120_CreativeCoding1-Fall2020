@@ -35,12 +35,18 @@ jotted: false
 
 <p>For example, you might have a style that looks like this.</p>
 
-<span style="background:blue; color:white">
+<div class="tabhtml" markdown="1">
+
+```html
+
 body {<br />
   bgcolor: pink;<br />
   text-align: center;<br />
 }<br />
-</span>
+
+```
+
+</div>
 
 <ol>
 <li>body is the <b>selector</b></li>
