@@ -6,7 +6,26 @@ jotted: true
 
 # Moving Simple Shapes
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Example')">Initial Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Update')">Updated Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Second')">Second Shape</button>
+    <button class="tablinks" onclick="openTab(event, 'UpdatedSecond')">Updated Second Shape</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 Remember, in the last section, how we created new variables and then used them to print out numbers and change colors?  What else can we do?  The better question is, why?
+
+</div>
+</div>
+
+<div id="Example" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 Let's look at this example.
 
@@ -38,6 +57,11 @@ Do you see your background with a circle?  I hope so!
 
 All the background color variables are interesting, but you are probably saying, "How is this any different from before?";
 
+</div>
+</div>
+<div id="Updated" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 Glad you asked!  Let's make a small change and see what happens.
 
 ```js
@@ -72,7 +96,12 @@ Did the circle move?  Which way? Why?
 
 What if we did the same to **y**?  Which way would it go?
 
-## Adding a second moving shape
+</div>
+</div>
+
+<div id="Second" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 That is crazy!  We just made a simple shape move.  What if we added a second one?
 
@@ -105,7 +134,12 @@ function draw()
 
 Do you get two circles?  Oh dang!  You don't.  You see only one.
 
-## Viewing the second shape
+</div>
+</div>
+
+<div id="UpdatedSecond" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 Well, technically, you do, but you only get to see one because the other one is on top of the first one because they are at the same x,y coordinate, and the same diameter. How can I prove it to you?  I know you are skeptics.
 
@@ -144,4 +178,5 @@ There you go!  Okay, so if you let it run long enough, they should cruise right 
 
 Let's go to the next section and find out!
 
-<a href="https://umontana.zoom.us/recording/share/fI8RzLIWb3y3d1jeU4i9x2pieYUS2XDEQAYgu4NXf0ewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
