@@ -24,7 +24,7 @@ jotted: true
 
 <div class="tabhtml" markdown="1">
 
-```javascript
+```js
  <script> </script>
 ```
 
