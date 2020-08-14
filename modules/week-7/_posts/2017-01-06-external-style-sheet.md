@@ -60,6 +60,8 @@ span{
 
 </div>
 
+<p></p>
+
 <p>There are a couple of things to note.  The <b>rel</b> is the relationship attribute, and the <b>type</b> specifies the type of file.  Finally, the <b>href</b>, which should look familiar, is the file location. Remember, if it defined like it is above, it has to be in the same folder.  Otherwise, you need to add the correct path.</p>
 
 <p>We use style sheets so that we can apply a style sheet to many pages.  If we want to make a change, we can change it in one file and use it everywhere.</p>
