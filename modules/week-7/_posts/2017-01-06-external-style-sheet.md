@@ -8,13 +8,27 @@ jotted: true
 
 ## External Style Sheets
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Stylesheet')">External Stylesheet</button>
+    <button class="tablinks" onclick="openTab(event, 'Page')">HTML Page</button>
+    <button class="tablinks" onclick="openTab(event, 'Order')">Ordering of Styles</button>
+</div>
+
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
 <p><a href="//www.youtube.com/embed/SgCWkF4--t0" data-lity>External CSS Video</a></p>
 
-The last way in which we can apply a style is through an **external** style sheet.
+<p>The last way in which we can apply a style is through an <b>external</b> style sheet.</p>
 
-How does it look?
+</div>
 
-**External Style Sheet**
+<div id="StyleSheet" class="tabcontent">
+
+<p>How does the stylesheet look?</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
 span{
@@ -23,9 +37,17 @@ span{
 }
 ```
 
-Note that when you save this on a separate page, it must be called `mainstyle.css`  It always ends with a `.css` extension.
+</div>
 
-Now, we can assign it to a page like this.
+<p>Note that when you save this on a separate page, it must be called <b>mainstyle.css</b>  It always ends with a <b>.css</b> extension.</p>
+
+</div>
+
+<div id="Page" class="tabcontent">
+
+<p>Now, we can assign it to a page like this.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
     <html>
@@ -36,15 +58,25 @@ Now, we can assign it to a page like this.
     </html>
 ```
 
-There are a couple of things to note.  The `rel` is the relationship attribute, and the `type` specifies the type of file.  Finally, the `href`, which should look familiar, is the file location. Remember, if it defined like it is above, it has to be in the same folder.  Otherwise, you need to add the correct path.
+</div>
 
-We use style sheets so that we can apply a style sheet to many pages.  If we want to make a change, we can change it in one file and use it everywhere.
+<p>There are a couple of things to note.  The <b>rel</b> is the relationship attribute, and the <b>type</b> specifies the type of file.  Finally, the <b>href</b>, which should look familiar, is the file location. Remember, if it defined like it is above, it has to be in the same folder.  Otherwise, you need to add the correct path.</p>
 
-So, when you have all three types of styles on your page, which style is applied?  It always goes in this order.
+<p>We use style sheets so that we can apply a style sheet to many pages.  If we want to make a change, we can change it in one file and use it everywhere.</p>
 
-1. Inline styles first
-2. Embedded
-3. External
-4. Browser
+</div>
 
-Yes, that's right; the browser has a style sheet.  If you are interested, take a look around, and you can find and change your browser's style sheet. Fun right?
+<div id="Order" class="tabcontent">
+
+<p>So, when you have all three types of styles on your page, which style is applied?  It always goes in this order.</p>
+
+<ol>
+<li>Inline styles first</li>
+<li>Embedded</li>
+<li>External</li>
+<li>Browser</li>
+</ol>
+
+<p>Yes, that's right; the browser has a style sheet.  If you are interested, take a look around, and you can find and change your browser's style sheet. Fun right?</p>
+
+</div>
