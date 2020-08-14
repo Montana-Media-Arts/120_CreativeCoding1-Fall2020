@@ -8,6 +8,7 @@ jotted: true
 
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'HTML')">HTML Example</button>
     <button class="tablinks" onclick="openTab(event, 'CSS')">ID Selectors Example</button>
 </div>
 
@@ -20,7 +21,7 @@ jotted: true
 
 </div>
 
-<div id="CSS" class="tabcontent">
+<div id="HTML" class="tabcontent">
 
 <p>The HTML page might look like this.</p>
 
@@ -43,6 +44,10 @@ jotted: true
 ```
 
 </div>
+
+</div>
+
+<div id="CSS" class="tabcontent">
 
 <p>And the CSS might look like this.</p>
 
