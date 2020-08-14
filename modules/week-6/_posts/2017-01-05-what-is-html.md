@@ -29,7 +29,7 @@ jotted: true
 
 <p>It's a markup language, which means it can be displayed a web browser, but not compiled. It's an important distinction because that means it doesn't go down to the machine code level. If you need more convincing, I am just priming you for a later discussion.  Just think of HTML as a way to make stuff show up in the browser.  So, let's try it out.</p>
 
-<div markdown="1">
+<div class="tabhtml" markdown="1">
 
 ```html
 <html>
