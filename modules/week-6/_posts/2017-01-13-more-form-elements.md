@@ -6,11 +6,22 @@ jotted: true
 
 # More form elements
 
-<!-- video -->
-<p><a href="//www.youtube.com/embed/rJJ-rnX3SPM" data-lity>More Form elements Video</a></p>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Dropdown')">Dropdown List</button>
+  <button class="tablinks" onclick="openTab(event, 'Radio')">Radio Buttons</button>
+  <button class="tablinks" onclick="openTab(event, 'Checkbox')">Checkboxes</button>
+    
+</div>
+
+<!-- Tab content -->
+<div id="Dropdown" class="tabcontent" style="display:block">
+
+<p><a href="//www.youtube.com/embed/rJJ-rnX3SPM" data-lity>Drop Downlist Video</a></p>
 <!-- dropdowns -->
 
-One of the most common form elements is the drop-down list.  It looks something like this.
+<p>One of the most common form elements is the drop-down list.  It looks something like this.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
 <select>
@@ -21,13 +32,21 @@ One of the most common form elements is the drop-down list.  It looks something 
 </select>
 ```
 
-These allow us to restrict what the user can choose and helps us make sure we get data precisely the way we want it. If we use a text box for everything, then our users could type anything they wanted.  For example, they might say `Apple`, or `aPpple`, or `APPLE`, and that would be bad.
+</div>
+
+These allow us to restrict what the user can choose and helps us make sure we get data precisely the way we want it. If we use a text box for everything, then our users could type anything they wanted.  For example, they might say <b>Apple</b>, or <b>aPpple</b>, or <b>APPLE</b>, and that would be bad.
+</div>
+
+<div id="Radio" class="tabcontent">
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mzx_lShObmc" frameborder="0" allowfullscreen></iframe></div>
+
+<p><a href="//www.youtube.com/embed/Mzx_lShObmc" data-lity>Radio Button Video</a></p>
 
 <!-- radio -->
-What other items can you find in forms?  I spoke of radio buttons and checkboxes in an earlier section.  How would you implement a radio button list?
+<b>What other items can you find in forms?  I spoke of radio buttons and checkboxes in an earlier section.  How would you implement a radio button list?</b>
+
+<div class="tabhtml" markdown="1">
 
 ```html
 <input type="radio" name="color" value="blue">Blue<br>
@@ -36,11 +55,19 @@ What other items can you find in forms?  I spoke of radio buttons and checkboxes
 <input type="radio" name="color" value="purple">Purple
 ```
 
+</div>
+
+</div>
+
+<div id="Checkbox" class="tabcontent">
+
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/28ccGRjnV_Q" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed//28ccGRjnV_Q" data-lity>Checkbox Video</a></p>
 
 <!-- checkboxes -->
-Finally, let's look at checkboxes and the role they play in forms.  They allow us to select multiple items in a list.  We see these most often when a form asks us what our interests are.  It may look something like this.
+<p>Finally, let's look at checkboxes and the role they play in forms.  They allow us to select multiple items in a list.  We see these most often when a form asks us what our interests are.  It may look something like this.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
 <h2>What kind of bikes do you like?</h2>
@@ -51,7 +78,12 @@ Finally, let's look at checkboxes and the role they play in forms.  They allow u
 <input type="checkbox" name="gravel" value="gravel" checked>Gravel<br>
 ```
 
+</div>
+
+</div>
+
 Feel free to experiment with these.
+
 
 <a href='http://www.silverleaf-consulting.com/CodeEditor/' target="_new">Click here for an Interactive HTML editor</a>
 
