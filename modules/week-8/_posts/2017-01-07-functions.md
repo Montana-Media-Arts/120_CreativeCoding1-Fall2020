@@ -8,7 +8,7 @@ jotted: false
 
 <div class="tab">
   <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-   <button class="tablinks" onclick="openTab(event, 'Example')">Functions Example</button>
+   <button class="tablinks" onclick="openTab(event, 'Functions')">Functions Example</button>
    <button class="tablinks" onclick="openTab(event, 'HTML')">HTML Example</button>
     <button class="tablinks" onclick="openTab(event, 'Parameters')">Parameters Example</button>
     
