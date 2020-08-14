@@ -25,7 +25,7 @@ jotted: true
 
 <div id="Embedded" class="tabcontent">
 
-<p>An example might look like this.</b>
+<p>An example might look like this.</p>
 
 <div class="tabhtml" markdown="1">
 
