@@ -39,7 +39,7 @@ For example, if you have the following.
 
 You will see 3.
 
-If you the following.
+If you have the following.
 
 ```js
     console.log(Math.floor(3.94));
