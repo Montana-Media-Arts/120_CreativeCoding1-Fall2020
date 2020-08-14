@@ -7,8 +7,7 @@ jotted: true
 # More form elements
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rJJ-rnX3SPM" frameborder="0" allowfullscreen></iframe></div>
-
+<p><a href="//www.youtube.com/embed/rJJ-rnX3SPM" data-lity>More Form elements Video</a></p>
 <!-- dropdowns -->
 
 One of the most common form elements is the drop-down list.  It looks something like this.

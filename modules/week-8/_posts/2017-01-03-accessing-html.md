@@ -6,7 +6,7 @@ jotted: true
 
 # Accessing HTML Tags
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1aQplfKL2eI" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/1aQplfKL2eI" data-lity>Accessing HTML Tags Video</a></p>
 
 One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example below.
 

@@ -6,7 +6,7 @@ jotted: false
 
 # Functions
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BN25BnXgYNo" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/BN25BnXgYNo" data-lity>Functions Video</a></p>
 
 If you recall when we changed the text in the span tag, we had to put the JavaScript script at the bottom so that it wouldn't give us an error.
 

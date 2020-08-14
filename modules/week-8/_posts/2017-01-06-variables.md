@@ -6,7 +6,7 @@ jotted: true
 
 # Variables
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9M4Q-4KxU34" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/9M4Q-4KxU34" data-lity>Variables Video</a></p>
 
 So, you have been working with variables in all the other languages with which we have worked. Hopefully, these won't feel scary or foreign to you now.
 

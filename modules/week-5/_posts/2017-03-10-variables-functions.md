@@ -10,9 +10,7 @@ In Alice, creating `global` variables, procedures, and functions allows you to u
 
 <!-- video -->
 ### Variables
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/v223_xvGGIA" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/v223_xvGGIA" data-lity>Variables Video</a></p>
 
 ### Functions
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WnJ3CL_igO4" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/WnJ3CL_igO4" data-lity>Functions Video</a></p>

@@ -6,7 +6,7 @@ jotted: true
 
 # Form Data Retrieval
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nUNz4RvgZdo" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/nUNz4RvgZdo" data-lity>Form Data Retrieval Video</a></p>
 
 Keep in mind that although it's handy to print information to the page, it is beneficial to get information from a form. I imagine most of you have filled out web forms before. They are super fun, I know. However, most web forms use JavaScript in one way or another. So, we are going that.
 

@@ -6,7 +6,7 @@ jotted: true
 
 # Class Selectors
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/kkFsRWlswX0" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/kkFsRWlswX0" data-lity>Class Selectors Video</a></p>
 
 In the previous section, we added styles by using inline styles, embedded styles, and external style sheets.  
 
@@ -37,8 +37,6 @@ Here's an example of an HTML page.
         font-size:24px;
     }
 ```
-
-
 
 Notice in this example, the CSS has the name `.blueColor`.  The blueColor class identifier applies the blue color, changes the font type, and the size of the `span` tag and an `a` (anchor) tag.  They both turned blue while the other span tag without the class name did not.
 

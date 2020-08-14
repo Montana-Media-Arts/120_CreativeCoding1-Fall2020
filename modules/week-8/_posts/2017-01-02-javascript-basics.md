@@ -6,7 +6,7 @@ jotted: true
 
 # JavaScript Basics
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gf_fmLtMiI4" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/Gf_fmLtMiI4" data-lity>JavaScript Basics Video</a></p>
 
 What is JavaScript? JavaScript is the client-side programming language that allows us to provide actual functionality to our HTML sites.
 

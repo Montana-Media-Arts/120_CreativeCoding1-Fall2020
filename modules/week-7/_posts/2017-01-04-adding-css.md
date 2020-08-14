@@ -6,7 +6,7 @@ jotted: true
 
 # Adding CSS to HTML
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZJxsUddqZrw" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/ZJxsUddqZrw" data-lity>Adding CSS Video</a></p>
 
 There are three ways in which we can add CSS to an HTML page.
 

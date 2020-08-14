@@ -6,8 +6,7 @@ jotted: true
 
 # Additional Tags
 
-<!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BNypz-GKhXU" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/BNypz-GKhXU" data-lity>Additional Tags Video</a></p>
 
 Two tags inside the `<html>` tag, but do not appear on the page are the title tag and the head.  The first is the `<title>` tag, and the second is the `<head>` tag.  They both exist above body tag, and they serve two very distinct purposes.
 

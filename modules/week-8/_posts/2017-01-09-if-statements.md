@@ -6,7 +6,7 @@ jotted: true
 
 # If statements
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Lxocm28nvwo" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/Lxocm28nvwo" data-lity>If statements Video</a></p>
 
 Let's start with a form that is similar to what we had before. However, this time, we have two functions. **gasp**.
 

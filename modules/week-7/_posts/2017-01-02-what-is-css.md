@@ -6,7 +6,7 @@ jotted: false
 
 # What is CSS?
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hvp9cP_vnk4" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/hvp9cP_vnk4" data-lity>What is CSS Video</a></p>
 
 CSS or Cascading Style Sheets are files that work with HTML to make our pages look a little more professional.  Did you add a background color to your website?  Did you use `bgColor='blue'` or something like that?
 
@@ -20,5 +20,3 @@ In a nutshell, what is CSS, and what are the benefits? W3Schools says this.
 2. CSS describes how to display HTML elements on a screen, paper, or in other media
 3. CSS saves a lot of work. It can control the layout of multiple web pages all at once
 4. Store external stylesheets in CSS files
-
-<!-- video -->

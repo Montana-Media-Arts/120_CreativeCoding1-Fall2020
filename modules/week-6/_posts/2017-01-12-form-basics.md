@@ -6,8 +6,7 @@ jotted: true
 
 # HTML Forms
 
-<!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LJ0Ldc_2B8M" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/LJ0Ldc_2B8M" data-lity>HTML Forms Video</a></p>
 
 What are HTML forms?  If you have ever purchased something online or filled out an application online or signed up for an email, your social media account, or more, you have filled out a form.  Forms are just a way for us to gather data from the end-user.  Keep in mind there are some principles to which we should adhere.
 

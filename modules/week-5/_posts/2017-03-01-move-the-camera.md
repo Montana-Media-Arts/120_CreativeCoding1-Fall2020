@@ -10,9 +10,8 @@ Keep in mind that the scene might leave the initial view.  To move around the wo
 
 <!-- video here -->
 ## Camera Markers
-
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JhCFmWBmAfA" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/JhCFmWBmAfA" data-lity>Camera Marker Video</a></p>
 
 ## Camera Vehicle
 <!-- camera vehicle -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/PS0rbtFZ-U4" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/PS0rbtFZ-U4" data-lity>Camera Vehicle Video</a></p>

@@ -7,7 +7,7 @@ jotted: true
 # Hyperlinks
 
 <!-- video -->
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q4s68nncqrE" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/Q4s68nncqrE" data-lity>Hyperlinks Video</a></p>
 
 Hyperlinks have been around since the beginning of HTML4 and continue today. They are the bedrock of web pages as they take us places.  They have a similar structure to image tags, and they look like this.
 

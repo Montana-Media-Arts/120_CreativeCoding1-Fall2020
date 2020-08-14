@@ -6,36 +6,45 @@ jotted: false
 
 # Basic Structure of CSS
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9riAPdZfid4" frameborder="0" allowfullscreen></iframe></div>
+<div class="tab">
+  <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+   <button class="tablinks" onclick="openTab(event, 'Example')">Example</button>
+    
+</div>
 
-In its most basic form, CSS looks like this.
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+<!-- video -->
+<p><a href="//www.youtube.com/embed/9riAPdZfid4" data-lity>Basic Structure Video</a></p>
 
-![selector](../imgs/selector.gif)
+<p>In its most basic form, CSS looks like this.</p>
 
-The description is as follows.
+<p><img src="../imgs/selector.gif" alt="selector" /></p>
 
-1. The selector points to the HTML element you want to style.
+<p>The description is as follows.</p>
+<ol>
+<li>The selector points to the HTML element you want to style.</li>
+<li>The declaration block contains one or more declarations separated by semicolons.</li>
+<li>Each declaration includes a CSS property name and a value, separated by a colon.</li>
+<li>End CSS declarations with a semicolon</li>
+<li>Surround declaration blocks by curly braces</li>
+</ol>
+<p><i>source - <a href="http://w3schools.com" target="_new">w3schools.com</a></i></p>
+</div>
+<div id="Example" class="tabcontent">
 
-2. The declaration block contains one or more declarations separated by semicolons.
+<p>For example, you might have a style that looks like this.</p>
 
-3. Each declaration includes a CSS property name and a value, separated by a colon.
+<span style="background:blue; color:white">
+body {<br />
+  bgcolor: pink;<br />
+  text-align: center;<br />
+}<br />
+</span>
 
-4. End CSS declarations with a semicolon
-
-5. Surround declaration blocks by curly braces
-
-source - w3schools.com
-
-For example, you might have a style that looks like this.
-
-```html
-body {
-  bgcolor: pink;
-  text-align: center;
-}
-```
-
-1. body is the **selector**
-2. bgcolor and text-align are part of the **declaration** and is the **CSS property name**.  The **declaration block** contains the declarations separated by a semicolons **important!**. **{ }** braces surround the declaration block.
-3. Finally, **pink** and **center** are also part of the **declaration** but are the **values** of the properties.
-
+<ol>
+<li>body is the <b>selector</b></li>
+<li>bgcolor and text-align are part of the <b>declaration</b> and is the <b>CSS property name</b>.  The <b>declaration block</b> contains the declarations separated by a semicolons <b>important!</b>. <b>{ }</b> braces surround the declaration block.</li>
+<li>Finally, <b>pink</b> and <b>center</b> are also part of the <b>declaration</b> but are the <b>values</b> of the properties.</li>
+</ol>
+</div>

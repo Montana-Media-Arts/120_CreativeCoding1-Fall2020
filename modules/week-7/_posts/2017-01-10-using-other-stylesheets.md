@@ -8,7 +8,7 @@ jotted: true
 
 ## CDN
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qu0rslp1jho" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/qu0rslp1jho" data-lity> Using Other Stylesheets Video</a></p>
 
 There are some popular stylesheets out there. One of the most popular is Bootstrap.  To use it, we have a couple of options. We have two options.
 

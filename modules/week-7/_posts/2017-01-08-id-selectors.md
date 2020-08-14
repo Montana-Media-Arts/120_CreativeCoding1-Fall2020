@@ -6,7 +6,7 @@ jotted: true
 
 # ID Selectors
 
-<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zfb_V1-lI1E" frameborder="0" allowfullscreen></iframe></div>
+<p><a href="//www.youtube.com/embed/Zfb_V1-lI1E" data-lity>ID Selectors Video</a></p>
 
 Another way in which we can select a tag is by their ID if they have an id attribute defined. The HTML page might look like this.
 
