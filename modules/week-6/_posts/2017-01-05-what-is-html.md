@@ -29,7 +29,7 @@ jotted: true
 
 <p>It's a markup language, which means it can be displayed a web browser, but not compiled. It's an important distinction because that means it doesn't go down to the machine code level. If you need more convincing, I am just priming you for a later discussion.  Just think of HTML as a way to make stuff show up in the browser.  So, let's try it out.</p>
 
-<p markdown="1">
+<span style="display:block">
 
 ```html
 <html>
@@ -37,7 +37,7 @@ jotted: true
 </html>
 ```
 
-</p>
+</span>
 test
 <p>Notice the <b>&lt;html&gt;</b> starts with a <b>&lt;</b> symbol and then ends with a <b>&gt;</b> symbol.  The tag, in this case, <b>html</b> goes between the two angle brackets.  Then, as you see, the tag always ends with <b>&lt;/html&gt;</b>  This is called the closing tag.</p>
 
