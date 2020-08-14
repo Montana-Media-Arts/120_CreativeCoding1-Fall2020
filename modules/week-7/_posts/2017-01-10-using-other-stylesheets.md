@@ -6,7 +6,14 @@ jotted: true
 
 # Using other StyleSheets
 
-## CDN
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'CDN')">CDN</button>
+    <button class="tablinks" onclick="openTab(event, 'Local')">Local Copy</button>
+</div>
+
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
 
 <p><a href="//www.youtube.com/embed/qu0rslp1jho" data-lity> Using Other Stylesheets Video</a></p>
 
@@ -14,6 +21,14 @@ There are some popular stylesheets out there. One of the most popular is Bootstr
 
 1. Use a CDN
 2. Download a local copy and reference the local copy.
+
+</div>
+
+<div id="CDN" class="tabcontent">
+
+<p><b>CDN Example</b></p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
 <html>
@@ -37,29 +52,29 @@ There are some popular stylesheets out there. One of the most popular is Bootstr
 </html>
 ```
 
-Take a look at the `href` attribute in the `link` tag at the top inside the `head` tag. It points to what is called a CDN.  CDN stands for **Content Delivery Network** There are some benefits to using these.  Your CSS is always up to date whenever the author updates it.  However, it only works if you are online to apply this style. So, if you need an offline application, you may want to use a local copy.
+</div>
 
-## Local Copy
+<p>Take a look at the <b>href</b> attribute in the <b>link</b> tag at the top inside the <b>head</b> tag. It points to what is called a CDN.  CDN stands for <b>Content Delivery Network</b> There are some benefits to using these.  Your CSS is always up to date whenever the author updates it.  However, it only works if you are online to apply this style. So, if you need an offline application, you may want to use a local copy.</p>
 
-In the case of Bootstrap, you first go to:
+</div>
 
-1. Go to <a href="https://getbootstrap.com/" target="_new">Get Bootstrap</a>
+<div id="Local" class="tabcontent">
 
-2. Then, click on **Download**.
+<p>In the case of Bootstrap, you first go to:</p>
 
-3. Under **Compiled CSS and JS**, click **Download**.
+<ol>
+<li>Go to <a href="https://getbootstrap.com/" target="_new">Get Bootstrap</a></li>
+<li>Then, click on <b>Download</b>.</li>
+<li>Under <b>Compiled CSS and JS</b>, click <b>Download</b>.</li>
+<li>Download the zip file.</li>
+<li>Unzip and save the folder in a directory near your web page file.</li>
+<li>Download JQuery from: <a href="https://jquery.com/" target="_new">Get jQuery</a></li>
+<li>Then, click on <b>Download jQuery</b>.</li>
+<li>Right-click <b>Download the compressed, production jQuery 3.x.x</b> and save the file in your <b>js</b> folder with Bootstrap.</li>
+<li>Reference bootstrap like this (if your folder structure is set up like the following).</li>
+</ol>
 
-4. Download the zip file.
-
-5. Unzip and save the folder in a directory near your web page file.
-
-6. Download JQuery from: <a href="https://jquery.com/" target="_new">Get jQuery</a>
-
-7. Then, click on `Download jQuery`.
-
-8. Right-click `Download the compressed, production jQuery 3.x.x` and save the file in your `js` folder with Bootstrap.
-
-9. Reference bootstrap like this (if your folder structure is set up like the following).
+<div class="tabhtml" markdown="1">
 
 ```html
 <html>
@@ -84,5 +99,8 @@ In the case of Bootstrap, you first go to:
 </html>
 ```
 
-Did you see the same thing as before?  Unfortunately, it's not as simple as using a CDN. However, if you need an offline solution, this will work.  Downloading and saving libraries work for other styles (and JavaScript) that you may want to use in the future too.
+</div>
 
+<p>Did you see the same thing as before?  Unfortunately, it's not as simple as using a CDN. However, if you need an offline solution, this will work.  Downloading and saving libraries work for other styles (and JavaScript) that you may want to use in the future too.</p>
+
+</div>
