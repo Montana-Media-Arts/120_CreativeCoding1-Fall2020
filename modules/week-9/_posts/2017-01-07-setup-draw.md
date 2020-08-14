@@ -8,9 +8,17 @@ jotted: true
 
 These are the two main functions in p5.js.  They are the most critical functions and built into this library.
 
-## function setup()
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Setup')">Setup</button>
+    <button class="tablinks" onclick="openTab(event, 'Draw')">Draw</button>
+    <button class="tablinks" onclick="openTab(event, 'Offline')">Offline</button>
+</div>
+<!-- Tab content -->
+<div id="Setup" class="tabcontent" style="display:block">
 
-The setup function is the first function called and called only once.  createCanvas is another built-in function that sets up the main window that allows us to draw.
+<div class="tabhtml" markdown="1">
+
+The **setup** function is the first function called and called only once.  createCanvas is another built-in function that sets up the main window that allows us to draw.
 
 It looks like this.
 
@@ -37,7 +45,11 @@ Give this a try and look at the result.
 
 Did you get a canvas to appear in your web browser? Good!
 
-## function draw()
+</div>
+</div>
+<div id="Draw" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
 
 What about the draw function?  What makes it so unique?  We know that p5js calls setup only once when the script is run and calls the draw function continuously.
 
@@ -65,3 +77,5 @@ Open your Developer Options and see what it says in the console?
 What did you see?
 
 Now, let's do something fun on the screen.
+</div>
+</div>
