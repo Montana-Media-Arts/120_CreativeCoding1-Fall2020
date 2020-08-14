@@ -8,7 +8,7 @@ jotted: true
 
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-    <button class="tablinks" onclick="openTab(event, 'CSS')">CSS Example</button>
+    <button class="tablinks" onclick="openTab(event, 'CSS')">Class Selectors Example</button>
 </div>
 
 <!-- Tab content -->
@@ -22,7 +22,7 @@ jotted: true
 
 </div>
 
-<div id="HTML Example" class="tabcontent">
+<div id="CSS" class="tabcontent">
 
 Here's an example of an HTML page.
 

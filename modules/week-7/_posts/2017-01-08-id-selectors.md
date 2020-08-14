@@ -6,9 +6,25 @@ jotted: true
 
 # ID Selectors
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'CSS')">ID Selectors Example</button>
+</div>
+
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
 <p><a href="//www.youtube.com/embed/Zfb_V1-lI1E" data-lity>ID Selectors Video</a></p>
 
-Another way in which we can select a tag is by their ID if they have an id attribute defined. The HTML page might look like this.
+<p>Another way in which we can select a tag is by their ID if they have an id attribute defined. </p>
+
+</div>
+
+<div id="CSS" class="tabcontent">
+
+<p>The HTML page might look like this.</p>
+
+<div class="tabhtml" markdown="1">
 
 ```html
     <html>
@@ -26,9 +42,13 @@ Another way in which we can select a tag is by their ID if they have an id attri
     </html>
 ```
 
-And the CSS might look like this.
+</div>
 
-```html
+<p>And the CSS might look like this.</p>
+
+<div class="tabhtml" markdown="1">
+
+```css
     #specificColor{
         color:blue;
         font-family:verdana;
@@ -42,5 +62,8 @@ And the CSS might look like this.
     }
 ```
 
-This time, the color and the size of the text specific to the ID because of the `#`.
+</div>
 
+<p>This time, the color and the size of the text specific to the ID because of the <b>#</b>.</p>
+
+</div>

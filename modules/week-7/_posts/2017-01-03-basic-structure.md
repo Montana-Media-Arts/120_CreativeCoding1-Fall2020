@@ -37,7 +37,7 @@ jotted: false
 
 <div class="tabhtml" markdown="1">
 
-```html
+```css
 
 body {
   bgcolor: pink;
