@@ -39,10 +39,10 @@ jotted: false
 
 ```html
 
-body {<br />
-  bgcolor: pink;<br />
-  text-align: center;<br />
-}<br />
+body {
+  bgcolor: pink;
+  text-align: center;
+}
 
 ```
 
