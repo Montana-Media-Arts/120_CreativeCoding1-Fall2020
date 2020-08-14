@@ -39,7 +39,6 @@ jotted: true
 
 </div>
 
-test
 <p>Notice the <b>&lt;html&gt;</b> starts with a <b>&lt;</b> symbol and then ends with a <b>&gt;</b> symbol.  The tag, in this case, <b>html</b> goes between the two angle brackets.  Then, as you see, the tag always ends with <b>&lt;/html&gt;</b>  This is called the closing tag.</p>
 
 <p>So, move to the next section to see the underlying structure.</p>
