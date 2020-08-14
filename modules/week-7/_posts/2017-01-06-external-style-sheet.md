@@ -30,7 +30,7 @@ jotted: true
 
 <div class="tabhtml" markdown="1">
 
-```html
+```css
 span{
     color:white;
     background-color:red;
