@@ -190,7 +190,6 @@ There are so many more math functions at your disposal in p5.js.  Here is the li
 
 <div class="tabhtml" markdown="1">
 
-
 [p5.js Math Functions](https://p5js.org/reference/#group-Math)
 
 With that, let's talk about homework for this week.
