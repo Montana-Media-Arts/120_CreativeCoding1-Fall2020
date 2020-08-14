@@ -11,7 +11,6 @@ These are the two main functions in p5.js.  They are the most critical functions
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Setup')">Setup</button>
     <button class="tablinks" onclick="openTab(event, 'Draw')">Draw</button>
-    <button class="tablinks" onclick="openTab(event, 'Offline')">Offline</button>
 </div>
 <!-- Tab content -->
 <div id="Setup" class="tabcontent" style="display:block">

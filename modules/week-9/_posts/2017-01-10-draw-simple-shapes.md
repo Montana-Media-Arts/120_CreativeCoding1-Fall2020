@@ -8,7 +8,17 @@ jotted: true
 
 Drawing simple shapes is the first thing that p5.js allows us to do quickly.  One example looks like this.
 
-## circle
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Circle')">Circle</button>
+    <button class="tablinks" onclick="openTab(event, 'Square')">Square</button>
+    <button class="tablinks" onclick="openTab(event, 'Ellipse')">Ellipse</button>
+    <button class="tablinks" onclick="openTab(event, 'Rect')">Rect</button>
+    <button class="tablinks" onclick="openTab(event, 'Triangle')">Triangle</button>
+</div>
+<!-- Tab content -->
+<div id="Circle" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
 
 To draw a circle, it might look like this.
 
@@ -32,7 +42,13 @@ How does this work?
 
 One thing in which to mindful, the x and y origin is in the upper left-hand corner.  Any guesses why? It's because we don't like negative numbers. It's easier to move to the right positively and down positively.  Then, as we subtract, we move left and up, respectively.
 
-## square
+</div>
+</div>
+
+<!-- Tab content -->
+<div id="Square" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 ```js
 function setup() {
@@ -48,8 +64,11 @@ function draw() {
 This time square is the name of the function.  30 is still the x, 40 is the y location, and the 50 represents the width and height since they are the same.
 
 Give it a try!
+</div>
+</div>
+<div id="Ellipse" class="tabcontent">
 
-## ellipse()
+<div class="tabhtml" markdown="1">
 
 ```js
 function setup() {
@@ -63,8 +82,11 @@ function draw() {
 ```
 
 Notice the difference with the ellipse as it allows us to create a different width and height. If the height and width were the same, it would be a circle.
+</div>
+</div>
+<div id="Rect" class="tabcontent">
 
-## rect()
+<div class="tabhtml" markdown="1">
 
 ```js
 function setup() {
@@ -78,8 +100,12 @@ function draw() {
 ```
 
 Same for the rect function.  If the last two parameters are the same, we will get a square, but we will get a rectangle if they are different.
+</div>
+</div>
 
-## triangle()
+<div id="Triangle" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 ```js
 function setup() {
@@ -94,3 +120,5 @@ function draw() {
 The first two parameters represent the first point, which is the bottom point; in this case, then the second two parameters are the second point, which is the top point, and then the last two parameters represent the third point or the bottom right point in this triangle.  
 
 There are several other simple shapes, such as point, line, and quad.
+</div>
+</div>
