@@ -6,6 +6,15 @@ jotted: false
 
 # Adding Text
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Basic')">Basic Text</button>
+    <button class="tablinks" onclick="openTab(event, 'Size')">Text Size</button>
+</div>
+<!-- Tab content -->
+<div id="Basic" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 Adding text on your page is not too difficult.  We have to use the text function.  It looks like this.
 
 ```js
@@ -20,6 +29,13 @@ function draw() {
 ```
 
 This prints the words **Hello there!** to the screen at location x-location 10 and y-location 30.
+
+</div>
+</div>
+<div id="Size" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 
 Notice how it's not too big, though?  We can change the size of the font but using the textSize function.  It looks like this.
 
@@ -36,3 +52,5 @@ function draw() {
 ```
 
 You see that the text is much larger and readable, well, at least for me since I cannot see that well. Okay, now you are ready for your homework!
+</div>
+</div>
