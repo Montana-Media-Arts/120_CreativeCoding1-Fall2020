@@ -141,7 +141,7 @@ How do we do that?
  Math.floor(Math.random() * 10);
 ```
 
-Before you start breathing heavily, consider this. **Math.floor** means if there are any numbers after the decimal point (e.g., 3.453, round down, so should 3 and 3.646 will also be 3.) 
+Before you start breathing heavily, consider this. **Math.floor** means if there are any numbers after the decimal point (e.g., 3.453 rounds down to 3, and 3.646 also results in 3.) 
 
 The **Math.random()** is just a function that returns a number between 0 inclusive and one exclusive. That means include zero in the results, and all decimal numbers up to 1, but not 1.  
 
