@@ -6,6 +6,16 @@ jotted: true
 
 # Using Functions
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Circle')">circle</button>
+    <button class="tablinks" onclick="openTab(event, 'MyCircle')">MyCircle Example</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 With **setup** and **draw**, we use them, but we never had to call them. However, luckily, we have used some functions already. Do you remember which ones?
 
 I am going to list some, and hopefully, they will sound familiar.
@@ -27,6 +37,12 @@ There are a couple of things to notice. When we **defined** functions, it starts
 However, when you use functions, you call the function name, and then the name is followed by parentheses.
 
 Except for Math.random(), all the other functions required numbers between the parenthesis.  For example, the circle function requires an x, y, and a diameter.  These are called **parameters**.  When you call the function, then you pass **arguments** into the functions.
+
+</div>
+</div>
+<div id="Circle" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 So, to recap, the function circle might look something like this.
 
@@ -53,6 +69,12 @@ So, to recap, the function circle might look something like this.
 ```
 
 When we call circle in the draw function, it calls the function **circle** sending in 10,20 and 100 as arguments into the function parameters.  Then, it creates the circle and then draws it to the screen.  
+
+</div>
+</div>
+<div id="MyCircle" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 We can create a circle function that looks like this.
 
@@ -133,5 +155,5 @@ function myCircle(x,y)
 
 Cool huh?
 
-<a href="https://umontana.zoom.us/recording/share/8aNSUGgCbsFCBb4FcUi-rc1REkJa1-qCpTZYqSWbK3ywIumekTziMw
-" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
