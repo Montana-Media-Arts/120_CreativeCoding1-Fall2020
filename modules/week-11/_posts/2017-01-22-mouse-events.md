@@ -6,11 +6,26 @@ jotted: false
 
 # Mouse Events
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'MousePressed')">mousePressed</button>
+    <button class="tablinks" onclick="openTab(event, 'MouseClicked')">mouseClicked</button>
+    <button class="tablinks" onclick="openTab(event, 'MouseMoved')">moveMoved</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
 We can interact with our sketches using the mouse too. How do we do that?  We can use the **mousePressed** function to respond when pressing the mouse, and we can use the **mouseClicked** function, to respond when pressing and then releasing the moused.  We can also use the **mouseMoved()** function to respond to the mouse moving across the screen.
 
 Let's look at mousePressed.
 
-## mousePressed
+</div>
+</div>
+
+<div id="MousePressed" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 Starting with our previous code, we an integrate mousePressed like this.
 
@@ -83,9 +98,13 @@ Starting with our previous code, we an integrate mousePressed like this.
 
 Now a circle is drawn whenever we click the mouse.  It appears right when we click the mouse.
 
-What about the mouseClick function?
+</div>
+</div>
+<div id="MouseClicked" class="tabcontent">
 
-## mouseClick
+<div class="tabhtml" markdown="1">
+
+What about the mouseClick function?
 
 ```js
         var x = 50;
@@ -157,9 +176,16 @@ What about the mouseClick function?
 
 ```
 
-To test out the difference, you have to press down and then release the mouse.  Now, the ellipse draws to the screen.  What about the last one? mouseMove().
+To test out the difference, you have to press down and then release the mouse.  Now, the ellipse draws to the screen.  
 
-## mouseMove
+</div>
+</div>
+
+<div id="MouseMove" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
+What about the last one? mouseMove().
 
 mouseMove tracks the mouse as it moves across the screen.
 
@@ -235,4 +261,5 @@ mouseMove tracks the mouse as it moves across the screen.
 
 Now, you see the ellipse move with the mouse.  Pretty cool, right?  
 
-<a href="https://umontana.zoom.us/recording/play/p-eUujm2CKkolQvO8PJN31LqJiqkqgWNRR4VAlpO8cUlyXnu6BDMFrLSH-2W-8It?autoplay=true&startTime=1572815264000" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
