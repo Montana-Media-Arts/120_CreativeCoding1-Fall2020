@@ -6,11 +6,27 @@ jotted: false
 
 # Event Handling
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'KeyPressed')">keyPressed</button>
+    <button class="tablinks" onclick="openTab(event, 'KeyIsDown')">keyIsDown</button>
+    <button class="tablinks" onclick="openTab(event, 'Example')">Example</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 So far, we transitioned our programs from static shapes to more movable shapes.  Now, we are going to make our shapes respond to events.
 
 There are two events on which we will focus.  The first one is keyPressed.
 
-## keyPressed
+</div>
+</div>
+
+<div id="KeyPressed" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 If we want to make changes to our program based on keys pressed, we must use a particular function called **keyPressed**.
 
@@ -43,6 +59,13 @@ function keyPressed()
 
 The keyPressed function checks for the **d** key and then moves to the right, and then the **a** moves the circle to the left.
 Notice something else?  The if/else if!  It's back and useful in this situation. If we didn't use the else if, it would be two if's, it would work the same, but the program would run just a little bit slower because it would have to check every if statement whereas with an else if, once one is true, the code ignores the others.
+
+</div>
+</div>
+
+<div id="KeyIsDown" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 We have another option, though, too.  We can use the **keyIsDown** function also, and it looks like this.
 
@@ -78,7 +101,15 @@ function keyPressed()
 }
 ```
 
+
 Keep in mind that computers store all letters as numbers. That is why we can get the keyCode for each letter.
+
+</div>
+</div>
+
+<div id="Example" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 How can we apply this to our example?  Let's look at what we had before.
 
@@ -207,4 +238,5 @@ Now, we are moving the object left and right while going up and down with the WA
 
 What else can we do?  Let's look at mouse events.
 
-<a href="https://umontana.zoom.us/recording/share/EPK2h1TeywIv5K3h1be5o8Aou9u18hFpHa3jvQ6irhewIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
