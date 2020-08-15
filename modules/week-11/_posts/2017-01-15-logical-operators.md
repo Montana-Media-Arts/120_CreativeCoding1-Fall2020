@@ -17,7 +17,7 @@ jotted: false
 
 <div class="tabhtml" markdown="1">
 
-As we discussed last week, there are three logical operators - AND, OR, and NOT.  They are symbolized with **&&**, **||**, and <b>!</b>
+As we discussed last week, there are three logical operators - AND, OR, and NOT.  They are symbolized with **&&**, <b>||</b>, and <b>!</b>
 
 </div>
 </div>
