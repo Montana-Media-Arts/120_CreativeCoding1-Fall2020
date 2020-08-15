@@ -6,6 +6,16 @@ jotted: true
 
 # Create Our Functions
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'ChangedFunction')">Changed Function</button>
+    <button class="tablinks" onclick="openTab(event, 'FunctionsInFunctions')">Functions in Function</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 How do we create more complex functions?  Let's start with where we left off.
 
 ```js
@@ -79,6 +89,13 @@ How do we create more complex functions?  Let's start with where we left off.
     }
 
 ```
+
+</div>
+</div>
+
+<div id="ChangedFunction" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 What can put into a function?
 
@@ -166,7 +183,12 @@ Let's make a few changes.
 
 What did we do?  We created a new function called **controlCircle**, which handles all variable changes with the circle, including keyboard events and what do when we leave an area as well as change the size of the circle.
 
-## Functions in Functions
+</div>
+</div>
+
+<div id="FunctionsInFunctions" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 We can even call a function instead of a function.  Do we do that?  Let's first define another function.
 
@@ -365,5 +387,5 @@ Finally, let's add **myCircle** function into this.
 
 Did you see the circles?  Wow right?  Let's go onto the homework.
 
-<a href="https://umontana.zoom.us/recording/share/qulcCEV49wgQRpcphjmCAosNTZYJkLZyku_bMA8pPliwIumekTziMw
-" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
