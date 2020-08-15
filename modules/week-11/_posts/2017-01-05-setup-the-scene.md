@@ -6,9 +6,23 @@ jotted: false
 
 # Setup the Scene
 
-I find in programming that often is it is useful to have some context indicating why I am creating something.  That is why  I had you create a self-portrait. Now, we are going to create some interactive art using events.
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'Setup')">Setup</button>
+    <button class="tablinks" onclick="openTab(event, 'Movement')">Movement</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
 
-Have any of you played Spore?  Let's make something like that.  (minus the more beautiful graphics). We will use simple shapes to reduce complexity.
+<div class="tabhtml" markdown="1">
+
+I find in programming that often is it is useful to have some context indicating why I am creating something.  That is why  I had you create a self-portrait. Now, we are going to create some interactive art using events.
+</div>
+</div>
+
+<div id="Setup" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 First, let's set up our scene.
 
@@ -29,6 +43,12 @@ First, let's set up our scene.
 ```
 
 Here we just created a simple black background and added a greenish circle to it.
+</div>
+</div>
+
+<div id="Movement" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 We know how to make it move.
 
@@ -74,4 +94,5 @@ Hopefully, you also found out that if you change x and y and diameter at the sam
 
 Fun! Where do we go from here? Let's talk about the conditions.  What are those? If, if/else, and if/else if statements.  We have seen the first two, but maybe not the third one. We will look at those.
 
-<a href="https://umontana.zoom.us/recording/share/mHw0xqCy5nbGnAWXfee7J6l6bjxFyOzw0BAW635APuWwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
