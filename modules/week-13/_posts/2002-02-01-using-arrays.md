@@ -13,8 +13,8 @@ jotted: true
     <button class="tablinks" onclick="openTab(event, 'Step3')">Step 3</button>
     <button class="tablinks" onclick="openTab(event, 'Step4')">Step 4</button>
     <button class="tablinks" onclick="openTab(event, 'Step5')">Step 5</button>
-    <button class="tablinks" onclick="openTab(event, 'Step6')">Step 6</button>
-    <button class="tablinks" onclick="openTab(event, 'Step7')">Step 7</button>
+    <button class="tablinks" onclick="openTab(event, 'Step6')">Original Code</button>
+    <button class="tablinks" onclick="openTab(event, 'Step7')">Code with Arrays</button>
 </div>
 <!-- Tab content -->
 <div id="Original" class="tabcontent" style="display:block">
