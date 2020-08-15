@@ -6,6 +6,21 @@ jotted: true
 
 # Working with Arrays
 
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Original')">Original Code</button>
+    <button class="tablinks" onclick="openTab(event, 'Step1')">Step 1</button>
+    <button class="tablinks" onclick="openTab(event, 'Step2')">Step 2</button>
+    <button class="tablinks" onclick="openTab(event, 'Step3')">Step 3</button>
+    <button class="tablinks" onclick="openTab(event, 'Step4')">Step 4</button>
+    <button class="tablinks" onclick="openTab(event, 'Step5')">Step 5</button>
+    <button class="tablinks" onclick="openTab(event, 'Step6')">Step 6</button>
+    <button class="tablinks" onclick="openTab(event, 'Step7')">Step 7</button>
+</div>
+<!-- Tab content -->
+<div id="Original" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
 Let's get hands-on with arrays now.  We will start with a simple example and then build on the model from last week.
 
 ```js
@@ -28,7 +43,15 @@ Let's get hands-on with arrays now.  We will start with a simple example and the
     }
 ```
 
-Remember this?  What if I wanted to create an array of those two circles instead of creating all those variables?  The code below shows how to implement this.
+Remember this?  What if I wanted to create an array of those two circles instead of creating all those variables?  
+
+</div>
+</div>
+<div id="Step1" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
+The code below shows how to implement this.
 
 ```js
     var myXs = [];
@@ -58,7 +81,14 @@ Then, I add the x,y, and diameter components to each array in the setup.  Notice
 
 Have you seen this before?  You have!  In for loops, we started with **var i = 0**.  That's because most languages start counting at zero instead of 1.
 
-So, how can we change what we did above?
+</div>
+</div>
+
+<div id="Step2" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
+So, how can we change what we did before?
 
 ```js
     var myXs = [];
@@ -86,7 +116,15 @@ So, how can we change what we did above?
 
 Okay, so we made a few more changes here, but only in the draw.  I create a for loop - remember when I said they would come back?  Instead of printing out each index one by one, I use the array to print them all out.  This method allows me to have as many indices without having to change any code later.
 
-The other thing to note is that I use **length** in the for loop instead of 2.  Length is a built-in property of the array that returns how many items are in the array.  That way, if we add more to the array, it still prints without having to change anything in the for loop. Let's look at that.
+The other thing to note is that I use **length** in the for loop instead of 2.  Length is a built-in property of the array that returns how many items are in the array.  That way, if we add more to the array, it still prints without having to change anything in the for loop. 
+
+</div>
+</div>
+<div id="Step3" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
+Let's look at that.
 
 ```js
     var myXs = [];
@@ -119,6 +157,13 @@ The other thing to note is that I use **length** in the for loop instead of 2.  
 ```
 
 However, there is one more thing we should address.  What about the number of circles we are creating in the setup?  How do we make that better?
+
+</div>
+</div>
+<div id="Step4" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
 
 What if we create another for loop? Yes!
 
@@ -157,6 +202,12 @@ Let's look at what we did.  We created a for loop in the setup.  This time, we w
 
 Automating stuff is pretty cool, but what if I wanted ten circles?
 
+</div>
+</div>
+<div id="Step5" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
 Look at this code and see what I had to change to do it.
 
 ```js
@@ -191,6 +242,12 @@ Look at this code and see what I had to change to do it.
 ```
 
 Guess what?  I only changed one thing.  The 3 in the for loop in setup is not a 10.  That was it!  Crazy!
+
+</div>
+</div>
+<div id="Step6" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 How do we apply this to the project from last week? Let's start from where we left off.
 
@@ -290,7 +347,15 @@ How do we apply this to the project from last week? Let's start from where we le
     }
 ```
 
-When you run this, remember random circles start appearing everywhere, which is cool if that's the effect you are after. However, if I want two random circles to appear and stay put, we can use an array for that.  Let's change the code above to the following.
+When you run this, remember random circles start appearing everywhere, which is cool if that's the effect you are after. However, if I want two random circles to appear and stay put, we can use an array for that.  
+
+</div>
+</div>
+<div id="Step7" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
+
+Let's change the code from the previous step to the following.
 
 ```js
 
@@ -415,5 +480,5 @@ When you run this, remember random circles start appearing everywhere, which is 
 ```
 
 There a few things to notice. First, I changed the myCircle function and created three different functions. These functions return a random x, y, and diameter, respectively.  Then, I create a for loop to create the circle parameters and then print out the circles in the draw method using a for loop as well.  This time the circles don't move around but instead change color.  Cool right?
-
-<a href="https://umontana.zoom.us/recording/share/R3VsswbEpZj7YqIbrP6IHXBXBUQe_qMmRO_K_Yia3PWwIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>

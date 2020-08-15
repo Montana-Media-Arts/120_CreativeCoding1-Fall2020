@@ -6,11 +6,11 @@ jotted: true
 
 # More Videos
 
-[5.1: Function Basics - p5.js Tutorial](https://www.youtube.com/watch?v=wRHAitGzBrg)
+<p><a href="//www.youtube.com/watch?v=wRHAitGzBrg" data-lity>5.1: Function Basics - p5.js Tutorial</a></p>
 
-[5.2: Function Parameters and Arguments - p5.js Tutorial](https://www.youtube.com/watch?v=zkc417YapfE)
+<p><a href="//www.youtube.com/watch?v=zkc417YapfE" data-lity>5.2: Function Parameters and Arguments - p5.js Tutorial</a></p>
 
-[5.3: Functions and Return - p5.js Tutorial](https://www.youtube.com/watch?v=qRnUBiTJ66Y)
+<p><a href="//www.youtube.com/watch?v=qRnUBiTJ66Y" data-lity>5.3: Functions and Return - p5.js Tutorial</a></p>
 
 
 
