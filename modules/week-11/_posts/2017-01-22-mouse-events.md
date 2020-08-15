@@ -107,7 +107,7 @@ Now a circle is drawn whenever we click the mouse.  It appears right when we cli
 What about the mouseClick function?
 
 ```js
-        var x = 50;
+    var x = 50;
     var y = 50;
     var diameter = 25;
     var mousex = 0;
