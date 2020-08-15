@@ -9,7 +9,7 @@ jotted: true
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
     <button class="tablinks" onclick="openTab(event, 'Circle')">circle</button>
-    <button class="tablinks" onclick="openTab(event, 'MyCircle')">MyCircle Example</button>
+    <button class="tablinks" onclick="openTab(event, 'MyCircle')">myCircle Example</button>
 </div>
 <!-- Tab content -->
 <div id="Overview" class="tabcontent" style="display:block">
