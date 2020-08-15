@@ -6,7 +6,25 @@ jotted: false
 
 # Logical Operators
 
-As we discussed last week, there are three logical operators - AND, OR, and NOT.  They are symbolized with **&&**, **||**, and **!**
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'AND')">AND</button>
+    <button class="tablinks" onclick="openTab(event, 'OR')">OR</button>
+    <button class="tablinks" onclick="openTab(event, 'NOT')">NOT</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
+As we discussed last week, there are three logical operators - AND, OR, and NOT.  They are symbolized with **&&**, **||**, and <b>!</b>
+
+</div>
+</div>
+
+<div id="AND" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 Let's look at the first operator AND
 
@@ -76,7 +94,12 @@ For each second else if the variable must be higher than some number and if the 
 
 Now, the variables change like before, but the changes slow down until it resets. Feel free to change the numbers.
 
-## OR
+</div>
+</div>
+
+<div id="OR" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 What do you think would happen if we changed it to an OR instead of an AND?  Let's find out.
 
@@ -207,7 +230,12 @@ What needs to change so that all three if and else if's evaluate to true at some
     }
 ```
 
-## NOT
+</div>
+</div>
+
+<div id="NOT" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 So, what about NOT?  How does this fit in this scenario?
 
@@ -274,4 +302,5 @@ So, what about NOT?  How does this fit in this scenario?
 
 All we changed in this scenario is the last else if and as long x,y, or diameter isn't equal to their respective number, then the variable resets.
 
-<a href="https://umontana.zoom.us/recording/share/d1LmQTffFVdIfpgDzTI2CHrypVo_17nwj9RI5ZJoeE2wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
