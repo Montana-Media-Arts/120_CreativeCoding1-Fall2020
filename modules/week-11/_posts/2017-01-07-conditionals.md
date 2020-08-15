@@ -7,9 +7,18 @@ jotted: false
 
 # Conditionals
 
-These are control structures that help us make decisions when our code runs.
+<div class="tab">
+    <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablinks" onclick="openTab(event, 'IfExample')">if Example</button>
+    <button class="tablinks" onclick="openTab(event, 'IfElseExample')">if/else Example</button>
+    <button class="tablinks" onclick="openTab(event, 'IfElseIfExample')">if/else if Example</button>
+</div>
+<!-- Tab content -->
+<div id="Overview" class="tabcontent" style="display:block">
 
-## if statements
+<div class="tabhtml" markdown="1">
+
+These are control structures that help us make decisions when our code runs.
 
 These are the most basic conditional statements.  They always evaluate to something true or false.
 
@@ -21,7 +30,9 @@ These are the most basic conditional statements.  They always evaluate to someth
     }// closing curly brace
 ```
 
-In these, if statements, if 3 equals 5, then, the body of the if runs.  In this instance, the console.log will not run; however, if we change the if statement to something like this.
+
+
+In these if statements, if 3 equals 5, then, the body of the if runs.  In this instance, the console.log will not run; however, if we change the if statement to something like this.
 
 
 ```js
@@ -49,6 +60,12 @@ You might want something like this.
 
 Now, a could be three and b equal to 5. In that case, the if statement would fail, and then the code skips the body if statement and runs the code. However, if a = 3 and b = 3, then it evaluations to true.
 
+</div>
+</div>
+
+<div id="IfExample" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 How do we apply this to our new example?
 
 ```js
@@ -80,7 +97,12 @@ How do we apply this to our new example?
     }
 ```
 
-## if/else statements
+</div>
+</div>
+
+<div id="IfElseExample" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 
 We looked at this last week, and it's good to revisit before we add more.  With if statements, we can also have the other case.  We can think of it like this.  If something is true, then do something (the thing in the curly braces under the if); otherwise, do something **else** (it will have curly braces).
  
@@ -208,9 +230,14 @@ How did we do it in our project?
 
 Now that's more interesting.  (or could cause a seizure depending your sensitivity).
 
+</div>
+</div>
+
+<div id="IfElseIfExample" class="tabcontent">
+
+<div class="tabhtml" markdown="1">
 What about else if. What is that?
 
-## if/else if
 
 **else if** is just another way to check if a statement is true or false, and it makes things more efficient.  Take a look at the following code.
 
@@ -431,4 +458,5 @@ Now, did you see a change?  What happened?  Did it get to the third else if? How
 
 To make it work the way we want, we must change a couple of things.  Go to the next section to find out.
 
-<a href="https://umontana.zoom.us/recording/share/vq5OTiedAIzuyGSJ7GUV9xfmKp1qLz2IUFuHXEuuT46wIumekTziMw" target="_new" style="font-family:Ariel; font-size:32px;">Click here for this section's Video</a>
+</div>
+</div>
