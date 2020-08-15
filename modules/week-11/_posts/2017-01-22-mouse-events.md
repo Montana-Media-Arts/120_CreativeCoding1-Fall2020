@@ -181,7 +181,7 @@ To test out the difference, you have to press down and then release the mouse.  
 </div>
 </div>
 
-<div id="MouseMove" class="tabcontent">
+<div id="MouseMoved" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
 
