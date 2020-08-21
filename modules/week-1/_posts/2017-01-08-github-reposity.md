@@ -82,8 +82,8 @@ module: 1
 <ol>
 <li>Go to <a href="https://desktop.github.com/" target="_new">GitHub Desktop</a></li>
 <li>Download your version and install it.</li>
-<li>Go to your repository and click on the clone or download button.</li>
-<li>Click on Open in Desktop.</li>
+<li>Go to your repository and click on the <b>Code</b> button.</li>
+<li>Click on <b>Open with GitHub Desktop</b>.</li>
 <li>Create a clone on your computer.</li>
 <li>Remember to pull first <b>always</b> and then push.</li>
 </ol>
