@@ -75,7 +75,7 @@ module: 1
 
 <div id="GitHub" class="tabcontent">
 
-<!--<p><a href="//www.youtube.com/embed/kNPGX-YDvw8" data-lity>GitHub Desktop Video</a></p>-->
+<p><a href="//www.youtube.com/embed/L0TKgJRdY0s" data-lity>GitHub Desktop Video</a></p>
 
 <p>GitHub Desktop is a graphical interface to make a copy of your repository on your computer.  Then, you can make changes to your work and then quickly post it back to your repository.  Or if you heaven forbid something happens to your computer [trust me, it happens], then you have a backup.</p>
 
