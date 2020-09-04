@@ -28,7 +28,7 @@ module: 3
 </div>
 
 <div id="ToDo" class="tabcontent">
-<p>Now that you have watched her talk take the Grit test and see where you rank.  Keep track as you will discuss this in a short paper and with your colleagues.</p>
+<p>Now that you have watched her talk take the Grit test and see where you rank.  Keep track as you will discuss in the forum with your colleagues.</p>
 
 <p><a href="https://angeladuckworth.com/grit-scale/" target="_new">Grit Test</a></p>
 
