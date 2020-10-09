@@ -79,7 +79,7 @@ What did you see?
 </div>
 </div>
 
-<div id="Setup" class="tabcontent" style="display:block">
+<div id="FinalPage" class="tabcontent" style="display:block">
 
 <div class="tabhtml" markdown="1">
 
@@ -109,6 +109,44 @@ So, what might our final HTML page look like?
     </body>
 </html>
 ```
+
+Or you can separate the script into it's own page where the HTML page might look like this. Let's call the page: **main.html**. 
+
+```html
+<html>
+
+    <head>
+        <title>
+            First p5.js page
+        </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+        <script src="sketch.js"></script>
+    </head>
+    <body>
+
+    </body>
+</html>
+```
+
+This would be the **sketch.js** file.
+
+```js
+    function setup()
+    {
+        createCanvas(300,500);
+    }
+    function draw()
+    {
+        background(220);
+    }
+    
+```
+
+Just remember the directory structure might look like this:
+
+120Assignment - folder
+    - main.html
+    - sketch.js
 
 </div>
 </div>
