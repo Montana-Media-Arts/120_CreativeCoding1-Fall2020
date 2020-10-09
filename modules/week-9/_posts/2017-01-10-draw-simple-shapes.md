@@ -6,7 +6,7 @@ jotted: true
 
 # Draw Simple Shapes
 
-Drawing simple shapes is the first thing that p5.js allows us to do quickly.  One example looks like this.
+Drawing simple shapes is the first thing that p5.js allows us to do quickly.  There are examples in the following tabs.
 
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Circle')">Circle</button>
