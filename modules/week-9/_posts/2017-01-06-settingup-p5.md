@@ -57,7 +57,7 @@ How does this work on an HTML page?  We can create a second sketch.js page.
 ```html
 <html>
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
     <script src="sketch.js"></script>
   </head>
   <body>
@@ -94,7 +94,7 @@ We can download the library and then reference it.
 
 Go to the download page and choose from a couple of options.
 
-[Download page](https://p5js.org/download/)
+<a href="https://p5js.org/download/" target="_new">Download page</a>
 
 If you look, you should see this.
 

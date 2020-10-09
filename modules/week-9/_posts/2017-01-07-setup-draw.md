@@ -144,9 +144,10 @@ This would be the **sketch.js** file.
 
 Just remember the directory structure might look like this:
 
-120Assignment - folder
-    - main.html
-    - sketch.js
+120Assignment (main folder)
+Two files in the folder
+* main.html
+* sketch.js
 
 </div>
 </div>
