@@ -9,5 +9,3 @@ jotted: false
 Great job getting all of this implemented! I hope it wasn't too bad and maybe even a little fun.  Did you see the similarities between this and JavaScript?  I hope so as they are the same in so many ways!  We will continue with more next week.
 
 If you need more help, please refer to their reference. It helps for sure.
-
-<a href="https://p5js.org/reference/" target="_new">p5.js Reference</a>
