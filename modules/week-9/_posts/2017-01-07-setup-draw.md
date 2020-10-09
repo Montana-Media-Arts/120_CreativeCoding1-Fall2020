@@ -11,6 +11,7 @@ These are the two main functions in p5.js.  They are the most critical functions
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Setup')">Setup</button>
     <button class="tablinks" onclick="openTab(event, 'Draw')">Draw</button>
+    <button class="tablinks" onclick="openTab(event, 'FinalPage')">Final HTML Page</button>
 </div>
 <!-- Tab content -->
 <div id="Setup" class="tabcontent" style="display:block">
@@ -72,9 +73,42 @@ function draw()
 ```
 
 Open your Developer Options and see what it says in the console?
-
+**Note** In Chrome, you can get to the Developer Options by clicking the three vertical dots in the upper right-hand corner, then selecting **More Tools** and then **Developer tools**.
 What did you see?
 
-Now, let's do something fun on the screen.
+</div>
+</div>
+
+<div id="Setup" class="tabcontent" style="display:block">
+
+<div class="tabhtml" markdown="1">
+
+So, what might our final HTML page look like?
+
+```html
+<html>
+
+    <head>
+        <title>
+            First p5.js page
+        </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+        <script>
+            function setup()
+            {
+                createCanvas(300,500);
+            }
+            function draw()
+            {
+                background(220);
+            }
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>
+```
+
 </div>
 </div>

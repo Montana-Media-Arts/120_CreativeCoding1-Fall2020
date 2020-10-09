@@ -19,7 +19,7 @@ jotted: true
 
 <p><a href="//www.youtube.com/embed/1aQplfKL2eI" data-lity>Accessing HTML Tags Video</a></p>
 
-<p>One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example below.</p>
+<p>One of the most useful things that JavaScript can do is access HTML tags and change their content. Look at the example in the next tab.</p>
 
 </div>
 

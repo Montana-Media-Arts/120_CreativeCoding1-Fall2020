@@ -45,16 +45,10 @@ What other options do we have, though?
 Remember when we used a CDN with Bootstrap?  You can do the same thing here.  It looks like this.
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
 ```
 
-**Remember from the video that this one doesn't work.  So, use the one below instead.
-
-```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
-```
-
-How does this work on an HTML page?
+How does this work on an HTML page?  We can create a second sketch.js page.
 
 ```html
 <html>
