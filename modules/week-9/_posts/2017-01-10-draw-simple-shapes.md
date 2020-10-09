@@ -14,6 +14,8 @@ Drawing simple shapes is the first thing that p5.js allows us to do quickly.  Th
     <button class="tablinks" onclick="openTab(event, 'Ellipse')">Ellipse</button>
     <button class="tablinks" onclick="openTab(event, 'Rect')">Rect</button>
     <button class="tablinks" onclick="openTab(event, 'Triangle')">Triangle</button>
+    <button class="tablinks" onclick="openTab(event, 'Point')">Point</button>
+    <button class="tablinks" onclick="openTab(event, 'Line')">Line</button>
     <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
     
 </div>
@@ -124,7 +126,47 @@ The first two parameters represent the first point, which is the **bottom-left**
 There are several other simple shapes, such as point, line, and quad.
 </div>
 </div>
+<div id="Point" class="tabcontent">
+<div class="tabhtml" markdown="1">
 
+What if we want to place a point?  This is follows the same methodology as the other simple shapes.
+
+```js
+function setup() {
+  createCanvas(400,400);
+}
+
+function draw() {
+  background(220);
+  point(30, 75);
+}
+````
+
+This places a point at the x-coordinate of 30 and the y-coordinate of 75.
+
+</div>
+</div>
+
+<div id="Line" class="tabcontent">
+<div class="tabhtml" markdown="1">
+
+Finally, to create a line, we need two points and then p5.js creates a line between the two points.
+
+```js
+function setup() {
+  createCanvas(400,400);
+}
+
+function draw() {
+  background(220);
+  line(30, 20, 85, 75);
+}
+````
+
+This example places the first point on the line at x-coordinate 30 and y-coordinate 20.  The second point is placed at x-coordinate 85 and y-coordinate 75.  And that's it!
+
+</div>
+</div>
 <div id="ToDo" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
