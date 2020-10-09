@@ -47,7 +47,7 @@ Did you get a canvas to appear in your web browser? Good!
 
 </div>
 </div>
-<div id="Draw" class="tabcontent" style="display:block">
+<div id="Draw" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
 
@@ -79,7 +79,7 @@ What did you see?
 </div>
 </div>
 
-<div id="FinalPage" class="tabcontent" style="display:block">
+<div id="FinalPage" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
 

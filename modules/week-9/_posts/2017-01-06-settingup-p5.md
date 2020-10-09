@@ -28,9 +28,13 @@ Here is an image of the Editor.
 
 ![Editor](../imgs/editor.png "Editor")
 
-If you click the start button, you won't see much but a 400x400 grey colored square.  If you change the numbers, you will see a different sized square if you alter the create canvas numbers **Try it!**.  
+If you click the start button, you won't see much but a 400x400 grey colored square.  If you change the numbers, you will see a different sized square if you alter the create canvas numbers.  
 
-If you change the number in the background, it will change the greyscale color.  You can put RGB colors in there too.  **Try it!**
+If you change the number in the background, it will change the greyscale color.  You can put RGB colors in there too.
+
+```js
+  background(123,23,129);
+```
 
 What other options do we have, though?  
 
