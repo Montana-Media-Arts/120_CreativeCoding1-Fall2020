@@ -40,8 +40,8 @@ function draw() {
 How does this work?
 
 1. circle is the name of the function
-2. 30 is the x location on the page
-3. 40 is the y location on the page
+2. 30 is the x-coordinate on the page
+3. 40 is the y-coordinate on the page
 4. 50 is the diameter of the circle
 
 One thing in which to mindful, the x and y origin is in the upper left-hand corner.  Any guesses why? It's because we don't like negative numbers. It's easier to move to the right positively and down positively.  Then, as we subtract, we move left and up, respectively.
