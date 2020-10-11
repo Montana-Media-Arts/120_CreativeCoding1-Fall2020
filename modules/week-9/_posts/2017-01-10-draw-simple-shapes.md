@@ -65,7 +65,7 @@ function draw() {
 }
 ```
 
-This time square is the name of the function.  30 is still the x, 40 is the y location, and the 50 represents the width and height since they are the same.
+This time square is the name of the function.  30 is still the x, 40 is the y-coordinate, and the 50 represents the width and height since they are the same.
 
 Give it a try!
 </div>
