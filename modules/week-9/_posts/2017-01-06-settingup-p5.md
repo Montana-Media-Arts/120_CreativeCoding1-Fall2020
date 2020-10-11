@@ -24,9 +24,9 @@ The first way is by using the web editor on the p5js.org website.  Look for the 
 
 Then, you can create sketches directly on the web, which is fantastic!  However, it would help if you were online for this to work.
 
-Here is an image of the Editor.
+Here is the editor.
 
-![Editor](../imgs/editor.png "Editor")
+<iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
 
 If you click the start button, you won't see much but a 400x400 grey colored square.  If you change the numbers, you will see a different sized square if you alter the create canvas numbers.  
 

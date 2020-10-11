@@ -170,6 +170,8 @@ This example places the first point on the line at x-coordinate 30 and y-coordin
 <div id="ToDo" class="tabcontent">
 <div class="tabhtml" markdown="1">
 
+Add different shapes to the draw method.
+
 <iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
 </div>
 </div>
