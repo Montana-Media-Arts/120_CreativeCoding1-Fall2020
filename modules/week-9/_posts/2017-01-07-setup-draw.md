@@ -12,7 +12,7 @@ These are the two main functions in p5.js.  They are the most critical functions
     <button class="tablinks active" onclick="openTab(event, 'Setup')">Setup</button>
     <button class="tablinks" onclick="openTab(event, 'Draw')">Draw</button>
     <button class="tablinks" onclick="openTab(event, 'FinalPage')">Final HTML Page</button>
-    <button class="tablinks" onclick="openTab(event, 'To Do')">To Do</button>
+    <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 <!-- Tab content -->
 <div id="Setup" class="tabcontent" style="display:block">
