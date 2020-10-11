@@ -9,7 +9,7 @@ jotted: false
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Basic')">Basic Text</button>
     <button class="tablinks" onclick="openTab(event, 'Size')">Text Size</button>
-     <button class="tablinks" onclick="openTab(event, 'To Do')">To Do</button>
+     <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 <!-- Tab content -->
 <div id="Basic" class="tabcontent" style="display:block">
