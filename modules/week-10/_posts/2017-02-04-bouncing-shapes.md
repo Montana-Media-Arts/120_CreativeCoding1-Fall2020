@@ -105,7 +105,7 @@ function draw()
 }
 ```
 
-Does this work?  What did you see?  Why did it just wiggle?  It actually did go back 7 pixels, but when the draw function runs again, it is less than or equal to 800, and then it tries to go to the right, and then it does this little dance over and over.  How can we make it work?
+Does this work?  What did you see?  Why did it just wiggle?  It actually did go back 13 pixels, but when the draw function runs again, it is less than or equal to 800, and then it tries to go to the right, and then it does this little dance over and over.  How can we make it work?
 </div>
 </div>
 <div id="Step3" class="tabcontent">
@@ -150,7 +150,7 @@ function draw()
 }
 ```
 
-If you run this code, it will work just as did before, where the circles will continue forever.  Notice, I created a new variable **movement** and added that instead of 7.  What about the if statement?  
+If you run this code, it will work just as did before, where the circles will continue forever.  Notice, I created a new variable **movement** and added that instead of 13.  What about the if statement?  
 </div>
 </div>
 <div id="Step4" class="tabcontent">
