@@ -1,10 +1,10 @@
 ---
-title: Create Our Functions
+title: Create More Functions
 module: 12
 jotted: true
 ---
 
-# Create Our Functions
+# Create More Functions
 
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
