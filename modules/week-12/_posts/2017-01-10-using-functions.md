@@ -30,11 +30,11 @@ I am going to list some, and hopefully, they will sound familiar.
 * rect()
 * ellipse()
 
-Can you believe all the functions you have used already?  
+Can you believe all the functions you have used already? (see the previous section as to why)  
 
-There are a couple of things to notice. When we **defined** functions, it starts with function, and the body contains the curly braces.
+There are a couple of things to notice. When we **define** functions, it starts with keyword **function**, and the body is in between the curly braces.
 
-However, when you use functions, you call the function name, and then the name is followed by parentheses.
+However, when you use functions, you call the **function name**, and then the name is followed by **parentheses**.
 
 Except for Math.random(), all the other functions required numbers between the parenthesis.  For example, the circle function requires an x, y, and a diameter.  These are called **parameters**.  When you call the function, then you pass **arguments** into the functions.
 
@@ -44,18 +44,19 @@ Except for Math.random(), all the other functions required numbers between the p
 
 <div class="tabhtml" markdown="1">
 
-So, to recap, the function circle might look something like this.
+So, to recap, the function calculateSum might look something like this.
 
 ```js
-    // a potential function definition for circle
-    function circle(x,y,diameter)
+      // define the calculateSum function
+    function calculateSum(number1, number2)
     {
-        createCircle(x,y,diameter);
-        drawCircle();
+        number1 = number1 + number2;
+        number2 = number1 + number2;
+        sum = number1 + number2;
     }
 ```
 
-** Keep in mind that this is NOT the actual definition of the circle function in p5.js **
+So, let's start like this. What if we wanted to create a concentric circle?
 
 ```js
     function setup()
@@ -64,11 +65,14 @@ So, to recap, the function circle might look something like this.
     }
     function draw()
     {
-        circle(10,20,100);
+        fill(50,120,120);
+        circle(110,120,100);
+        fill(120,50,120);
+        circle(110,120,50);
     }
 ```
 
-When we call circle in the draw function, it calls the function **circle** sending in 10,20 and 100 as arguments into the function parameters.  Then, it creates the circle and then draws it to the screen.  
+To make this work, it requires, two calls to the fill function and two to the circle function.  How would one create a function to create a concentric circle?
 
 </div>
 </div>
@@ -76,16 +80,20 @@ When we call circle in the draw function, it calls the function **circle** sendi
 
 <div class="tabhtml" markdown="1">
 
-We can create a circle function that looks like this.
+We can **define** a concentric circle function like this.
 
 ```js
-function myCircle()
+
+function ConcentricCircle(x,y, outer_radius, inner_radius outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
 {
-    fill(12,129,192);
-    circle(100,200,100);
+        fill(outer_red,outer_green, outer_blue);
+        circle(x,y,outer_radius);
+        fill(inner_red, inner_green, inner_blue);
+        circle(x,y,inner_radius);
 }
+
 ```
-I can then call this function in the draw function like this.
+I can then **call** the `ConcentricCircle` function in the draw function like this.
 
 ```js
     function setup()
@@ -94,66 +102,44 @@ I can then call this function in the draw function like this.
     }
     function draw()
     {
-        myCircle();
+        ConcentricCircle(110, 120, 100, 50, 50, 120, 120, 120, 50, 120);
     }
 ```
 
-I called the **myCircle** function in the draw function.  Did it work?  Good!  Now I can create a single circle in the draw function by calling myCircle.  However, if I call it again, it will generate another circle in the same place.
+I called the **ConcentricCircle** function in the draw function.  Did it work?  Good!  Now I can create a multiple concentric circles in the draw function by calling ConcentricCircle many times.  However, if I call it again, it will generate another concentric circle in the same place.
 
 ```js
-function myCircle(x,y)
-{
-    fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-    circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
-}
+    function setup()
+    {
+        createCanvas(500,500);
+    }
+    function draw()
+    {
+        // creates two Concentric Cirles in the same place
+        ConcentricCircle(110, 120, 100, 50, 50, 120, 120, 120, 50, 120);
+        ConcentricCircle(110, 120, 100, 50, 50, 120, 120, 120, 50, 120);
+    }
 ```
 
-What did I do?  Now, I am creating a circle with random colors (red, green, and blue are somewhere between 0-255). In the second line, it creates a random x, y, and size. 
-
-Now, when we call myCircle in the draw function, we have a random circle.
+So, what we need to do is create a concentric circle using a different x and y.
 
 ```js
-
-function setup()
-{
-    createCanvas(500,500);
-}
-
-function draw()
-{
-    myCircle(500,500);
-}
-
-function myCircle(x,y)
-{
-    fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-    circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
-}
+    function setup()
+    {
+        createCanvas(500,500);
+    }
+    function draw()
+    {
+        // concentric circle where x = 110 and y = 120
+        ConcentricCircle(110, 120, 100, 50, 50, 120, 120, 120, 50, 120);
+        // concentric circle where x = 210 and y = 220
+        ConcentricCircle(210, 220, 100, 50, 50, 120, 120, 120, 50, 120);
+    }
 ```
 
-You should see a random circle now. If you call the myCircle function again, it will draw a second circle in another location.
+What if I wanted to create random circles in random locations? Can you do that?
 
-```js
-
-function setup()
-{
-    createCanvas(500,500);
-}
-
-function draw()
-{
-    myCircle(500,500);
-    myCircle(500,500);
-}
-
-function myCircle(x,y)
-{
-    fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-    circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
-}
-```
-
-Cool huh?
+**Hint** use Math.random() to get move the location of the circles.
 
 </div>
 </div>
