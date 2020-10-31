@@ -126,13 +126,13 @@ However, if one sends in different x and y, then a second concentric circle is d
         ConcentricCircle(210, 220, 100, 50, 50, 120, 120, 120, 50, 120);
     }
 
-    function ConcentricCircle(x,y, outer_radius, inner_radius outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
-{
+    function ConcentricCircle(x,y, outer_radius, inner_radius, outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
+    {
         fill(outer_red,outer_green, outer_blue);
         circle(x,y,outer_radius);
         fill(inner_red, inner_green, inner_blue);
         circle(x,y,inner_radius);
-}
+    }
 ```
 
 What if I wanted to create random circles in random locations? Can you do that?
