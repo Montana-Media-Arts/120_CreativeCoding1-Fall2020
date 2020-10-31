@@ -76,7 +76,7 @@ function draw()
 </div>
 </div>
 
-<div id="Example1" class="tabcontent" >
+<div id="Example2" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
 Example with a function:
