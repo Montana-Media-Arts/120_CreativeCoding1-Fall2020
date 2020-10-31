@@ -96,17 +96,18 @@ function draw()
     // calculate the first sum
     number1 = 4;
     number2 = 5;    
-    calculateSum(number1, number2); // call the calculateSum function
+    calculateSum(number1, number2, 100, 200); // call the calculateSum function
 
     // calculate the second sum
     number3 = 3;
     number4 = 2;
-    calculateSum(number3, number4); // call the calculateSum function
+    calculateSum(number3, number4, 200, 200); // call the calculateSum function
 
     // Define the calculateSum function    
-    function calculateSum(number1, number2)
+    function calculateSum(number1, number2, x, y)
     {
         sum = number1 + number2;
+        text("Sum: " + sum, x, y);
     }
 }
 ```
@@ -133,19 +134,21 @@ function draw()
     // calculate the first sum
     number1 = 4;
     number2 = 5;    
-    calculateSum(number1, number2); // call calculateSum
+    calculateSum(number1, number2, 100, 200); // call calculateSum
+   
 
     // calculate the second sum
     number1 = 3; // overwrite the number1 variable with a new value
     number2 = 2; // overwrite the number2 variable with a new value
-    calculateSum(number1, number1); // call calculateSum
+    calculateSum(number1, number2, 200, 200); // call calculateSum
 }   
     // define the calculateSum function
-    function calculateSum(number1, number2)
+    function calculateSum(number1, number2, x, y)
     {
         number1 = number1 + number2;
         number2 = number1 + number2;
         sum = number1 + number2;
+        text("Sum: " + sum, x, y);
     }
 
 ```
