@@ -38,7 +38,7 @@ The main goal is to reduce your overall work. Functions can help with that.
 <div id="Example1" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
-Example without a function:
+## Example without a function
 
 ```js
 
@@ -79,7 +79,7 @@ function draw()
 <div id="Example2" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
-Example with a function:
+## Example with a function
 
 ```js
 function setup()
@@ -157,7 +157,7 @@ Now, the call the calculateSum function performs more actions which we no longer
 
 <div id="ToDo" class="tabcontent" >
 <div class="tabhtml" markdown="1">
-Try out the two different types of functions by putting them into the .
+Try out the two different types of functions.
 
 <iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
 </div>
