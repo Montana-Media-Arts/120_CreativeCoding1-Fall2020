@@ -8,55 +8,45 @@ jotted: true
 
 <div class="tab">
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
-    <button class="tablinks" onclick="openTab(event, 'Circle')">circle</button>
-    <button class="tablinks" onclick="openTab(event, 'MyCircle')">myCircle Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Example1')">Concentric Circle Example</button>
+    <button class="tablinks" onclick="openTab(event, 'Example2')">Concentric Circle Function</button>
+    <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 <!-- Tab content -->
 <div id="Overview" class="tabcontent" style="display:block">
 
 <div class="tabhtml" markdown="1">
 
-With **setup** and **draw**, we use them, but we never had to call them. However, luckily, we have used some functions already. Do you remember which ones?
+Recall that **setup** and **draw** are built-in functions and are called by p5.js without the programmer having the explicitly call the function.  What are some other built-in functions in p5.js?
 
-I am going to list some, and hopefully, they will sound familiar.
-
-* Math.floor()
+* Math.floor(number)
 * Math.random()
-* isKeyDown()
-* circle()
-* square()
-* point()
-* line()
-* rect()
-* ellipse()
+* isKeyDown(keycode)
+* circle(x,y,diameter)
+* square(x,y,side)
+* point(x,y)
+* line(x,y,x2,y2)
+* rect(x,y,width,height)
+* ellipse(x,y,width,height)
+* triangle(x,y,x2,y2,x3,y3)
 
-Can you believe all the functions you have used already? (see the previous section as to why)  
+There are so many functions that have been used already? (see the previous section as to why)  
 
-There are a couple of things to notice. When we **define** functions, it starts with keyword **function**, and the body is in between the curly braces.
+Recall that when a function is **defined**, it starts with keyword **function**, and the **body** (the part that performs the action) is in between the curly braces.
 
-However, when you use functions, you call the **function name**, and then the name is followed by **parentheses**.
+However, when calling a function, the **function name** is printed, and then the name is followed by **parentheses** with or without parameters depending on the definition.
 
-Except for Math.random(), all the other functions required numbers between the parenthesis.  For example, the circle function requires an x, y, and a diameter.  These are called **parameters**.  When you call the function, then you pass **arguments** into the functions.
+In the prior built-in p5.js examples, all functions required numbers between the parentheses except Math.random().  For example, the circle function requires an x, y, and a diameter.  These are called **parameters**.  When you call the function, then you pass **arguments** into the functions.
 
 </div>
 </div>
-<div id="Circle" class="tabcontent">
+<div id="Example1" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
 
-So, to recap, the function calculateSum might look something like this.
+In this example, let's create a more interesting function that displays a circle inside of another circle.  What might that look like?
 
-```js
-      // define the calculateSum function
-    function calculateSum(number1, number2)
-    {
-        number1 = number1 + number2;
-        number2 = number1 + number2;
-        sum = number1 + number2;
-    }
-```
-
-So, let's start like this. What if we wanted to create a concentric circle?
+The following show how to create these circles directly in the draw function.
 
 ```js
     function setup()
@@ -76,11 +66,11 @@ To make this work, it requires, two calls to the fill function and two to the ci
 
 </div>
 </div>
-<div id="MyCircle" class="tabcontent">
+<div id="Example2" class="tabcontent">
 
 <div class="tabhtml" markdown="1">
 
-We can **define** a concentric circle function like this.
+However, if a programmer wants to create concentric circles in different places on the canvas, they can **define** a ConcentricCircle function like the one below.
 
 ```js
 
@@ -106,7 +96,7 @@ I can then **call** the `ConcentricCircle` function in the draw function like th
     }
 ```
 
-I called the **ConcentricCircle** function in the draw function.  Did it work?  Good!  Now I can create a multiple concentric circles in the draw function by calling ConcentricCircle many times.  However, if I call it again, it will generate another concentric circle in the same place.
+The **ConcentricCircle** function is **called** in the draw function.  Now, multiple concentric circles are created by calling the ConcentricCircle function many times in the draw function.  However, in this case, it generates a second concentric circle is drawn in the same location.
 
 ```js
     function setup()
@@ -121,7 +111,7 @@ I called the **ConcentricCircle** function in the draw function.  Did it work?  
     }
 ```
 
-So, what we need to do is create a concentric circle using a different x and y.
+However, instead of creating multiple variables, one can send in different x and y, then the concentric circle is draw in a differnet location.
 
 ```js
     function setup()
@@ -135,11 +125,27 @@ So, what we need to do is create a concentric circle using a different x and y.
         // concentric circle where x = 210 and y = 220
         ConcentricCircle(210, 220, 100, 50, 50, 120, 120, 120, 50, 120);
     }
+
+    function ConcentricCircle(x,y, outer_radius, inner_radius outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
+{
+        fill(outer_red,outer_green, outer_blue);
+        circle(x,y,outer_radius);
+        fill(inner_red, inner_green, inner_blue);
+        circle(x,y,inner_radius);
+}
 ```
 
 What if I wanted to create random circles in random locations? Can you do that?
 
 **Hint** use Math.random() to get move the location of the circles.
 
+</div>
+</div>
+
+<div id="ToDo" class="tabcontent" >
+<div class="tabhtml" markdown="1">
+Try out the previous example to see what shows up.
+
+<iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
 </div>
 </div>

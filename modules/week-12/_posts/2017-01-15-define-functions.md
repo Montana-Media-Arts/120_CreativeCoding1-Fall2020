@@ -10,13 +10,14 @@ jotted: true
     <button class="tablinks active" onclick="openTab(event, 'Overview')">Overview</button>
     <button class="tablinks" onclick="openTab(event, 'ChangedFunction')">Changed Function</button>
     <button class="tablinks" onclick="openTab(event, 'FunctionsInFunctions')">Functions in Function</button>
+    <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 <!-- Tab content -->
 <div id="Overview" class="tabcontent" style="display:block">
 
 <div class="tabhtml" markdown="1">
 
-How do we create more complex functions?  Let's start with where we left off.
+What about creating functions to handle keyboard interaction?  Let's start with one of the previous examples.  This sketch moves the circle based on the keyboard and a circle is created when the mouse is clicked.
 
 ```js
     
@@ -25,7 +26,11 @@ How do we create more complex functions?  Let's start with where we left off.
     var diameter = 25;
     var mousex = 0;
     var mousey = 0;
-    
+    var s = 83;
+    var w = 87;
+    var a = 65;
+    var d = 68;
+
     function setup() 
     {
       createCanvas(800, 600);
@@ -41,19 +46,28 @@ How do we create more complex functions?  Let's start with where we left off.
       {
         x = 50;
       }
+      
+      if (y >= 300) 
+      {
+        y = 50;
+      }
 
-      if (keyIsDown(83)) 
+      if (keyIsDown(s)) 
       {
         y += 10;
       } 
-      else if (keyIsDown(87)) 
+      else if (keyIsDown(w)) 
       {
         y -= 10;
       }
 
-      if (y >= 300) 
+      if (keyIsDown(d)) 
       {
-        y = 50;
+        x += 10;
+      } 
+      else if (keyIsDown(s)) 
+      {
+        x -= 10;
       }
 
       if (diameter < 200) 
@@ -64,28 +78,15 @@ How do we create more complex functions?  Let's start with where we left off.
       {
         diameter = 25;
       }
+
       ellipse(mousex, mousey, 15, 50);
      
     }
 
-   
-    function keyPressed() 
-    {
-      if (key == 'd') 
-      {
-        x += 10;
-      } 
-      else if (key == 'a') 
-      {
-        x -= 10;
-      }
-    }
-
-    function mouseMoved() 
+    function mousePressed() 
     {  
       mousex = mouseX;
       mousey = mouseY;
-    
     }
 
 ```
@@ -97,9 +98,7 @@ How do we create more complex functions?  Let's start with where we left off.
 
 <div class="tabhtml" markdown="1">
 
-What can put into a function?
-
-Let's make a few changes.
+Now, let's move all the keyboard movement into a function.
 
 ```js
 
@@ -108,6 +107,10 @@ Let's make a few changes.
     var diameter = 25;
     var mousex = 0;
     var mousey = 0;
+    var s = 83;
+    var w = 87;
+    var a = 65;
+    var d = 68;
 
     function setup() 
     {
@@ -131,57 +134,55 @@ Let's make a few changes.
     /* This function controls all the variables of the circle */
     function controlCircle()
     {
-        if (x >= 300) 
-        {
-            x = 50;
-        }
 
-        if (keyIsDown(83)) 
-        {
-            y += 10;
-        } 
-        else if (keyIsDown(87)) 
-        {
-            y -= 10;
-        }
+      if (x >= 300) 
+      {
+        x = 50;
+      }
+      
+      if (y >= 300) 
+      {
+        y = 50;
+      }
 
-        if (y >= 300) 
-        {
-            y = 50;
-        }
+      if (keyIsDown(s)) 
+      {
+        y += 10;
+      } 
+      else if (keyIsDown(w)) 
+      {
+        y -= 10;
+      }
 
-        if (diameter < 200) 
-        {
-        diameter += 2;
-        } 
-        else if (diameter >= 200) 
-        {
-        diameter = 25;
-        }
-    }
-
-    function keyPressed() 
-    {
-      if (key == 'd') 
+      if (keyIsDown(d)) 
       {
         x += 10;
       } 
-      else if (key == 'a') 
+      else if (keyIsDown(s)) 
       {
         x -= 10;
       }
+
+      if (diameter < 200) 
+      {
+        diameter += 2;
+      } 
+      else if (diameter >= 200) 
+      {
+        diameter = 25;
+      }
+
     }
 
-    function mouseMoved() 
+    function mousePressed() 
     {  
       mousex = mouseX;
       mousey = mouseY;
-    
     }
 
 ```
 
-What did we do?  We created a new function called **controlCircle**, which handles all variable changes with the circle, including keyboard events and what do when we leave an area as well as change the size of the circle.
+What happened?  A new function named **controlCircle** handles all variable changes with the circle, including keyboard events and what do when we leave an area as well as change the size of the circle.  The controlCircle is called in the **draw** function rather than all the if statements in the draw function.  This makes things much easier to read and debug!
 
 </div>
 </div>
@@ -199,6 +200,10 @@ We can even call a function instead of a function.  Do we do that?  Let's first 
     var diameter = 25;
     var mousex = 0;
     var mousey = 0;
+    var s = 83;
+    var w = 87;
+    var a = 65;
+    var d = 68;
 
     function setup() 
     {
@@ -222,24 +227,34 @@ We can even call a function instead of a function.  Do we do that?  Let's first 
     /* This function controls all the variables of the circle */
     function controlCircle()
     {
-        if (x >= 300) 
-        {
-            x = 50;
-        }
+         if (x >= 300) 
+      {
+        x = 50;
+      }
+      
+      if (y >= 300) 
+      {
+        y = 50;
+      }
 
-        if (keyIsDown(83)) 
-        {
-            y += 10;
-        } 
-        else if (keyIsDown(87)) 
-        {
-            y -= 10;
-        }
+      if (keyIsDown(s)) 
+      {
+        y += 10;
+      } 
+      else if (keyIsDown(w)) 
+      {
+        y -= 10;
+      }
 
-        if (y >= 300) 
-        {
-            y = 50;
-        }
+      if (keyIsDown(d)) 
+      {
+        x += 10;
+      } 
+      else if (keyIsDown(s)) 
+      {
+        x -= 10;
+      }
+
         
         // we call the function here.
         changeDiameter();
@@ -259,19 +274,8 @@ We can even call a function instead of a function.  Do we do that?  Let's first 
         }
 
     }
-    function keyPressed() 
-    {
-      if (key == 'd') 
-      {
-        x += 10;
-      } 
-      else if (key == 'a') 
-      {
-        x -= 10;
-      }
-    }
-
-    function mouseMoved() 
+    
+    function mousePressed() 
     {  
       mousex = mouseX;
       mousey = mouseY;
@@ -280,13 +284,13 @@ We can even call a function instead of a function.  Do we do that?  Let's first 
 
 ```
 
-We create a new function called **changeDiameter**, and then we called the new function in the **controlCircle** function.  Cool huh?
+A new function called **changeDiameter** is created, and then called inside ofthe **controlCircle** function.
 
-Why do we do this?  (Always a good question and you should always ask this question). We want to separate our code and make things more readable.  We created the first function **controlCircle** to reduce the amount of code in the draw.  We don't want it to get too crazy in there.
+Why do might one do this?  (Always a good question and you should always ask this question). It's good to separate code and make things even more readable. First, the  function **controlCircle** reduced the amount of code in the draw.  However, the code in controlCircle can be reduced as well.
 
-Then, we created the changeDiameter so that we can reduce some code in controlCircle.
+ The changeDiameter function makes the controlCircle function more concise.
 
-Finally, let's add **myCircle** function into this.
+Finally, let's add **ConcentricCircle** function into this.
 
 ```js
 
@@ -295,6 +299,10 @@ Finally, let's add **myCircle** function into this.
     var diameter = 25;
     var mousex = 0;
     var mousey = 0;
+    var s = 83;
+    var w = 87;
+    var a = 65;
+    var d = 68;
 
     function setup() 
     {
@@ -313,33 +321,44 @@ Finally, let's add **myCircle** function into this.
 
       ellipse(mousex, mousey, 15, 50);
 
-      myCircle(800,600);
-      myCircle(800,600);
+      // concentric circle where x = 110 and y = 120
+      ConcentricCircle(110, 120, 100, 50, 50, 120, 120, 120, 50, 120);
+      // concentric circle where x = 210 and y = 220
+      ConcentricCircle(210, 220, 100, 50, 50, 120, 120, 120, 50, 120);
      
     }
 
     /* This function controls all the variables of the circle */
     function controlCircle()
     {
-        if (x >= 300) 
-        {
-            x = 50;
-        }
+         if (x >= 300) 
+      {
+        x = 50;
+      }
+      
+      if (y >= 300) 
+      {
+        y = 50;
+      }
 
-        if (keyIsDown(83)) 
-        {
-            y += 10;
-        } 
-        else if (keyIsDown(87)) 
-        {
-            y -= 10;
-        }
+      if (keyIsDown(s)) 
+      {
+        y += 10;
+      } 
+      else if (keyIsDown(w)) 
+      {
+        y -= 10;
+      }
 
-        if (y >= 300) 
-        {
-            y = 50;
-        }
-        
+      if (keyIsDown(d)) 
+      {
+        x += 10;
+      } 
+      else if (keyIsDown(s)) 
+      {
+        x -= 10;
+      }
+  
         // we call the function here.
         changeDiameter();
 
@@ -358,34 +377,32 @@ Finally, let's add **myCircle** function into this.
         }
 
     }
-    function keyPressed() 
-    {
-      if (key == 'd') 
-      {
-        x += 10;
-      } 
-      else if (key == 'a') 
-      {
-        x -= 10;
-      }
-    }
-
-    function mouseMoved() 
+    
+    function mousePressed() 
     {  
       mousex = mouseX;
       mousey = mouseY;
     
     }
 
-    function myCircle(x,y)
-    {
-        fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-        circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
-    }
+    // define ConcentricCircle function
+    function ConcentricCircle(x,y, outer_radius, inner_radius outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
+{
+        fill(outer_red,outer_green, outer_blue);
+        circle(x,y,outer_radius);
+        fill(inner_red, inner_green, inner_blue);
+        circle(x,y,inner_radius);
+}
 
 ```
 
-Did you see the circles?  Wow right?  Let's go onto the homework.
+</div>
+</div>
 
+<div id="ToDo" class="tabcontent" >
+<div class="tabhtml" markdown="1">
+Try out the previous example to see how things move and view the concentric circles.
+
+<iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
 </div>
 </div>
