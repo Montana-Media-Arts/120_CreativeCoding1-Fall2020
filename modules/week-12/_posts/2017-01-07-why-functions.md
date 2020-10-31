@@ -35,7 +35,7 @@ The main goal is to reduce your overall work. Functions can help with that.
 </div>
 </div>
 
-<div id="Example1" class="tabcontent" style="display:block">
+<div id="Example1" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
 Example without a function:
@@ -76,7 +76,7 @@ function draw()
 </div>
 </div>
 
-<div id="Example1" class="tabcontent" style="display:block">
+<div id="Example1" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 
 Example with a function:
@@ -114,7 +114,7 @@ function draw()
 </div>
 </div>
 
-<div id="Example3" class="tabcontent" style="display:block">
+<div id="Example3" class="tabcontent" >
 <div class="tabhtml" markdown="1">
 Doesn't seem super impressive right?  What if we did it like this though?
 
