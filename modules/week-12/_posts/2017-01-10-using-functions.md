@@ -111,7 +111,7 @@ The **ConcentricCircle** function is **called** in the draw function.  Now, mult
     }
 ```
 
-However, instead of creating multiple variables, one can send in different x and y, then the concentric circle is draw in a differnet location.
+However, if one sends in different x and y, then a second concentric circle is drawn in a different location.
 
 ```js
     function setup()
