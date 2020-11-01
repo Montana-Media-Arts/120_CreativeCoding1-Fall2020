@@ -250,7 +250,7 @@ We can even call a function instead of a function.  Do we do that?  Let's first 
       {
         x += 10;
       } 
-      else if (keyIsDown(s)) 
+      else if (keyIsDown(a)) 
       {
         x -= 10;
       }
@@ -354,7 +354,7 @@ Finally, let's add **ConcentricCircle** function into this.
       {
         x += 10;
       } 
-      else if (keyIsDown(s)) 
+      else if (keyIsDown(a)) 
       {
         x -= 10;
       }

@@ -74,12 +74,12 @@ However, if a programmer wants to create concentric circles in different places 
 
 ```js
 
-function ConcentricCircle(x,y, outer_radius, inner_radius outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
+function ConcentricCircle(x,y, outer_diameter, inner_diameter, outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
 {
         fill(outer_red,outer_green, outer_blue);
-        circle(x,y,outer_radius);
+        circle(x,y,outer_diameter);
         fill(inner_red, inner_green, inner_blue);
-        circle(x,y,inner_radius);
+        circle(x,y,inner_diameter);
 }
 
 ```
@@ -126,12 +126,12 @@ However, if one sends in different x and y, then a second concentric circle is d
         ConcentricCircle(210, 220, 100, 50, 50, 120, 120, 120, 50, 120);
     }
 
-    function ConcentricCircle(x,y, outer_radius, inner_radius, outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
+    function ConcentricCircle(x,y, outer_diameter, inner_diameter, outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
     {
         fill(outer_red,outer_green, outer_blue);
-        circle(x,y,outer_radius);
+        circle(x,y,outer_diameter);
         fill(inner_red, inner_green, inner_blue);
-        circle(x,y,inner_radius);
+        circle(x,y,inner_diameter);
     }
 ```
 
