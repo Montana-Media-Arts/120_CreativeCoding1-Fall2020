@@ -386,12 +386,12 @@ Finally, let's add **ConcentricCircle** function into this.
     }
 
     // define ConcentricCircle function
-    function ConcentricCircle(x,y, outer_radius, inner_radius outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
+    function ConcentricCircle(x,y, outer_diameter, inner_diameter, outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
 {
         fill(outer_red,outer_green, outer_blue);
-        circle(x,y,outer_radius);
+        circle(x,y,outer_diameter);
         fill(inner_red, inner_green, inner_blue);
-        circle(x,y,inner_radius);
+        circle(x,y,inner_diameter);
 }
 
 ```
