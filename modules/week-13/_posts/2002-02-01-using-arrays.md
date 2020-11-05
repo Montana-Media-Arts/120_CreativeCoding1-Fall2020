@@ -15,6 +15,7 @@ jotted: true
     <button class="tablinks" onclick="openTab(event, 'Step5')">Step 5</button>
     <button class="tablinks" onclick="openTab(event, 'Step6')">Original Code</button>
     <button class="tablinks" onclick="openTab(event, 'Step7')">Code with Arrays</button>
+    <button class="tablinks" onclick="openTab(event, 'ToDo')">To Do</button>
 </div>
 <!-- Tab content -->
 <div id="Original" class="tabcontent" style="display:block">
@@ -43,7 +44,7 @@ Let's get hands-on with arrays now.  We will start with a simple example and the
     }
 ```
 
-Remember this?  What if I wanted to create an array of those two circles instead of creating all those variables?  
+Let's take this example and transform it to use arrays instead of multiple variables.
 
 </div>
 </div>
@@ -57,17 +58,23 @@ The code below shows how to implement this.
     var myXs = [];
     var myYs = [];
     var myDiameters = [];
+```
+
+```js
     function setup()
     {
         createCanvas(800,600);
         myXs[0] = 50;
         myYs[0] = 50;
         myDiameters[0] = 25;
+
         myXs[1] = 150;
         myYs[1] = 150;
         myDiameters[1] = 125;
     }
+```
 
+```js
     function draw()
     {
         circle(myXs[0],myYs[0], myDiameters[0]);
@@ -75,11 +82,25 @@ The code below shows how to implement this.
     }
 ```
 
-Now that's great, and it works. However, first, let's talk about what's going on.  In the first line, I define three empty arrays **myXs, myYs, and myDiameters**.  We know they are arrays because of the **[]** that is after the equals sign.
+Let's talk about what is going on here.
 
-Then, I add the x,y, and diameter components to each array in the setup.  Notice the first one is called **myXs[0], myYs[0], myDiameters[0]** and the second is the **myXs[1], myYs[1], myDiameters[1]**.  When we create arrays and start adding items to them, the count always starts at zero.  Each one of these is called the **index** of an array.
+In the first section, three arrays are created.  One to hold all the x values **myXs**, another to hold all the y values **myYs** and a third to hold all the diameter values **myDiameters**. 
 
-Have you seen this before?  You have!  In for loops, we started with **var i = 0**.  That's because most languages start counting at zero instead of 1.
+Currently, they do not have any values in them, but they are identified as arrays because they have the **[]** after the equals sign.
+
+**Note** As we explore arrays further, we can condense this even more, but for now, this will work for our purposes.
+
+In the **setup** function, values are added to the arrays.  
+
+When counting in arrays, the first slot always starts with the number 0.  The last number in the array is always the size of the array minus 1. Each one of these is called the **index** of an array.
+
+So, in this instance, the first index is **myXs[0], myYs[0], myDiameters[0]**.  This means the first set of values into slot 0.
+
+The second set of values are put into **myXs[1], myYs[1], myDiameters[1]**.
+  
+Where have started counting from zero before?  Yes, you are correct! for loops. We started with **var i = 0**.  That's because most languages start counting at zero instead of 1.
+
+In the last section the two circles are created individually using the array indices that correspond to the index.  **The first circle uses the zero index** and **The second circle uses the one index**.
 
 </div>
 </div>
@@ -94,6 +115,7 @@ So, how can we change what we did before?
     var myXs = [];
     var myYs = [];
     var myDiameters = [];
+
     function setup()
     {
         createCanvas(800,600);
@@ -114,9 +136,11 @@ So, how can we change what we did before?
     }
 ```
 
-Okay, so we made a few more changes here, but only in the draw.  I create a for loop - remember when I said they would come back?  Instead of printing out each index one by one, I use the array to print them all out.  This method allows me to have as many indices without having to change any code later.
+Okay, only the draw changes in this iteration.  With the for loop each index is printed one by one using the array to print everything.  
 
-The other thing to note is that I use **length** in the for loop instead of 2.  Length is a built-in property of the array that returns how many items are in the array.  That way, if we add more to the array, it still prints without having to change anything in the for loop. 
+This method allows one print multiple indices without having to change any code later.
+
+The other thing to note is that **length** is used in the for loop instead of 2.  Length is a built-in property of the array and it returns how many items are in the array.  That way, if more items are added to the array, it still prints without having to change anything in the for loop. 
 
 </div>
 </div>
@@ -124,7 +148,7 @@ The other thing to note is that I use **length** in the for loop instead of 2.  
 
 <div class="tabhtml" markdown="1">
 
-Let's look at that.
+Let's make sure if we if add a third item, it still works.
 
 ```js
     var myXs = [];
@@ -156,7 +180,7 @@ Let's look at that.
     }
 ```
 
-However, there is one more thing we should address.  What about the number of circles we are creating in the setup?  How do we make that better?
+Did it work?  Yes!  However, there is one more thing we should address.  What about the number of circles that are created in the setup?  How do we make that better?
 
 </div>
 </div>
@@ -165,7 +189,7 @@ However, there is one more thing we should address.  What about the number of ci
 <div class="tabhtml" markdown="1">
 
 
-What if we create another for loop? Yes!
+What if we create yet another for loop? Yes!
 
 ```js
     var myXs = [];
@@ -258,6 +282,10 @@ How do we apply this to the project from last week? Let's start from where we le
     var diameter = 25;
     var mousex = 0;
     var mousey = 0;
+    var s = 83;
+    var w = 87;
+    var a = 65;
+    var d = 68;
 
     function setup() 
     {
@@ -276,33 +304,44 @@ How do we apply this to the project from last week? Let's start from where we le
 
       ellipse(mousex, mousey, 15, 50);
 
-      myCircle(800,600);
-      myCircle(800,600);
+      // concentric circle where x = 110 and y = 120
+      ConcentricCircle(110, 120, 100, 50, 50, 120, 120, 120, 50, 120);
+      // concentric circle where x = 210 and y = 220
+      ConcentricCircle(210, 220, 100, 50, 50, 120, 120, 120, 50, 120);
      
     }
 
     /* This function controls all the variables of the circle */
     function controlCircle()
     {
-        if (x >= 300) 
-        {
-            x = 50;
-        }
+         if (x >= 300) 
+      {
+        x = 50;
+      }
+      
+      if (y >= 300) 
+      {
+        y = 50;
+      }
 
-        if (keyIsDown(83)) 
-        {
-            y += 10;
-        } 
-        else if (keyIsDown(87)) 
-        {
-            y -= 10;
-        }
+      if (keyIsDown(s)) 
+      {
+        y += 10;
+      } 
+      else if (keyIsDown(w)) 
+      {
+        y -= 10;
+      }
 
-        if (y >= 300) 
-        {
-            y = 50;
-        }
-        
+      if (keyIsDown(d)) 
+      {
+        x += 10;
+      } 
+      else if (keyIsDown(a)) 
+      {
+        x -= 10;
+      }
+  
         // we call the function here.
         changeDiameter();
 
@@ -321,33 +360,25 @@ How do we apply this to the project from last week? Let's start from where we le
         }
 
     }
-    function keyPressed() 
-    {
-      if (key == 'd') 
-      {
-        x += 10;
-      } 
-      else if (key == 'a') 
-      {
-        x -= 10;
-      }
-    }
-
-    function mouseMoved() 
+    
+    function mousePressed() 
     {  
       mousex = mouseX;
       mousey = mouseY;
     
     }
 
-    function myCircle(x,y)
-    {
-        fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-        circle(Math.floor(Math.random()*x)+10,Math.floor(Math.random()*y),Math.floor(Math.random()*100)+10)
-    }
+    // define ConcentricCircle function
+    function ConcentricCircle(x,y, outer_diameter, inner_diameter, outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
+{
+        fill(outer_red,outer_green, outer_blue);
+        circle(x,y,outer_diameter);
+        fill(inner_red, inner_green, inner_blue);
+        circle(x,y,inner_diameter);
+}
 ```
 
-When you run this, remember random circles start appearing everywhere, which is cool if that's the effect you are after. However, if I want two random circles to appear and stay put, we can use an array for that.  
+When this runs, it should show the concentric circles, the player and placing a circle.  How can this be changed to use arrays?
 
 </div>
 </div>
@@ -358,12 +389,16 @@ When you run this, remember random circles start appearing everywhere, which is 
 Let's change the code from the previous step to the following.
 
 ```js
-
     var x = 50;
     var y = 50;
     var diameter = 25;
     var mousex = 0;
     var mousey = 0;
+    var s = 83;
+    var w = 87;
+    var a = 65;
+    var d = 68;
+
     var myXs = []; // create an array for the x coordinate
     var myYs = []; // create an array for the y coordinate
     var myDiameters = []; // create array for the diameter of circles
@@ -374,10 +409,10 @@ Let's change the code from the previous step to the following.
       // create a for loop here to create the circles
         for(var i = 0; i < 2; i++)
         {
-            // get all the random numbers to create a circle
-            myXs[i] = getRandomX(800);
-            myYs[i] = getRandomY(600);
-            myDiameters[i] = getRandomDiameter(100);
+            // get all the random numbers to create a circles
+            myXs[i] = getRandomNumber(800);
+            myYs[i] = getRandomNumber(600);
+            myDiameters[i] = getRandomNumber(100);
         }
     }
 
@@ -395,36 +430,42 @@ Let's change the code from the previous step to the following.
 
       for(var i = 0; i < myXs.length; i++)
       {
-            fill(Math.floor(Math.random()*256),Math.floor(Math.random()*256),Math.floor(Math.random()*256));
-            circle(myXs[i], myYs[i], myDiameters[i]);
+        // concentric circle randomly using arrays
+        ConcentricCircle(myXs[i], myYs[i], myDiameters[i], myDiameters[i]/2, 50, 120, 120, 120, 50, 120);
       }
-
-     
-     
-    }
+   }
 
     /* This function controls all the variables of the circle */
     function controlCircle()
     {
-        if (x >= 300) 
-        {
-            x = 50;
-        }
+      if (x >= 300) 
+      {
+        x = 50;
+      }
+      
+      if (y >= 300) 
+      {
+        y = 50;
+      }
 
-        if (keyIsDown(83)) 
-        {
-            y += 10;
-        } 
-        else if (keyIsDown(87)) 
-        {
-            y -= 10;
-        }
+      if (keyIsDown(s)) 
+      {
+        y += 10;
+      } 
+      else if (keyIsDown(w)) 
+      {
+        y -= 10;
+      }
 
-        if (y >= 300) 
-        {
-            y = 50;
-        }
-        
+      if (keyIsDown(d)) 
+      {
+        x += 10;
+      } 
+      else if (keyIsDown(a)) 
+      {
+        x -= 10;
+      }
+  
         // we call the function here.
         changeDiameter();
 
@@ -443,17 +484,6 @@ Let's change the code from the previous step to the following.
         }
 
     }
-    function keyPressed() 
-    {
-      if (key == 'd') 
-      {
-        x += 10;
-      } 
-      else if (key == 'a') 
-      {
-        x -= 10;
-      }
-    }
 
     function mouseMoved() 
     {  
@@ -462,23 +492,31 @@ Let's change the code from the previous step to the following.
     
     }
 
-    function getRandomX(x)
+    function getRandomNumber(number)
     {
-        return Math.floor(Math.random()*x)+10;
+        return Math.floor(Math.random()*number)+10;
     }
 
-    function getRandomY(y)
+    // define ConcentricCircle function
+    function ConcentricCircle(x,y, outer_diameter, inner_diameter, outer_red, outer_green,outer_blue, inner_red, inner_green, inner_blue)
     {
-        return Math.floor(Math.random()*y) + 10;
-    }
-
-    function getRandomDiameter(diameter)
-    {
-        return Math.floor(Math.random()*diameter)+10
+        fill(outer_red,outer_green, outer_blue);
+        circle(x,y,outer_diameter);
+        fill(inner_red, inner_green, inner_blue);
+        circle(x,y,inner_diameter);
     }
 
 ```
 
-There a few things to notice. First, I changed the myCircle function and created three different functions. These functions return a random x, y, and diameter, respectively.  Then, I create a for loop to create the circle parameters and then print out the circles in the draw method using a for loop as well.  This time the circles don't move around but instead change color.  Cool right?
+There a few things to notice. First, I created a getRandomNumber function so I could create random locations and sizes of concentric circles  Then, I create a for loop to create the circle parameters and then print out the circles in the draw method using a for loop as well. Now, the concentric circles are not in the same place each time the page is run.
+
+</div>
+</div>
+
+<div id="ToDo" class="tabcontent" >
+<div class="tabhtml" markdown="1">
+If you would like to try out the examples, give it a try here!
+
+<iframe src="https://editor.p5js.org/" width="100%" height="800px"></iframe>
 </div>
 </div>
