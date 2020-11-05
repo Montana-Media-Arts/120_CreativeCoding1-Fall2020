@@ -54,11 +54,15 @@ Let's take this example and transform it to use arrays instead of multiple varia
 
 The code below shows how to implement this.
 
+#### Declare the Arrays
+
 ```js
     var myXs = [];
     var myYs = [];
     var myDiameters = [];
 ```
+
+#### Add values to the Arrays
 
 ```js
     function setup()
@@ -73,6 +77,8 @@ The code below shows how to implement this.
         myDiameters[1] = 125;
     }
 ```
+
+#### Use the values in the Arrays
 
 ```js
     function draw()
