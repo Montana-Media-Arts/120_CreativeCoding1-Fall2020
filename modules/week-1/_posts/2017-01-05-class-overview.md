@@ -84,7 +84,8 @@ There also will many code examples. Also, there will always be download buttons 
     </ul>
 </li>
 </ol>
-</div>
+
 
 #### { NOTE: }
 A quick list of these links is available from the ["Help"]({{site.baseurl}}/help/) menubar tab above.
+</div>
